@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="04_Jobs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+        <g transform="translate(-142.000000, -571.000000)" id="entypo/search">
+            <g transform="translate(140.000000, 568.000000)">
+                <rect id="Rectangle-path" opacity="0.5" x="0" y="0" width="20" height="20"></rect>
+                <path d="M13.733,11.981 C14.296,11.054 14.622,9.965 14.622,8.801 C14.622,5.418 11.69,2.487 8.308,2.487 C4.926,2.487 2.183,5.23 2.183,8.613 C2.183,11.996 5.115,14.926 8.496,14.926 C9.621,14.926 10.675,14.621 11.58,14.093 L15.342,17.855 C15.71,18.223 16.307,18.223 16.675,17.855 L17.609,16.922 C17.975,16.553 17.842,16.09 17.474,15.722 L13.733,11.981 Z M4.066,8.612 C4.066,6.27 5.964,4.371 8.306,4.371 C10.649,4.371 12.736,6.458 12.736,8.801 C12.736,11.143 10.838,13.041 8.495,13.041 C6.153,13.041 4.066,10.954 4.066,8.612 L4.066,8.612 Z" id="Shape" fill="#000000" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>

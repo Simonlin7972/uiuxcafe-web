@@ -1,0 +1,171 @@
+
+.edit-job
+  background-color: rgba(0, 0, 0, 0.03)
+  .wrap
+    padding: 100px 0
+    h1
+      text-align: left
+  .block-form
+    margin-top: 40px
+    height: 100%
+    .form-title
+      color: black
+      font-weight: bold
+      font-size: 1.2em
+    input:focus,textarea:focus
+      border: 2px solid $primary-green
+    label
+      font-size: 1.1em
+      font-weight: bold
+      margin-bottom: 15px
+      line-height: 1.1em
+      display: block
+      // margin-bottom: 10px
+      abbr
+        color: $primary-red
+    .wage-radio
+      margin-top: 10px
+    .wage-input
+      margin-left: 10px
+      width: 300px
+    .upload-logo
+      width: 200px
+      height: 200px
+      background-color: #dfdfdf
+      position: relative
+      overflow: hidden
+      border-radius: 5px
+      p
+        text-align: center
+        // opacity: 0.8
+        margin-top: 95px
+    .upload-logo-hover
+      position: absolute
+      width: 200px
+      height: 200px
+      background-color: #282828
+      top: 200px
+      transition: all 0.3s
+      border-radius: 5px
+      letter-spacing: 1px
+      p
+        margin: auto
+        font-size: 1.2em
+        text-align: center
+        margin-top: 70px
+        height: 30px
+        transition: all 0.3s
+        a
+          color: white
+          text-decoration: none
+          width: 100%
+          display: block
+          letter-spacing: 1px
+          transition: all 0.3s
+          text-align: center
+        &:before
+          content: ''
+          background-image: url(/img/camera.svg)
+          background-size: cover
+          width: 40px
+          height: 40px
+          display: block
+          margin: auto
+          margin-bottom: 5px
+        &:hover
+          opacity: 0.7
+    .upload-logo:hover
+      .upload-logo-hover
+        top: 0
+    .upload-company-img
+      width: 800px
+      height: 450px
+      background-color: #dfdfdf
+      position: relative
+      border-radius: 5px
+      overflow: hidden
+      p
+        text-align: center
+        font-size: 2em
+        // opacity: 0.6
+        margin-top: 220px
+      .upload-company-img-hover
+        width: 800px
+        height: 100px
+        background-color: #282828
+        position: absolute
+        top: 450px
+        border-radius: 0 0 5px 5px
+        transition: all 0.3s
+        div
+          margin-left: 0
+          margin-right: 20px
+          text-align: center
+          margin-top: 26px
+          transition: all 0.3s
+          a
+            display: inline-block
+            text-decoration: none
+            text-align: center
+            font-size: 1.2em
+            color: white
+            padding-top: 15px
+          img
+            margin-top: -6px
+        div:hover
+          opacity: 0.7
+    .upload-company-img:hover
+      .upload-company-img-hover
+        top: 350px
+
+
+  .input-style
+    border-radius: 5px
+    border: 1px solid rgba(151,151,151,0.30)
+    outline: none
+    width: 50%
+    height: 40px
+    padding-left: 10px
+  .textarea-style
+    padding: 10px
+    border-radius: 5px
+    border: 1px solid rgba(151,151,151,0.30)
+    outline: none
+    width: 50%
+    height: 200px
+
+  .btn-blue
+    border-radius: 5px
+    border: none
+    display: block
+    background-color: var(--primary-blue)
+    padding: 10px 40px
+    width: 50%
+    text-align: center
+    font-size: 1em
+    margin-top: 20px
+    text-decoration: none
+    color: #fff
+    transition: all 0.3s
+    &:hover
+      color: #fff
+      background-color: #2f6bc3
+
+// 平板尺寸
+@media screen and (max-width: 768px)
+  .edit-job
+    .wrap
+      padding: 100px 50px
+      .block-form
+        .upload-company-img
+          width: 100%
+          .upload-company-img-hover
+            width: 100%
+        .wage-radio
+          width: 80px
+      .input-style
+        width: 100%
+      .textarea-style
+        width: 100%
+      .btn-blue
+        width: 100%

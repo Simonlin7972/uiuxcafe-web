@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome to UIUXCafe</title>
+
+  <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./stylesheets/application.css">
+
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/sweetalert.css">
+
+
+  <script src="./js/jquery-3.1.1.js"></script>
+  <script src="./js/all.js"></script>
+  <script src="./js/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+  <div>123</div>
+  <!-- 固定選單 -->
+  <nav>
+    <div class="wrap-nav">
+      <div class="logo">
+        <a href="#"><img src="./img/logo.svg" alt="uiuxcafe"></a>
+      </div>
+      <ul class="menu">
+        <li><a href="#">關於這裡</a></li>
+        <!-- <li><a href="#">設計工作坊</a></li> -->
+        <li><a href="#">職缺訊息</a></li>
+        <li><a class="btn-signup-control" href="login.html">登入</a></li>
+      </ul>
+      <div class="menu-btn">
+        <a href="#"><img src="./img/menu-btn.svg" alt="menu"></a>
+      </div>
+    </div>
+  </nav>
+  <!-- 以上固定選單 -->
+
+  <!-- 滿版選單 -->
+  <div class="menu-full">
+    <div class="menu-cancel">
+      <a href="#"><img src="./img/cancel-btn.svg" alt="cancel-btn"></a>
+    </div>
+    <div class="menu-logo">
+      <img src="./img/logo_white.png" alt="uiuxcafe-logo">
+    </div>
+
+    <ul>
+      <li><a href="#">關於這裡</a></li>
+      <li><a href="#">設計工作坊</a></li>
+      <li><a href="#">職缺訊息</a></li>
+      <li class="menu-after-login"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> 個人設定</a></li>
+      <li class="menu-after-login"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 收藏的職缺</a></li>
+      <li class="menu-after-login"><a href="profile.html"><i class="fa fa-bullhorn" aria-hidden="true"></i> 發佈的職缺</a></li>
+      <li class="menu-after-login"><a href="#"><i class="fa fa-area-chart" aria-hidden="true"></i> 後台管理</a></li>
+      <li><a class="btn-signup-control" href="#">登入</a></li>
+    </ul>
+  </div>
+  <!-- 滿版選單 -->
+
+  <div class="jobs">
+    <header class="banner">
+      <div id="banner-mask"></div>
+      <div class="wrap-slogan">
+        <h1>找不到適合的設計師嗎?</h1>
+        <h2>在這裡 一切變得容易</h2>
+        <a class="btn-y btn-postjob" href="edit-job.html">
+              立即發佈新職缺
+            </a>
+      </div>
+    </header>
+
+    <!-- 以下為職缺卡片內容 -->
+
+    <section class="wrap-job-list">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- 以下搜尋篩選器 -->
+            <div class="sort-and-search">
+              <div class="search-bar">
+                <div><img src="./img/search.png" alt=""></div>
+                <input type="text" name="search" value="" placeholder="搜尋設計職缺">
+              </div>
+              <div class="sort-group">
+                <p>排序方式:</p>
+                <div class="sort-time">發布時間
+                  <div>
+                    <img src="./img/arrow_up.png" alt=""></div>
+                </div>
+
+                <div class="sort-wages">薪資範圍
+                  <div>
+                    <img src="./img/arrow_up.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <!-- 以上搜尋篩選器 -->
+          </div>
+        </div>
+      </div>
+      <!-- 以下為卡片 -->
+
+      <a href="job-detail.html" class="job-card">
+        <div class="company-logo">
+          <img src="./img/logos/hahow_logo.png" alt="company-logo">
+        </div>
+
+        <div class="company-main-info">
+          <p>Hahow-好學校</p>
+          <p>台北市 信義區</p>
+          <p><span>UI/UX Designer</span></p>
+        </div>
+
+        <div class="card-tags">教育科技</div>
+        <div class="card-wages">
+          <span class="year-wages">年薪</span>
+          <span>NT$
+          <span class="wage-amount">120</span>萬 -
+          <span class="wage-amount">150</span>萬</span>
+        </div>
+        <!-- </div> -->
+      </a>
+
+      <!-- 以上為卡片 -->
+
+
+      <a href="job-detail.html" class="job-card">
+        <div class="company-logo">
+          <img src="./img/logos/91app_logo.jpg" alt="company-logo">
+        </div>
+
+        <div class="company-main-info">
+          <p>91APP</p>
+          <p>台北市 中正區</p>
+          <p><span>UX Designer</span></p>
+        </div>
+
+        <div class="card-tags">電子商務</div>
+        <div class="card-wages">
+          <span class="year-wages">年薪</span>
+          <span>NT$
+          <span class="wage-amount">65</span>萬 -
+          <span class="wage-amount">97</span>萬</span>
+        </div>
+      </a>
+
+      <a href="#" class="job-card">
+        <!-- <div class="job-card-info-left"> -->
+        <div class="company-logo">
+          <img src="./img/logos/isb_logo.jpg" alt="company-logo">
+        </div>
+
+        <div class="company-main-info">
+          <p>久大寰宇資訊股份有限公司</p>
+          <p>台北市 中山區</p>
+          <p><span>Web Designer</span></p>
+        </div>
+        <!-- </div> -->
+
+        <!-- <div class="job-card-info-right"> -->
+        <div class="card-tags">網路科技</div>
+        <div class="card-wages">
+          <span class="year-wages">年薪</span>
+          <span>NT$
+          <span class="wage-amount">52</span>萬 -
+          <span class="wage-amount">65</span>萬</span>
+        </div>
+        <!-- </div> -->
+      </a>
+
+      <a href="#" class="job-card">
+        <!-- <div class="job-card-info-left"> -->
+        <div class="company-logo">
+          <img src="./img/logos/dog.jpg" alt="company-logo">
+        </div>
+
+        <div class="company-main-info">
+          <p>毛孩市集</p>
+          <p>台北市 中山區</p>
+          <p><span>UI/UX Designer</span></p>
+        </div>
+        <!-- </div> -->
+
+        <!-- <div class="job-card-info-right"> -->
+        <div class="card-tags">寵物相關</div>
+        <div class="card-wages">
+          <span class="year-wages">年薪</span>
+          <span>NT$
+          <span class="wage-amount">42</span>萬 -
+          <span class="wage-amount">54</span>萬</span>
+        </div>
+        <!-- </div> -->
+      </a>
+
+      <a href="#" class="job-card">
+        <div class="company-logo">
+          <img src="./img/logos/wg_logo.jpg" alt="company-logo">
+        </div>
+
+        <div class="company-main-info">
+          <p>唯晶數位娛樂股份有限公司</p>
+          <p>台北市 文山區</p>
+          <p><span>UI Designer</span></p>
+        </div>
+
+        <div class="card-tags">遊戲開發</div>
+        <div class="card-wages">
+          <span class="year-wages">年薪</span>
+          <span>NT$
+          <span class="wage-amount">45.5</span>萬 -
+          <span class="wage-amount">65</span>萬</span>
+        </div>
+      </a>
+
+      <div class="view-more">瀏覽更多職缺</div>
+  </div>
+  </section>
+
+
+  </div>
+
+
+  <!-- 以下是footer-->
+  <section class="joinus">
+    <div class="wrap-join-content">
+      <h1>成為設計師社群的一份子</h1>
+      <a href="#" class="btn-y btn-signup">加入我們的社群</a>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="logo-footer">
+        <img src="./img/logo_white.png" alt="uiuxcafe-logo">
+      </div>
+      <div class="info-1-footer">
+        <p class="caption">地點</p>
+        <p>台北市大安區建國南路一段175巷27號3F</p>
+        <p class="caption caption-margin">開放時間</p>
+        <p>週一至週日 9am-11pm<br>(9pm以後，只出不進)</p>
+      </div>
+      <div class="info-2-footer">
+        <p class="caption">聯絡我們</p>
+        <p>0919-348-938</p>
+        <p class="p-margin">info@uiuxcafe.com</p>
+        <a class="fb-logo" href="https://www.facebook.com/uiuxcafe/?fref=ts" target="_blank">
+          <img src="./img/logos/facebook_logo.svg" alt="fb-logo"></a>
+      </div>
+      <div class="social-footer">
+        <p class="caption">Facebook</p>
+        <div class="fb-like" data-href="https://www.facebook.com/uiuxcafe/?fref=ts" data-width="220px" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+      </div>
+    </div>
+
+  </footer>
+
+  <div class="copyright">
+    <p>©Copyright 2015 • PixelTap • Mobile UI/UX Design Professional</p>
+  </div>
+  <!-- 以上是footer-->
+
+
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,385 @@
+
+.jobs
+  background-color: $bg-color
+  // opacity: 0
+  // transition: all 0.5s
+  .banner
+    max-width: 100%
+    height: 500px
+    background-image: url(/img/office_01.jpg)
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    z-index: 1
+    position: relative
+    #banner-mask
+      height: 100%
+      width: 100%
+      position: absolute
+      top: 0
+      bottom: 0
+      background-color: black
+      opacity: 0.7
+      z-index: 2
+    .wrap-slogan
+      left: 0
+      right: 0
+      top: 210px
+      position: absolute
+      text-align: center
+      z-index: 999
+      h1
+        font-size: 3em
+        // border: 1px solid white
+        // border-radius: 3px
+        // max-width: 450px
+        // margin: 0 auto
+        // padding: 10px
+      h1,h2
+        color: #fff
+        letter-spacing: 2px
+        font-family: PingFangSC-Ultralight
+        animation: Bybottom 1s ease both
+      h2
+        font-size: 2em
+        color: #fff
+        letter-spacing: 2px
+        margin-top: 15px
+        animation: Bybottom 1s 0.3s ease
+        opacity: .8
+      .btn-y
+        border-radius: 30px
+        display: block
+        background-color: $primary-yellow
+        padding: 15px 40px
+        width: 240px
+        text-align: center
+        font-size: 1em
+      .btn-postjob
+        margin: auto
+        margin-top: 30px
+        transition: all 0.3s
+        animation: Bybottom 1s 0.3s ease
+        &:hover
+          opacity: 0.85
+  /*以下是職缺卡片範圍*/
+  .wrap-job-list
+    max-width: 1200px
+    height: 100%
+    margin: auto
+    /*以下是篩選器*/
+    .sort-and-search
+      margin: 60px 8px 20px 8px
+      height: 40px
+      .search-bar
+        float: left
+        border: 1px solid rgba(0, 0, 0, 0.15)
+        background-color: white
+        padding: 10px
+        border-radius: 5px
+        div
+          width: 20px
+          float: left
+          padding-right: 5px
+          opacity: 0.4
+          img
+            width: 100%
+        input
+          width: 240px
+          float: left
+          background-color: transparent
+          border: none
+          border-radius: 5px
+          font-size: 1.05em
+          letter-spacing: 0.5px
+          outline: none
+          text-align: left
+          color: $primary-blue
+      .sort-group
+        float: right
+        p
+          display: inline-block
+          font-weight: bold
+          opacity: 0.6
+          margin-right: 10px
+          text-align: center
+        div
+          display: inline-block
+        .sort-time
+          background-color: white
+          padding: 8px 20px
+          letter-spacing: 1px
+          font-size: 1.1em
+          border-radius: 5px
+          border: 1px solid rgba(0, 0, 0, 0.15)
+          cursor: pointer
+          div
+            width: 20px
+            height: 20px
+        .sort-wages
+          background-color: white
+          padding: 8px 20px
+          letter-spacing: 1px
+          font-size: 1.1em
+          border-radius: 5px
+          border: 1px solid rgba(0, 0, 0, 0.15)
+          opacity: 0.4
+          cursor: pointer
+          transition: all 0.5s
+          &:hover
+            opacity: 1
+  /*以下是職缺卡片*/
+  .job-card
+    display: block
+    background-color: #fff
+    height: 180px
+    border: 1px solid rgba(0, 0, 0, 0.15)
+    border-radius: 5px
+    margin-left: 24px
+    margin-right: 24px
+    transition: all 0.5s
+    margin-top: 15px
+    position: relative
+    font-weight: lighter
+    &:hover
+      transform: translateY(-5px)
+      box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.06)
+      cursor: pointer
+    .company-logo
+      position: absolute
+      left: 40px
+      top: 30px
+      width: 120px
+      height: 120px
+      img
+        width: 100%
+    .company-main-info
+      position: absolute
+      margin-top: 30px
+      left: 200px
+      p
+        margin-top: 10px
+        font-size: 1.4em
+        letter-spacing: 0.5px
+        color: #797979
+        text-align: left
+        span
+          color: $primary-blue
+          font-size: 1em
+          letter-spacing: 0.5px
+          font-weight: bold
+    .card-tags
+      background-color: #32C7B0
+      width: 100px
+      padding: 8px 1px
+      position: absolute
+      top: 30px
+      right: 30px
+      color: #fff
+      border-radius: 5px
+      font-size: 0.9em
+      text-align: center
+      letter-spacing: 1px
+    .card-wages
+      width: 500px
+      font-size: 1em
+      position: absolute
+      top: 100px
+      right: 30px
+      text-align: right
+      font-family: PingFangSC-Ultralight
+      span
+        color: $primary-red
+        font-size: 1.4em
+      .year-wages
+        font-weight: bold
+        margin-right: 5px
+        font-size: 1.1em
+        opacity: 0.5
+        color: black
+      .wage-amount
+        font-size: 2.2em
+        color: $primary-red
+
+  .view-more
+    opacity: 0.6
+    width: 300px
+    padding: 10px
+    border-radius: 100px
+    margin: 0 auto
+    margin-top: 30px
+    font-size: 1.2em
+    font-weight: bold
+    transition: all 0.3s
+    margin-bottom: 30px
+    text-align: center
+    &:hover
+      cursor: pointer
+      background-color: #0e0e0e
+      color: white
+      font-weight: normal
+      opacity: 0.8
+      text-align: center
+
+@keyframes Bybottom
+  0%
+    transform: translateY(150%)
+    opacity: 0
+  100%
+    transform: translateY(0)
+    opacity: 1
+
+// 中螢幕尺寸lg
+@media screen and (max-width: 992px)
+  .jobs
+    .menu
+      display: none
+    .card-wages
+      max-width: 100%
+      font-size: 0.8em
+      position: absolute
+      bottom: 30px
+      right: 20px
+    .sort-and-search
+      margin-top: 20px
+      margin-bottom: 0px
+
+
+// 平板尺寸
+@media screen and (max-width: 768px)
+  .jobs
+    .wrap-slogan
+      h1
+        font-size: 2em
+      h2
+        font-size: 1.4em
+    .wrap-job-list
+      .sort-and-search
+        margin: 20px 12px 10px 12px
+        height: 100px
+        .search-bar
+          width: 100%
+        .sort-group
+          float: right
+          width: 100%
+          margin-top: 10px
+          p
+            display: none
+          .sort-wages
+            width: 142px
+            float: right
+            margin-left: 10px
+            margin-right: 10px
+          .sort-time
+            float: right
+            width: 142px
+    .job-card
+      position: relative
+      margin-left: 24px
+      margin-right: 24px
+      margin-top: 10px
+      .company-logo
+        top: 20px
+        left: 20px
+        width: 100px
+        height: 100px
+      .company-main-info
+        margin-top: 20px
+        left: 150px
+        p
+          margin-top: 5px
+          margin-bottom: 0px
+          padding: 0
+      .card-tags
+        position: absolute
+        left: 20px
+        top: 130px
+        padding: 8px 1px
+      .card-wages
+        position: absolute
+        left: 150px
+        top: 125px
+        text-align: left
+        font-size: 0.7em
+        .year-wages
+          display: none
+
+@media screen and (max-width: 500px)
+  .jobs
+    .card-wages
+      bottom: 10px
+
+
+// 手機xs尺寸
+@media screen and (max-width: 414px)
+  .jobs
+    .banner
+      height: 400px
+      #banner-mask
+        height: 400px
+      .wrap-slogan
+        top: 155px
+        h1
+          font-size: 1.8em
+        h2
+          font-size: 1.4em
+    .wrap-job-list
+      max-width: 100%
+      .sort-and-search
+        margin: 20px 10px 10px 10px
+        height: 100px
+        .search-bar
+          width: 100%
+        .sort-group
+          float: left
+          width: 100%
+          margin-top: 10px
+          p
+            display: none
+          .sort-time
+            float: left
+            width: 48%
+            text-align: center
+          .sort-wages
+            width: 48%
+            float: right
+            text-align: center
+            margin: 0
+    .job-card
+      max-width: 100%
+      height: 140px
+      position: relative
+      margin-top: 10px
+      border: none
+      border-bottom: 1px solid rgb(241, 241, 241)
+      border-radius: 0
+      margin-left: 5px
+      margin-right: 5px
+      .company-main-info
+        position: absolute
+        font-size: 0.8em
+        top: 10px
+        left: 150px
+        max-width: 60%
+        line-height: 1.6em
+        margin-top: 0
+        p
+          margin-top: 2px
+          margin-bottom: 3px
+      .card-wages
+        position: absolute
+        width: 220px
+        top: 85px
+        left: 150px
+        font-size: 0.65em
+        text-align: left
+        .year-wages
+          display: none
+      .company-logo
+        position: absolute
+        width: 120px
+        float: left
+        left: 10px
+        top: 10px
+      .card-tags
+        display: none

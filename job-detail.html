@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome to UIUXCafe</title>
+
+  <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./stylesheets/application.css">
+
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./stylesheets/sweetalert.css">
+
+  <script src="./js/jquery-3.1.1.js"></script>
+  <script src="./js/all.js"></script>
+  <script src="./js/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+  <!-- 固定選單 -->
+    <nav>
+      <div class="wrap-nav">
+        <div class="logo">
+          <a href="jobs.html"><img src="./img/logo.svg" alt="uiuxcafe"></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#">關於這裡</a></li>
+          <!-- <li><a href="#">設計工作坊</a></li> -->
+          <li><a href="jobs.html">職缺訊息</a></li>
+          <li><a href="login.html">登入</a></li>
+        </ul>
+        <div class="menu-btn"><a href="#"><img src="./img/menu-btn.svg" alt="menu"></a></div>
+      </div>
+    </nav>
+
+      <!-- 以上固定選單 -->
+      <!-- 滿版選單 -->
+      <div class="menu-full">
+        <div class="menu-cancel">
+          <a href="#"><img src="./img/cancel-btn.svg" alt="cancel-btn"></a>
+        </div>
+        <div class="menu-logo">
+          <img src="./img/logo_white.png" alt="uiuxcafe-logo">
+        </div>
+
+        <ul>
+          <li><a href="#">關於這裡</a></li>
+          <li><a href="#">設計工作坊</a></li>
+          <li><a href="#">職缺訊息</a></li>
+          <li class="menu-after-login"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> 個人設定</a></li>
+          <li class="menu-after-login"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 收藏的職缺</a></li>
+          <li class="menu-after-login"><a href="#"><i class="fa fa-bullhorn" aria-hidden="true"></i> 發佈的職缺</a></li>
+          <li class="menu-after-login"><a href="#"><i class="fa fa-area-chart" aria-hidden="true"></i> 後台管理</a></li>
+          <li><a class="btn-signup-control" href="login.html">登入</a></li>
+        </ul>
+      </div>
+      <!-- 滿版選單 -->
+
+      <div class="job-detail">
+        <header class="banner-company">
+          <div class="banner-mask"></div>
+        </header>
+        <div class="wrap">
+          <div class="btn-group">
+            <div class="btn-group-left">
+              <div class="edit-job"><a href="edit-job.html">編輯職缺</a></div>
+              <div class="del-job"><a href="#">刪除職缺</a></div>
+            </div>
+            <div class="btn-group-right">
+              <div class="apply-job">
+                <a href="#">我要應徵</a>
+                <div class="apply-job-content">
+                  <h4>請將您的履歷及相關設計作品寄送至</h4>
+                  <p class="company-mail">2infoinfoinfo@uiuxcafe.com</p>
+                  <p class="mail-title-example">信件主旨範例格式</p>
+                  <p>[應徵] UI設計師 _ 王小明</p>
+                </div>
+                <div class="triangle"></div>
+              </div>
+              <div class="collect-job"><a href="#">收藏此工作</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+
+          <!-- 以下為職缺資訊 -->
+          <div class="row">
+            <div class="container">
+              <div class="tab-menu col-lg-12">
+                <div class="tab-job"><a href="#" class="tab-company-control">職缺訊息</a></div>
+                <div class="tab-company"><a href="#">公司介紹</a></div>
+              </div>
+
+              <div class="job-company-info col-md-8 col-sm-12">
+                  <div class="job-info">
+                  <h2 class="title mt50">UI/UX Designer</h2>
+                  <h3 class="subtitle">年薪範圍</h3>
+                  <p class="salary-amount">NT$ 65萬 - 94萬</p>
+                  <h3 class="subtitle">經驗需求</h3>
+                  <p class="sub-content">3-5年</p>
+                  <h3 class="subtitle">工作地點</h3>
+                  <address><p class="sub-content">台北市信義區基隆路一段235號22樓</p></address>
+                  <h3 class="subtitle">技能需求</h3>
+                  <ul class="skill-icon">
+                    <li>Sketch 41</li>
+                    <li>photoshop</li>
+                    <li>illustrator</li>
+                    <li>Flinto</li>
+                    <li>Principle</li>
+                  </ul>
+                  <h3 class="subtitle">加分技能</h3>
+                  <ul class="skill-text">
+                    <li>javascript</li>
+                    <li>After Effects</li>
+                    <li>invision</li>
+                  </ul>
+                  <h3 class="subtitle">工作內容</h3>
+                  <h2 class="title">職缺描述</h2>
+                  <p class="job-info-content">1.參與軟體特色的範疇的討論與UI/UX Flow規劃<br> 2.UI/UX Wireframe/Mockup制作<br> 3.正式圖素的產出
+                    <br> 4.與研發團隊協作產出最後的成品
+                  </p>
+                  <h2 class="title">工作內容</h2>
+                  <p class="job-info-content">
+                    了解使用者需求，不斷優化既有平台以及規劃新功能現有網站及新開發 Mobile App 設計<br> 熟悉設計流程，能夠獨力完成符合設計規範的介面設計
+                    <br> 配合行銷團隊繪製所需的宣傳素材
+                    <br> 一起建立更好的內部設計流程、設計規範、使用者測試流程
+                    <br>
+                  </p>
+                  <h2 class="title">公司福利</h2>
+                  <p class="job-info-content">
+                    【超多休假】新進員工第一年有15天特休，每一年再多1天<br> 【歡樂辦公室】我們有免費的點心、酒精、水彩、還有PS4 & Party!!!<br> 【學無止盡】每月定額的書籍與實體課程補助，並可觀看 Hahow 上所有的課程<br> 【員工訓練】團隊高手奇才匯集，攝影、簡報、溝通表達…等有趣實用的多元訓練一網打盡
+                    <br> 【大開眼界】讓你有機會認識來自各領域的優秀老師。
+                    <br> 【健身與健康】每週每月運動計畫、瑜伽紓壓與身心放鬆等
+                    <br> 【培訓課程】有機會免費參與Hahow及我們姐妹團隊舉辦相關工作坊與各大講座
+                    <br>
+                  </p>
+                </div>
+
+                <div class="company-info hide">
+                  <div><img src="./img/logos/hahow_logo.png" alt="hahow-logo" width="160px;"></div>
+                  <h2 class="title">Hahow 好學校</h2>
+                  <div class="card-tags">新創教育</div>
+                  <h2 class="title mt50">公司簡介</h2>
+                  <p class="job-info-content">Pinkoi 是亞洲領先的設計商品購物網站，擁有眾多海內外優質設計師群，堅持用好品味、客製化的獨特設計，實現每個人的美感生活，也讓每個送禮時刻更加獨一無二。 2011 年 8 月成立至今，致力於經營台灣、日本、泰國、中港澳、美加及其他國際市場，期望讓亞洲迷人的好設計在全世界散發光芒，並創造一個讓生活更美好的設計生態圈。</p>
+                  <h2 class="title">公司概況</h2>
+                  <p class="job-info-content">・50-100人<br> ・A輪
+                    <br> ・2014年成立
+                  </p>
+                  <h2 class="title">公司地址</h2>
+                  <address><p class="job-info-content">台北市信義區基隆路一段235號</p></address>
+                  <h2 class="title">公司網址</h2>
+                  <p class="job-info-content"><a href="www.uiuxcafe.com.tw">www.uiuxcafe.com.tw</a></p>
+                  <h2 class="title">公司Facebook</h2>
+                  <p class="job-info-content"><a href="https://www.facebook.com/uiuxcafe">https://www.facebook.com/uiuxcafe</a></p>
+                </div>
+
+              </div>
+              <!-- 以上為職缺資訊 -->
+              <!-- 以下為廣告區塊 -->
+              <div class="ad-banner col-md-4 col-sm-12">
+                <div class="banner-1"><img src="./img/ads/ad_01.png" alt="" width="100%"></div>
+                <div class="banner-1"><img src="./img/ads/ad_02.png" alt="" width="100%"></div>
+              </div>
+              <!-- 以上為廣告區塊 -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 以下是footer-->
+      <section class="joinus">
+        <div class="wrap-join-content">
+          <h1>成為設計師社群的一份子</h1>
+          <a href="#" class="btn-y btn-signup">加入我們的社群</a>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-content">
+          <div class="logo-footer">
+            <img src="./img/logo_white.png" alt="uiuxcafe-logo">
+          </div>
+          <div class="info-1-footer">
+            <p class="caption">地點</p>
+            <p>台北市大安區建國南路一段175巷27號3F</p>
+            <p class="caption caption-margin">開放時間</p>
+            <p>週一至週日 9am-11pm<br>(9pm以後，只出不進)</p>
+          </div>
+          <div class="info-2-footer">
+            <p class="caption">聯絡我們</p>
+            <p>0919-348-938</p>
+            <p class="p-margin">info@uiuxcafe.com</p>
+              <a class="fb-logo" href="https://www.facebook.com/uiuxcafe/?fref=ts" target="_blank">
+                <img src="./img/logos/facebook_logo.svg" alt="fb-logo"></a>
+          </div>
+          <div class="social-footer">
+            <p class="caption">Facebook</p>
+            <div class="fb-like" data-href="https://www.facebook.com/uiuxcafe/?fref=ts" data-width="220px" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+          </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="copyright">
+        <p>© Copyright 2015 • PixelTap • Mobile UI/UX Design Professional</p>
+      </div>
+
+      <!-- 以上是footer-->
+
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+<script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+
+
+
+
+
+</html>
