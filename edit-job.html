@@ -49,26 +49,27 @@
           <div class="row">
             <div class="wrap col-lg-12">
               <h1>編輯/發佈職缺</h1>
-
 <!-- 職位類別 -->
+
+
               <div class="block-form">
                   <label class="form-title"><abbr title="required">*</abbr>職位類別</label>
 
-                  <input class="magic-radio" type="radio" name="radio" id="uid" value="option" required="required">
+                  <input class="magic-radio" type="radio" name="radio" id="uid" value="option" required="required" aria-required="true">
                   <label for="uid">UI Designer</label>
 
-                  <input class="magic-radio" type="radio" name="radio" id="uxd" value="option" required="required">
+                  <input class="magic-radio" type="radio" name="radio" id="uxd" value="option" required="required" aria-required="true">
                   <label for="uxd">UX Designer</label>
 
-                  <input class="magic-radio" type="radio" name="radio" id="webd" value="option" required="required">
+                  <input class="magic-radio" type="radio" name="radio" id="webd" value="option" required="required" aria-required="true">
                   <label for="webd">Web Designer</label>
 
-                  <input class="magic-radio" type="radio" name="radio" id="vd" value="option" required="required">
+                  <input class="magic-radio" type="radio" name="radio" id="vd" value="option" required="required" aria-required="true">
                   <label for="vd">Visual esigner</label>
-                  <input class="magic-radio" type="radio" name="radio" id="ixd" value="option" required="required">
+                  <input class="magic-radio" type="radio" name="radio" id="ixd" value="option" required="required" aria-required="true">
                   <label for="ixd">Interaction Designer</label>
 
-                  <input class="magic-radio" type="radio" name="radio" id="uiuxd" value="option" required="required">
+                  <input class="magic-radio" type="radio" name="radio" id="uiuxd" value="option" required="required" aria-required="true">
                   <label for="uiuxd">UI/UX Designer</label>
               </div>
 <!-- 職位類別 -->
@@ -77,16 +78,16 @@
               <div class="block-form">
                   <label class="form-title"><abbr title="required">*</abbr>薪資範圍(年薪)</label>
                       <label for="job_salary_min">最小薪資(萬)</label>
-                      <input type="number" name="wage" class="input-style" id="job_salary_min">
+                      <input type="number" name="wage" class="input-style" step="any" id="job_salary_min" placeholder="60">
                       <br><br>
                       <label for="job_salary_max">最大薪資(萬)</label>
-                      <input type="number" name="wage" class="input-style" id="job_salary_max">
+                      <input type="number" name="wage" class="input-style" step="any" id="job_salary_max" placeholder="120">
                   </div>
 <!-- 薪資範圍 -->
 <!-- 工作經驗需求 -->
               <div class="block-form">
                   <label class="form-title" for=""><abbr title="required">*</abbr>年資需求</label>
-                  <input class="magic-radio" type="radio" name="radio" id="no_experience" value="option">
+                  <input class="magic-radio" type="radio" name="radio" id="no_experience" value="option" checked="checked">
                   <label for="no_experience">無經驗可</label>
 
                   <input class="magic-radio" type="radio" name="radio" id="one_to_two_years" value="option">
@@ -100,7 +101,6 @@
 
                   <input class="magic-radio" type="radio" name="radio" id="over_five_years" value="option">
                   <label for="over_five_years">5年以上</label>
-
               </div>
 <!-- 工作經驗需求 -->
 <!-- 工作地點 -->
@@ -151,7 +151,10 @@
                 <div class="upload-logo">
                   <p>300x300px</p>
                   <div class="upload-logo-hover">
-                    <p><a href="#">上傳照片</a></p>
+                    <p>
+                      <input id="job_company_logo" type="file" style="display:none;">
+                      <a href="#">
+                        <label for="job_company_logo">上傳照片</label></a></p>
                   </div>
                 </div>
               </div>
@@ -162,8 +165,9 @@
                   <p>1200x768px</p>
                   <div class="upload-company-img-hover">
                     <div>
+                      <input id="job_company_photo" type="file" style="display:none;">
                       <img src="./img/camera.svg" alt="camera" width="30px">
-                      <a href="#">上傳照片</a>
+                      <a href="#"><label for="job_company_photo">上傳照片</label></a>
                     </div>
                   </div>
 
@@ -226,13 +230,13 @@
 
               <div class="block-form">
                   <label class="form-title" for="company_website"><abbr title="required">*</abbr>公司官網網址</label>
-                  <input type="text" name="company_website" class="input-style" id="company_website">
+                  <input type="url" name="company_website" class="input-style" id="company_website">
               </div>
 
 
               <div class="block-form">
                   <label class="form-title" for="company_fb"><abbr title="required">*</abbr>公司Facebook</label>
-                  <input type="text" name="company_fb" class="input-style" id="company_fb">
+                  <input type="url" name="company_fb" class="input-style" id="company_fb">
               </div>
 
               <div class="block-form">
