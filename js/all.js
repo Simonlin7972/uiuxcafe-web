@@ -33,9 +33,8 @@ $(document).ready(function() {
         $('.signup-full').fadeToggle(300);
     });
 
-
     // 刪除職缺提醒視窗
-    $('.del-job').click(function(event) {
+    $('.del-job,.option-delete').click(function(event) {
         swal({
                 title: "確定要刪除職缺？",
                 text: "刪除後將無法復原",
@@ -53,8 +52,13 @@ $(document).ready(function() {
                 }
             });
     });
+
+  //  我要應徵
     $('.apply-job').click(function() {
         $('.apply-job-content').fadeToggle(300);
     });
+
+
+
 
 });

@@ -1,4 +1,5 @@
 // 登入＆註冊視窗
+
 .signup-full
   // display: none
   max-width: 100%
@@ -13,13 +14,33 @@
   left: 0
   right: 0
   z-index: 100
+  .back-home
+    padding: 5px
+    width: 200px
+    margin: 0 auto
+    z-index: 999
+    text-align: center
+    border-radius: 20px
+    border: 2px solid white
+    transition: all 0.3s
+    border-radius: 20px
+    a
+      text-decoration: none
+      color: white
+      font-weight: lighter
+      font-size: 1.4em
+      letter-spacing: 2px
+    &:hover
+      background-color: $primary-blue
+      color: white
   .signup-pop
     position: relative
     max-width: 600px
     height: 640px
     background-color: white
     border-radius: 5px
-    margin: 6% auto
+    margin: 8% auto
+    margin-bottom: 40px
     transition: all 0.5s
     box-shadow: 0 20px 30px 5px rgba(0, 0, 0, 0.05)
     .signup-cancel
@@ -101,9 +122,27 @@
 @media screen and (max-width: 460px)
   .signup-full
     background-color: white
+    background-image: none
+    .back-home
+      text-align: center
+      border-radius: 20px
+      border: 2px solid $primary-blue
+      border-radius: 20px
+      a
+        color: white
+        font-weight: lighter
+        font-size: 1.4em
+        letter-spacing: 2px
+        color: $primary-blue
+      &:hover
+        background-color: $primary-blue
+        color: white
+        a
+          color: white
     .signup-pop
       box-shadow: none
       margin: 2% auto
+      height: 560px
       h1
         font-size: 1.8em
         padding-top: 30px
@@ -111,3 +150,5 @@
         margin: 0 20px
       .btn-signup-y,.btn-login-y
         margin: 0 20px
+    .active
+      height: 380px

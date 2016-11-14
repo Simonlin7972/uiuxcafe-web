@@ -548,7 +548,7 @@ footer .footer-content .social-footer .caption {
     margin-top: -10px;
   }
 }
-/* line 2, ../sass/_login.sass */
+/* line 3, ../sass/_login.sass */
 .signup-full {
   max-width: 100%;
   height: 100%;
@@ -563,18 +563,44 @@ footer .footer-content .social-footer .caption {
   right: 0;
   z-index: 100;
 }
-/* line 16, ../sass/_login.sass */
+/* line 17, ../sass/_login.sass */
+.signup-full .back-home {
+  padding: 5px;
+  width: 200px;
+  margin: 0 auto;
+  z-index: 999;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid white;
+  transition: all 0.3s;
+  border-radius: 20px;
+}
+/* line 27, ../sass/_login.sass */
+.signup-full .back-home a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  font-size: 1.4em;
+  letter-spacing: 2px;
+}
+/* line 33, ../sass/_login.sass */
+.signup-full .back-home:hover {
+  background-color: #3578DB;
+  color: white;
+}
+/* line 36, ../sass/_login.sass */
 .signup-full .signup-pop {
   position: relative;
   max-width: 600px;
   height: 640px;
   background-color: white;
   border-radius: 5px;
-  margin: 6% auto;
+  margin: 8% auto;
+  margin-bottom: 40px;
   transition: all 0.5s;
   box-shadow: 0 20px 30px 5px rgba(0, 0, 0, 0.05);
 }
-/* line 25, ../sass/_login.sass */
+/* line 46, ../sass/_login.sass */
 .signup-full .signup-pop .signup-cancel {
   position: absolute;
   right: 15px;
@@ -582,29 +608,29 @@ footer .footer-content .social-footer .caption {
   z-index: 50;
   transition: all 0.3s;
 }
-/* line 31, ../sass/_login.sass */
+/* line 52, ../sass/_login.sass */
 .signup-full .signup-pop .signup-cancel:hover {
   background-color: #f1f1f1;
   border-radius: 5px;
 }
-/* line 34, ../sass/_login.sass */
+/* line 55, ../sass/_login.sass */
 .signup-full .signup-pop h1 {
   color: black;
   margin: 0 auto;
   padding: 60px 0 10px 0;
   opacity: 0.8;
 }
-/* line 39, ../sass/_login.sass */
+/* line 60, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input, .signup-full .signup-pop .login-input {
   margin: 0 auto;
   max-width: 420px;
   margin-top: 20px;
 }
-/* line 43, ../sass/_login.sass */
+/* line 64, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input form, .signup-full .signup-pop .login-input form {
   width: 100%;
 }
-/* line 45, ../sass/_login.sass */
+/* line 66, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input form label, .signup-full .signup-pop .login-input form label {
   font-size: 1.1em;
   font-weight: bold;
@@ -614,7 +640,7 @@ footer .footer-content .social-footer .caption {
   margin-top: 30px;
   margin-bottom: 0;
 }
-/* line 53, ../sass/_login.sass */
+/* line 74, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input form input, .signup-full .signup-pop .login-input form input {
   font-size: 1.2em;
   padding: 10px 10px 10px 0;
@@ -625,25 +651,25 @@ footer .footer-content .social-footer .caption {
   border-bottom: 2px solid rgba(0, 0, 0, 0.15);
   transition: all 0.3s;
 }
-/* line 62, ../sass/_login.sass */
+/* line 83, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input form input[type], .signup-full .signup-pop .login-input form input[type] {
   color: black;
 }
-/* line 64, ../sass/_login.sass */
+/* line 85, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input form input[type]:focus, .signup-full .signup-pop .login-input form input[type]:focus {
   border-bottom: 2px solid #32C7B0;
 }
-/* line 66, ../sass/_login.sass */
+/* line 87, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input form input[type]:focusp, .signup-full .signup-pop .login-input form input[type]:focusp {
   color: #32C7B0;
 }
-/* line 68, ../sass/_login.sass */
+/* line 89, ../sass/_login.sass */
 .signup-full .signup-pop .to-login, .signup-full .signup-pop .to-signup {
   margin: 0 auto;
   padding: 20px;
   text-align: center;
 }
-/* line 72, ../sass/_login.sass */
+/* line 93, ../sass/_login.sass */
 .signup-full .signup-pop .to-login a, .signup-full .signup-pop .to-signup a {
   color: #3578DB;
   text-decoration: none;
@@ -651,12 +677,12 @@ footer .footer-content .social-footer .caption {
   letter-spacing: 1px;
   font-weight: lighter;
 }
-/* line 78, ../sass/_login.sass */
+/* line 99, ../sass/_login.sass */
 .signup-full .signup-pop .to-login a:hover, .signup-full .signup-pop .to-signup a:hover {
   opacity: 0.9;
   border-bottom: 1px solid #3578DB;
 }
-/* line 81, ../sass/_login.sass */
+/* line 102, ../sass/_login.sass */
 .signup-full .signup-pop .btn-signup-y, .signup-full .signup-pop .btn-login-y {
   display: block;
   border-radius: 5px;
@@ -670,42 +696,72 @@ footer .footer-content .social-footer .caption {
   color: black;
   transition: all 0.3s;
 }
-/* line 93, ../sass/_login.sass */
+/* line 114, ../sass/_login.sass */
 .signup-full .signup-pop .btn-signup-y:hover, .signup-full .signup-pop .btn-login-y:hover {
   opacity: 0.8;
 }
-/* line 95, ../sass/_login.sass */
+/* line 116, ../sass/_login.sass */
 .signup-full .signup-pop .block-style {
   display: inherit;
   transition: all 0.3s;
 }
-/* line 98, ../sass/_login.sass */
+/* line 119, ../sass/_login.sass */
 .signup-full .active {
   height: 460px;
 }
 
 @media screen and (max-width: 460px) {
-  /* line 102, ../sass/_login.sass */
+  /* line 123, ../sass/_login.sass */
   .signup-full {
     background-color: white;
+    background-image: none;
   }
-  /* line 104, ../sass/_login.sass */
+  /* line 126, ../sass/_login.sass */
+  .signup-full .back-home {
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #3578DB;
+    border-radius: 20px;
+  }
+  /* line 131, ../sass/_login.sass */
+  .signup-full .back-home a {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    color: #3578DB;
+  }
+  /* line 137, ../sass/_login.sass */
+  .signup-full .back-home:hover {
+    background-color: #3578DB;
+    color: white;
+  }
+  /* line 140, ../sass/_login.sass */
+  .signup-full .back-home:hover a {
+    color: white;
+  }
+  /* line 142, ../sass/_login.sass */
   .signup-full .signup-pop {
     box-shadow: none;
     margin: 2% auto;
+    height: 560px;
   }
-  /* line 107, ../sass/_login.sass */
+  /* line 146, ../sass/_login.sass */
   .signup-full .signup-pop h1 {
     font-size: 1.8em;
     padding-top: 30px;
   }
-  /* line 110, ../sass/_login.sass */
+  /* line 149, ../sass/_login.sass */
   .signup-full .signup-pop .signup-input, .signup-full .signup-pop .login-input {
     margin: 0 20px;
   }
-  /* line 112, ../sass/_login.sass */
+  /* line 151, ../sass/_login.sass */
   .signup-full .signup-pop .btn-signup-y, .signup-full .signup-pop .btn-login-y {
     margin: 0 20px;
+  }
+  /* line 153, ../sass/_login.sass */
+  .signup-full .active {
+    height: 380px;
   }
 }
 /* line 2, ../sass/_edit-job.sass */
@@ -1206,7 +1262,11 @@ footer .footer-content .social-footer .caption {
   font-size: 2.2em;
   color: #F17230;
 }
-/* line 204, ../sass/_job.sass */
+/* line 203, ../sass/_job.sass */
+.jobs .page-wrap {
+  text-align: center;
+}
+/* line 205, ../sass/_job.sass */
 .jobs .view-more {
   opacity: 0.6;
   width: 300px;
@@ -1220,7 +1280,7 @@ footer .footer-content .social-footer .caption {
   margin-bottom: 30px;
   text-align: center;
 }
-/* line 216, ../sass/_job.sass */
+/* line 217, ../sass/_job.sass */
 .jobs .view-more:hover {
   cursor: pointer;
   background-color: #0e0e0e;
@@ -1241,11 +1301,11 @@ footer .footer-content .social-footer .caption {
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 235, ../sass/_job.sass */
+  /* line 236, ../sass/_job.sass */
   .jobs .menu {
     display: none;
   }
-  /* line 237, ../sass/_job.sass */
+  /* line 238, ../sass/_job.sass */
   .jobs .card-wages {
     max-width: 100%;
     font-size: 0.8em;
@@ -1253,85 +1313,85 @@ footer .footer-content .social-footer .caption {
     bottom: 30px;
     right: 20px;
   }
-  /* line 243, ../sass/_job.sass */
+  /* line 244, ../sass/_job.sass */
   .jobs .sort-and-search {
     margin-top: 20px;
     margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 252, ../sass/_job.sass */
+  /* line 253, ../sass/_job.sass */
   .jobs .wrap-slogan h1 {
     font-size: 2em;
   }
-  /* line 254, ../sass/_job.sass */
+  /* line 255, ../sass/_job.sass */
   .jobs .wrap-slogan h2 {
     font-size: 1.4em;
   }
-  /* line 257, ../sass/_job.sass */
+  /* line 258, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search {
     margin: 20px 12px 10px 12px;
     height: 100px;
   }
-  /* line 260, ../sass/_job.sass */
+  /* line 261, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .search-bar {
     width: 100%;
   }
-  /* line 262, ../sass/_job.sass */
+  /* line 263, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group {
     float: right;
     width: 100%;
     margin-top: 10px;
   }
-  /* line 266, ../sass/_job.sass */
+  /* line 267, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group p {
     display: none;
   }
-  /* line 268, ../sass/_job.sass */
+  /* line 269, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group .sort-wages {
     width: 142px;
     float: right;
     margin-left: 10px;
     margin-right: 10px;
   }
-  /* line 273, ../sass/_job.sass */
+  /* line 274, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group .sort-time {
     float: right;
     width: 142px;
   }
-  /* line 276, ../sass/_job.sass */
+  /* line 277, ../sass/_job.sass */
   .jobs .job-card {
     position: relative;
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 10px;
   }
-  /* line 281, ../sass/_job.sass */
+  /* line 282, ../sass/_job.sass */
   .jobs .job-card .company-logo {
     top: 20px;
     left: 20px;
     width: 100px;
     height: 100px;
   }
-  /* line 286, ../sass/_job.sass */
+  /* line 287, ../sass/_job.sass */
   .jobs .job-card .company-main-info {
     margin-top: 20px;
     left: 150px;
   }
-  /* line 289, ../sass/_job.sass */
+  /* line 290, ../sass/_job.sass */
   .jobs .job-card .company-main-info p {
     margin-top: 5px;
     margin-bottom: 0px;
     padding: 0;
   }
-  /* line 293, ../sass/_job.sass */
+  /* line 294, ../sass/_job.sass */
   .jobs .job-card .card-tags {
     position: absolute;
     left: 20px;
     top: 130px;
     padding: 8px 1px;
   }
-  /* line 298, ../sass/_job.sass */
+  /* line 299, ../sass/_job.sass */
   .jobs .job-card .card-wages {
     position: absolute;
     left: 150px;
@@ -1339,75 +1399,75 @@ footer .footer-content .social-footer .caption {
     text-align: left;
     font-size: 0.7em;
   }
-  /* line 304, ../sass/_job.sass */
+  /* line 305, ../sass/_job.sass */
   .jobs .job-card .card-wages .year-wages {
     display: none;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 309, ../sass/_job.sass */
+  /* line 310, ../sass/_job.sass */
   .jobs .card-wages {
     bottom: 10px;
   }
 }
 @media screen and (max-width: 414px) {
-  /* line 316, ../sass/_job.sass */
+  /* line 317, ../sass/_job.sass */
   .jobs .banner {
     height: 400px;
   }
-  /* line 318, ../sass/_job.sass */
+  /* line 319, ../sass/_job.sass */
   .jobs .banner #banner-mask {
     height: 400px;
   }
-  /* line 320, ../sass/_job.sass */
+  /* line 321, ../sass/_job.sass */
   .jobs .banner .wrap-slogan {
     top: 155px;
   }
-  /* line 322, ../sass/_job.sass */
+  /* line 323, ../sass/_job.sass */
   .jobs .banner .wrap-slogan h1 {
     font-size: 1.8em;
   }
-  /* line 324, ../sass/_job.sass */
+  /* line 325, ../sass/_job.sass */
   .jobs .banner .wrap-slogan h2 {
     font-size: 1.4em;
   }
-  /* line 326, ../sass/_job.sass */
+  /* line 327, ../sass/_job.sass */
   .jobs .wrap-job-list {
     max-width: 100%;
   }
-  /* line 328, ../sass/_job.sass */
+  /* line 329, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search {
     margin: 20px 10px 10px 10px;
     height: 100px;
   }
-  /* line 331, ../sass/_job.sass */
+  /* line 332, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .search-bar {
     width: 100%;
   }
-  /* line 333, ../sass/_job.sass */
+  /* line 334, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group {
     float: left;
     width: 100%;
     margin-top: 10px;
   }
-  /* line 337, ../sass/_job.sass */
+  /* line 338, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group p {
     display: none;
   }
-  /* line 339, ../sass/_job.sass */
+  /* line 340, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group .sort-time {
     float: left;
     width: 48%;
     text-align: center;
   }
-  /* line 343, ../sass/_job.sass */
+  /* line 344, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group .sort-wages {
     width: 48%;
     float: right;
     text-align: center;
     margin: 0;
   }
-  /* line 348, ../sass/_job.sass */
+  /* line 349, ../sass/_job.sass */
   .jobs .job-card {
     max-width: 100%;
     height: 140px;
@@ -1419,7 +1479,7 @@ footer .footer-content .social-footer .caption {
     margin-left: 5px;
     margin-right: 5px;
   }
-  /* line 358, ../sass/_job.sass */
+  /* line 359, ../sass/_job.sass */
   .jobs .job-card .company-main-info {
     position: absolute;
     font-size: 0.8em;
@@ -1429,12 +1489,12 @@ footer .footer-content .social-footer .caption {
     line-height: 1.6em;
     margin-top: 0;
   }
-  /* line 366, ../sass/_job.sass */
+  /* line 367, ../sass/_job.sass */
   .jobs .job-card .company-main-info p {
     margin-top: 2px;
     margin-bottom: 3px;
   }
-  /* line 369, ../sass/_job.sass */
+  /* line 370, ../sass/_job.sass */
   .jobs .job-card .card-wages {
     position: absolute;
     width: 220px;
@@ -1443,11 +1503,11 @@ footer .footer-content .social-footer .caption {
     font-size: 0.65em;
     text-align: left;
   }
-  /* line 376, ../sass/_job.sass */
+  /* line 377, ../sass/_job.sass */
   .jobs .job-card .card-wages .year-wages {
     display: none;
   }
-  /* line 378, ../sass/_job.sass */
+  /* line 379, ../sass/_job.sass */
   .jobs .job-card .company-logo {
     position: absolute;
     width: 120px;
@@ -1455,7 +1515,7 @@ footer .footer-content .social-footer .caption {
     left: 10px;
     top: 10px;
   }
-  /* line 384, ../sass/_job.sass */
+  /* line 385, ../sass/_job.sass */
   .jobs .job-card .card-tags {
     display: none;
   }
