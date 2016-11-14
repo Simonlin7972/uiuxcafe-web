@@ -598,7 +598,7 @@ footer .footer-content .social-footer .caption {
 .signup-full .signup-pop .signup-input, .signup-full .signup-pop .login-input {
   margin: 0 auto;
   max-width: 420px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 /* line 43, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input form, .signup-full .signup-pop .login-input form {
@@ -638,16 +638,12 @@ footer .footer-content .social-footer .caption {
   color: #32C7B0;
 }
 /* line 68, ../sass/_login.sass */
-.signup-full .signup-pop .login-input {
-  display: none;
-}
-/* line 70, ../sass/_login.sass */
 .signup-full .signup-pop .to-login, .signup-full .signup-pop .to-signup {
   margin: 0 auto;
   padding: 20px;
   text-align: center;
 }
-/* line 74, ../sass/_login.sass */
+/* line 72, ../sass/_login.sass */
 .signup-full .signup-pop .to-login a, .signup-full .signup-pop .to-signup a {
   color: #3578DB;
   text-decoration: none;
@@ -655,16 +651,12 @@ footer .footer-content .social-footer .caption {
   letter-spacing: 1px;
   font-weight: lighter;
 }
-/* line 80, ../sass/_login.sass */
+/* line 78, ../sass/_login.sass */
 .signup-full .signup-pop .to-login a:hover, .signup-full .signup-pop .to-signup a:hover {
   opacity: 0.9;
   border-bottom: 1px solid #3578DB;
 }
-/* line 83, ../sass/_login.sass */
-.signup-full .signup-pop .to-signup {
-  display: none;
-}
-/* line 85, ../sass/_login.sass */
+/* line 81, ../sass/_login.sass */
 .signup-full .signup-pop .btn-signup-y, .signup-full .signup-pop .btn-login-y {
   display: block;
   border-radius: 5px;
@@ -678,40 +670,40 @@ footer .footer-content .social-footer .caption {
   color: black;
   transition: all 0.3s;
 }
-/* line 97, ../sass/_login.sass */
+/* line 93, ../sass/_login.sass */
 .signup-full .signup-pop .btn-signup-y:hover, .signup-full .signup-pop .btn-login-y:hover {
   opacity: 0.8;
 }
-/* line 99, ../sass/_login.sass */
+/* line 95, ../sass/_login.sass */
 .signup-full .signup-pop .block-style {
   display: inherit;
   transition: all 0.3s;
 }
-/* line 102, ../sass/_login.sass */
+/* line 98, ../sass/_login.sass */
 .signup-full .active {
   height: 460px;
 }
 
 @media screen and (max-width: 460px) {
-  /* line 106, ../sass/_login.sass */
+  /* line 102, ../sass/_login.sass */
   .signup-full {
     background-color: white;
   }
-  /* line 108, ../sass/_login.sass */
+  /* line 104, ../sass/_login.sass */
   .signup-full .signup-pop {
     box-shadow: none;
     margin: 2% auto;
   }
-  /* line 111, ../sass/_login.sass */
+  /* line 107, ../sass/_login.sass */
   .signup-full .signup-pop h1 {
     font-size: 1.8em;
     padding-top: 30px;
   }
-  /* line 114, ../sass/_login.sass */
+  /* line 110, ../sass/_login.sass */
   .signup-full .signup-pop .signup-input, .signup-full .signup-pop .login-input {
     margin: 0 20px;
   }
-  /* line 116, ../sass/_login.sass */
+  /* line 112, ../sass/_login.sass */
   .signup-full .signup-pop .btn-signup-y, .signup-full .signup-pop .btn-login-y {
     margin: 0 20px;
   }
