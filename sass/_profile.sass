@@ -1,7 +1,6 @@
 
 .profile
   margin: auto
-  background-color: $bg-color
   .content-wrap
     width: 100%
     padding: 60px 0
@@ -40,33 +39,40 @@
       margin-top: 20px
       margin: auto
       height: 100%
-      .default-avatar
-        width: 160px
-        height: 160px
-        margin-top: 20px
-        border-radius: 100px
-        background-image: url(/img/avatar.svg)
-        background-position: center
-        background-size: 100%
-      .btn-blue-outline
-        border-radius: 30px
-        display: block
-        border: 1px solid $primary-blue
-        padding: 10px 40px
-        width: 160px
-        text-align: center
-        font-size: 1em
-        margin-top: 30px
-        text-decoration: none
-        color: $primary-blue
-        transition: all 0.3s
-        &:hover
-          color: #fff
-          background-color: $primary-blue
+      .upload-avatar
+        .btn-blue-outline
+          label
+            margin-bottom: 0
+            font-size: 1em
+            cursor: pointer
+            +opacity(1)
+        .default-avatar
+          width: 160px
+          height: 160px
+          margin-top: 20px
+          border-radius: 100px
+          background-image: url(/img/avatar.svg)
+          background-position: center
+          background-size: 100%
+        .btn-blue-outline
+          border-radius: 30px
+          display: block
+          border: 1px solid $primary-blue
+          padding: 10px 40px
+          width: 160px
+          text-align: center
+          font-size: 1em
+          margin-top: 30px
+          text-decoration: none
+          color: $primary-blue
+          transition: all 0.3s
+          &:hover
+            color: #fff
+            background-color: $primary-blue
       .info-basic,.info-password
         padding: 0 2%
         .block-form
-          margin-top: 20px
+          margin-top: 15px
           p
             font-size: 1.1em
             font-weight: bold
@@ -214,6 +220,7 @@
 
 .btn-blue
   border-radius: 5px
+  border: none
   display: block
   background-color: $primary-blue
   padding: 10px 40px
@@ -333,6 +340,9 @@
 @media screen and (max-width: 414px)
   .profile
     .content-wrap
+      border-top: none
+      border-bottom: none
+      padding: 0
       .tab-bar
         margin-left: 24px
         .tab-group

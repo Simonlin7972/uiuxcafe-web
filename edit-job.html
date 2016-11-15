@@ -7,7 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Edit Your Job - UIUX Cafe</title>
 
-  <link rel="stylesheet" href="./stylesheets/magic-check.css">
   <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
   <link rel="stylesheet" href="./stylesheets/application.css">
 
@@ -51,7 +50,7 @@
               <h1>編輯/發佈職缺</h1>
 <!-- 職位類別 -->
 
-
+<form action="">
               <div class="block-form">
                   <label class="form-title"><abbr title="required">*</abbr>職位類別</label>
 
@@ -78,10 +77,10 @@
               <div class="block-form">
                   <label class="form-title"><abbr title="required">*</abbr>薪資範圍(年薪)</label>
                       <label for="job_salary_min">最小薪資(萬)</label>
-                      <input type="number" name="wage" class="input-style" step="any" id="job_salary_min" placeholder="60">
+                      <input type="number" name="wage" class="input-style" step="any" id="job_salary_min" placeholder="60" aria-required="true">
                       <br><br>
                       <label for="job_salary_max">最大薪資(萬)</label>
-                      <input type="number" name="wage" class="input-style" step="any" id="job_salary_max" placeholder="120">
+                      <input type="number" name="wage" class="input-style" step="any" id="job_salary_max" placeholder="120" aria-required="true">
                   </div>
 <!-- 薪資範圍 -->
 <!-- 工作經驗需求 -->
@@ -107,7 +106,7 @@
               <div class="block-form">
                   <label class="form-title" for="work-location">
                     <abbr title="required">*</abbr>工作地點</label>
-                  <input class="input-style" type="text" name="location" aria-required="true" id="work-location" placeholder="請填寫地區 Ex:台北市 大安區">
+                  <input class="input-style" type="text" name="location" aria-required="true" id="work-location" placeholder="請填寫地區即可 Ex:台北市 大安區">
               </div>
 <!-- 工作地點 -->
 
@@ -131,7 +130,7 @@
 <!-- 加分技能 -->
               <div class="block-form">
                   <label class="form-title" for="skill-plus"><abbr title="required">*</abbr>加分技能</label>
-                  <input type="text" name="skill-plus" id="skill-plus" class="input-style" placeholder="Ex: After Effects">
+                  <input type="text" name="skill-plus" id="skill-plus" class="input-style" placeholder="請用斜線分隔 Ex:After Effects/Principle">
               </div>
 <!-- 加分技能 -->
 
@@ -245,7 +244,7 @@
               </div>
 
 <input type="submit" name="commit" value="資料確認無誤 送出審核" class="btn-blue" data-disable-with="Waiting..." />
-
+  </div>
             </div>
           </div>
         </div>

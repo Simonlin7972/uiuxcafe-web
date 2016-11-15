@@ -1,0 +1,135 @@
+\:root
+  --primary-yellow: #F6D204
+  --primary-blue: #3578DB
+  --bg-color: #F5F5F5
+  --primary-green: #11bea4
+
+@keyframes hover-color
+  from
+    border-color: #c0c0c0
+
+  to
+    border-color: var(--primary-green)
+
+
+label
+  font-size: 1.1em
+  opacity: 0.7
+  letter-spacing: 0.5px
+  /*width: 100%;
+
+/*input,label{
+ *  display: inline;
+ *}
+
+.magic-radio, .magic-checkbox
+  position: absolute
+  display: none
+
+.magic-radio[disabled], .magic-checkbox[disabled]
+  cursor: not-allowed
+
+.magic-radio + label, .magic-checkbox + label
+  position: relative
+  display: block
+  padding-left: 30px
+  cursor: pointer
+  vertical-align: middle
+
+.magic-radio + label:hover:before, .magic-checkbox + label:hover:before
+  animation-duration: 0.5s
+  animation-fill-mode: both
+  animation-name: hover-color
+
+/*外圓設定
+
+.magic-radio + label:before, .magic-checkbox + label:before
+  position: absolute
+  top: 0
+  left: 0
+  display: inline-block
+  width: 20px
+  height: 20px
+  content: ''
+  border: 1px solid rgb(134, 134, 134)
+  background-color: white
+
+/*外圓設定
+
+.magic-radio + label:after, .magic-checkbox + label:after
+  position: absolute
+  display: none
+  content: ''
+
+.magic-radio[disabled] + label, .magic-checkbox[disabled] + label
+  cursor: not-allowed
+  color: #e4e4e4
+
+.magic-radio[disabled] + label
+  &:hover, &:before, &:after
+    cursor: not-allowed
+
+.magic-checkbox[disabled] + label
+  &:hover, &:before, &:after
+    cursor: not-allowed
+
+.magic-radio[disabled] + label:hover:before, .magic-checkbox[disabled] + label:hover:before
+  border: 1px solid #e4e4e4
+  animation-name: none
+
+.magic-radio[disabled] + label:before, .magic-checkbox[disabled] + label:before
+  border-color: #e4e4e4
+
+.magic-radio:checked + label:before, .magic-checkbox:checked + label:before
+  animation-name: none
+
+.magic-radio:checked + label:after, .magic-checkbox:checked + label:after
+  display: block
+
+.magic-radio
+  + label
+    &:before
+      border-radius: 50%
+    &:after
+      top: 5px
+      left: 5px
+      width: 10px
+      height: 10px
+      border-radius: 50%
+      background: var(--primary-green)
+  &:checked
+    + label:before
+      border: 2px solid var(--primary-green)
+    &[disabled] + label
+      &:before
+        border: 1px solid #c9e2f9
+      &:after
+        background: #c9e2f9
+
+/*內圓
+
+/*內圓
+
+.magic-checkbox
+  + label
+    &:before
+      border-radius: 3px
+    &:after
+      top: 2px
+      left: 7px
+      box-sizing: border-box
+      width: 5px
+      height: 12px
+      transform: rotate(45deg)
+      border-width: 2px
+      border-style: solid
+      border-color: #fff
+      border-top: 0
+      border-left: 0
+  &:checked
+    + label:before
+      border: var(--primary-green)
+      background: var(--primary-green)
+    &[disabled] + label:before
+      border: #c9e2f9
+      background: #c9e2f9

@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="./stylesheets/application.css">
 
   <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="./stylesheets/sweetalert.css">
 
   <script src="./js/jquery-3.1.1.js"></script>
   <script src="./js/all.js"></script>
@@ -60,7 +59,6 @@
     </ul>
   </div>
   <!-- 滿版選單 -->
-
   <div class="profile">
     <section class="row content-wrap">
       <div class="tab-bar col-md-12">
@@ -78,50 +76,47 @@
         <!-- 上傳照片 -->
         <div class="upload-avatar col-md-2">
           <div class="default-avatar"></div>
-          <a class="btn-blue-outline" href="#">上傳個人照</a>
+        <a class="btn-blue-outline" href="#">
+          <input id="user-photo" type="file" style="display:none;">
+          <label for="user-photo">上傳個人照</label></a>
         </div>
         <!-- 上傳照片 -->
+
         <!-- 基本資料 -->
         <div class="info-basic col-md-5">
+          <form action="">
           <div class="block-form">
-            <form action="">
-              <p>你的名字</p>
-              <input type="text" name="location" class="input-style">
-            </form>
+              <label for="user-name"><p>你的名字</p></label>
+              <input type="text" name="location" class="input-style" id="user-name">
           </div>
 
           <div class="block-form">
-            <form action="">
-              <p>E-mail</p>
-              <input type="text" name="location" class="input-style">
-            </form>
+              <label for="user-email"><p>E-mail</p></label>
+              <input type="text" name="location" class="input-style" id="user-email">
           </div>
 
           <div class="block-form">
-            <form action="">
-              <p>聯絡電話</p>
-              <input type="text" name="location" class="input-style">
-            </form>
+              <label for="user-phone"><p>聯絡電話</p></label>
+              <input type="text" name="location" class="input-style" id="user-phone">
           </div>
-
+          </form>
         </div>
         <!-- 基本資料 -->
         <!-- 更新密碼區域 -->
         <div class="info-password col-md-5">
           <div class="block-form">
-            <form action="">
-              <p>更改新密碼</p>
-              <input type="text" name="location" class="input-style">
+                <label for="reset-password"><p>更改新密碼</p></label>
+              <input type="password" name="location" class="input-style" id="reset-password">
             </form>
           </div>
 
           <div class="block-form">
             <form action="">
-              <p>再次確認密碼</p>
-              <input type="text" name="location" class="input-style">
+              <label for="comfirm-password"><p>再次確認密碼</p>  </label>
+              <input type="password" name="location" class="input-style" id="comfirm-password">
             </form>
           </div>
-          <a class="btn-blue" href="#">確認更新個人資料</a>
+          <input type="submit" name="commit" value="確認更新個人資料" class="btn-blue" data-disable-with="Waiting..." />
         </div>
         <!-- 更新密碼區域 -->
         <!-- 我收藏的工作 -->
@@ -173,11 +168,11 @@
 
           <div class="job-card-mask">
             <div class="option-group">
-              <div class="option-view"><a href="#">
+              <div class="option-view"><a href="job-detail.html">
               <img src="./img/option-view.svg" alt=""></a>
                 </div>
 
-          <div class="option-edit"><a href="#"><img src="./img/option-edit.svg" alt=""></a></div>
+          <div class="option-edit"><a href="edit-job.html"><img src="./img/option-edit.svg" alt=""></a></div>
 
           <div class="option-delete"><a href="#">
           <img src="./img/option-delete.svg" alt=""></a></div>
@@ -191,7 +186,6 @@
     </section>
     <!-- </div> -->
   </div>
-
 
   <!-- 以下是footer-->
   <section class="joinus">
