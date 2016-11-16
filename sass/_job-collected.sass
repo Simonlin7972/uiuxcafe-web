@@ -1,10 +1,4 @@
-.profile-bg
-  background-color: $bg-color
-  width: 100%
-  height: 100%vh
-  padding-top: 1px
-  padding-bottom: 1px
-.profile
+.job-collected
   margin: auto
   .content-wrap
     width: 100%
@@ -13,13 +7,14 @@
     border-top: 1px solid rgba(0,0,0,0.15)
     border-bottom: 1px solid rgba(0,0,0,0.15)
     background-color: white
+    // 分頁選項
     .tab-bar
       height: 40px
       .tab-group
         padding-left: 15px
         width: 1170px
         margin: auto
-        .tab-personal
+        .tab-job-collect
           a
             opacity: 1
             &:after
@@ -51,73 +46,17 @@
               border-radius: 20px
               background-color: $primary-green
               animation: expand 0.3s ease both
+            // 分頁選項
     .info-wrap
-      max-width: 1170px
+      width: 1170px
       margin-top: 20px
       margin: auto
       height: 100%
-      .upload-avatar
-        .btn-blue-outline
-          label
-            margin-bottom: 0
-            font-size: 1em
-            cursor: pointer
-            +opacity(1)
-        .default-avatar
-          width: 160px
-          height: 160px
-          margin-top: 20px
-          border-radius: 100px
-          background-image: url(/img/avatar.svg)
-          background-position: center
-          background-size: 100%
-        .btn-blue-outline
-          border-radius: 30px
-          display: block
-          border: 1px solid $primary-blue
-          padding: 10px 40px
-          width: 160px
-          text-align: center
-          font-size: 1em
-          margin-top: 30px
-          text-decoration: none
-          color: $primary-blue
-          transition: all 0.3s
-          &:hover
-            color: #fff
-            background-color: $primary-blue
-      .info-basic,.info-password
-        padding: 0 2%
-        .block-form
-          margin-top: 15px
-          p
-            font-size: 1.1em
-            font-weight: bold
-            margin-bottom: 8px
-            line-height: 1.1em
-            opacity: .7
-          input:focus
-            border: 2px solid $primary-green
-          .input-style
-            padding: 10px
-            border-radius: 5px
-            border: 1px solid rgba(151,151,151,0.30)
-            outline: none
-            width: 100%
-            height: 40px
-      .info-mycollect-job,.info-mypost-job
+      .info-mycollect-job
         margin-top: 20px
         .mypost-job-card-wrap
         .job-card
-          display: block
-          background-color: #fff
-          height: 180px
-          border: 1px solid rgba(0, 0, 0, 0.15)
-          border-radius: 5px
-          transition: all 0.5s
-          margin-top: 15px
-          position: relative
-          font-weight: lighter
+          +job-card(180px,5px)
           &:hover
             transform: translateY(-5px)
             box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.06)
@@ -146,16 +85,7 @@
                 letter-spacing: 0.5px
                 font-weight: bold
           .card-tags
-            background-color: $primary-green
-            width: 100px
-            padding: 8px 1px
-            position: absolute
-            top: 30px
-            right: 30px
-            color: #fff
-            border-radius: 5px
-            font-size: 0.9em
-            text-align: center
+            +card-tag
           .card-wages
             font-family: PingFangSC-ultralight
             width: 500px
@@ -176,65 +106,6 @@
             .wage-amount
               font-size: 2.2em
               color: $primary-red
-      .info-mypost-job
-        .mypost-job-card-wrap
-          position: relative
-          transition: all 0.3s
-          &:hover
-            transform: translateY(-5px)
-            box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.06)
-            cursor: pointer
-          .job-card-mask
-            opacity: 0
-            position: absolute
-            width: 100%
-            height: 100%
-            background-color: rgba(0, 0, 0, 0.85)
-            top: 0
-            left: 0
-            z-index: 80
-            border-radius: 5px
-            transition: all 0.3s
-            &:hover
-              opacity: 1
-            .option-group
-              width: 250px
-              margin-right: 40px
-              margin-top: 50px
-              float: right
-              .option-view,.option-edit,.option-delete
-                display: inline-block
-                margin-left: 12px
-                opacity: .5
-                transition: all 0.3s
-                &:hover
-                  opacity: 1
-              .option-view
-                width: 60px
-                transition: all 0.3s
-                &:hover:after
-                  content: '檢視職缺'
-                  color: white
-                  float: right
-                  letter-spacing: 1px
-                  font-weight: bold
-              .option-edit
-                width: 60px
-                &:hover:after
-                  content: '編輯職缺'
-                  color: white
-                  float: right
-                  letter-spacing: 1px
-                  font-weight: bold
-              .option-delete
-                width: 60px
-                transition: all 0.3s
-                &:hover:after
-                  content: '刪除職缺'
-                  color: white
-                  float: right
-                  letter-spacing: 1px
-                  font-weight: bold
 .btn-blue
   border-radius: 5px
   border: none
@@ -260,25 +131,16 @@
 
 // 大螢幕尺寸lg
 @media screen and (max-width: 1200px)
-  .profile
+  .job-collected
     .content-wrap
       .tab-group
         max-width: 1000px
-        .default-avatar
-          width: 150px
-          height: 150px
-          margin-top: 30px
-        .btn-blue-outline
-          padding: 10px 40px
-          width: 145px
-          margin-top: 30px
-          font-size: 0.85em
-          margin-top: 20px
-
+      .info-wrap
+        max-width: 1000px
 
 // 中螢幕尺寸md
 @media screen and (max-width: 992px)
-  .profile
+  .job-collected
     .content-wrap
       .tab-group
         max-width: 95%
@@ -304,7 +166,7 @@
 
 // 平板尺寸sm
 @media screen and (max-width: 768px)
-  .profile
+  .job-collected
     .content-wrap
       .tab-bar
         .tab-group
@@ -315,11 +177,10 @@
               font-size: 1.1em
       .info-wrap
         max-width: 95%
-        .info-mycollect-job,.info-mypost-job
+        .info-mycollect-job
           .job-card
             position: relative
-            margin-top: 10px
-            margin: 0
+            margin-top: 20px
             .company-logo
               top: 20px
               left: 20px
@@ -345,48 +206,34 @@
               font-size: 0.7em
               .year-wages
                 display: none
-        .info-mypost-job
-          .mypost-job-card-wrap
-            .job-card-mask
-              display: none
-
 
 // 手機尺寸xs
-@media screen and (max-width: 414px)
+@media screen and (max-width: 480px)
   .profile-bg
     background-color: white
-  .profile
+  .job-collected
     .content-wrap
       border-top: none
       border-bottom: none
       padding: 0
       .tab-bar
-        margin-left: 24px
         .tab-group
           max-width: 95%
           padding: 0
           margin: 0 auto
+          text-align: center
           li
             margin-right: 10px
             a
               font-size: 1em
       .info-wrap
-        .upload-avatar
-          margin: auto
-          .default-avatar
-            margin: 0 auto
-          .btn-blue-outline
-            margin: 0 auto
-            margin-top: 20px
-        .info-mycollect-job,.info-mypost-job
+        .info-mycollect-job
           .job-card
+            +job-card(140px,0)
             max-width: 100%
-            height: 140px
-            position: relative
             margin-top: 10px
             border: none
             border-bottom: 1px solid rgb(241, 241, 241)
-            border-radius: 0
             margin-left: 5px
             margin-right: 5px
             .company-main-info

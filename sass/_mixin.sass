@@ -1,0 +1,33 @@
+
+@mixin btn-cta($color)
+  +border-radius(30px)
+  display: block
+  background-color: $color
+  padding: 15px 40px
+  width: 240px
+  text-align: center
+  font-size: 1em
+
+@mixin job-card($height,$border-radius)
+  display: block
+  background-color: #fff
+  height: $height
+  +border-radius($border-radius)
+  border: 1px solid rgba(0, 0, 0, 0.15)
+  transition: all 0.5s
+  margin-top: 15px
+  position: relative
+  font-weight: lighter
+
+@mixin card-tag()
+  background-color: #32C7B0
+  width: 100px
+  padding: 8px 1px
+  position: absolute
+  top: 30px
+  right: 30px
+  color: #fff
+  +border-radius(5px)
+  font-size: 0.9em
+  text-align: center
+  letter-spacing: 1px

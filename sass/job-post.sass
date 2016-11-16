@@ -1,0 +1,336 @@
+.job-post
+  margin: auto
+  .content-wrap
+    width: 100%
+    padding: 60px 0
+    margin: 140px auto 60px auto
+    border-top: 1px solid rgba(0,0,0,0.15)
+    border-bottom: 1px solid rgba(0,0,0,0.15)
+    background-color: white
+    // 分頁選項
+    .tab-bar
+      height: 40px
+      .tab-group
+        padding-left: 15px
+        width: 1170px
+        margin: auto
+        .tab-job-post
+          a
+            opacity: 1
+            &:after
+              content: ''
+              float: left
+              width: 100%
+              height: 4px
+              margin-top: 5px
+              border-radius: 20px
+              background-color: $primary-green
+              animation: expand 0.3s ease boths
+        li
+          display: inline-block
+          margin-right: 30px
+          a
+            color: black
+            font-size: 1.2em
+            font-weight: bold
+            text-decoration: none
+            opacity: 0.3
+            &:hover
+              opacity: 1
+            &:hover:after
+              content: ''
+              float: left
+              width: 100%
+              height: 4px
+              margin-top: 5px
+              border-radius: 20px
+              background-color: $primary-green
+              animation: expand 0.3s ease both
+            // 分頁選項
+    .info-wrap
+      width: 1170px
+      margin-top: 20px
+      margin: auto
+      height: 100%
+      .info-mypost-job
+        margin-top: 20px
+        .mypost-job-card-wrap
+          .job-card
+            +job-card(180px,5px)
+            &:hover
+              transform: translateY(-5px)
+              box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.06)
+              cursor: pointer
+            .company-logo
+              position: absolute
+              left: 40px
+              top: 30px
+              width: 120px
+              height: 120px
+              img
+                width: 100%
+            .company-main-info
+              position: absolute
+              margin-top: 30px
+              left: 200px
+              p
+                margin-top: 10px
+                font-size: 1.4em
+                letter-spacing: 0.5px
+                color: #797979
+                text-align: left
+                span
+                  color: $primary-blue
+                  font-size: 1em
+                  letter-spacing: 0.5px
+                  font-weight: bold
+            .card-tags
+              +card-tag
+            .card-wages
+              font-family: PingFangSC-ultralight
+              width: 500px
+              font-size: 1em
+              position: absolute
+              top: 100px
+              right: 30px
+              text-align: right
+              span
+                color: $primary-red
+                font-size: 1.4em
+              .year-wages
+                font-weight: bold
+                margin-right: 5px
+                font-size: 1.1em
+                opacity: 0.5
+                color: black
+              .wage-amount
+                font-size: 2.2em
+                color: $primary-red
+          .job-card-mask
+            opacity: 0
+            position: absolute
+            width: 100%
+            height: 100%
+            background-color: rgba(0, 0, 0, 0.85)
+            top: 0
+            left: 0
+            z-index: 80
+            border-radius: 5px
+            transition: all 0.3s
+            &:hover
+              opacity: 1
+            .option-group
+              width: 250px
+              margin-right: 40px
+              margin-top: 50px
+              float: right
+              .option-view,.option-edit,.option-delete
+                display: inline-block
+                margin-left: 12px
+                opacity: .5
+                transition: all 0.3s
+                &:hover
+                  opacity: 1
+              .option-view
+                width: 60px
+                transition: all 0.3s
+                &:hover:after
+                  content: '檢視職缺'
+                  color: white
+                  float: right
+                  letter-spacing: 1px
+                  font-weight: bold
+              .option-edit
+                width: 60px
+                &:hover:after
+                  content: '編輯職缺'
+                  color: white
+                  float: right
+                  letter-spacing: 1px
+                  font-weight: bold
+              .option-delete
+                width: 60px
+                transition: all 0.3s
+                &:hover:after
+                  content: '刪除職缺'
+                  color: white
+                  float: right
+                  letter-spacing: 1px
+                  font-weight: bold
+      .info-mypost-job
+        .mypost-job-card-wrap
+          position: relative
+          transition: all 0.3s
+          &:hover
+            transform: translateY(-5px)
+
+.btn-blue
+  border-radius: 5px
+  border: none
+  display: block
+  background-color: $primary-blue
+  padding: 10px 40px
+  width: 100%
+  text-align: center
+  font-size: 1em
+  margin-top: 43px
+  text-decoration: none
+  color: #fff
+  transition: all 0.3s
+.btn-blue:hover
+  color: #fff
+  background-color: #2f6bc3
+
+@keyframes expand
+  0%
+    transform: scaleX(0)
+  100%
+    transform: scaleX(200%)
+
+// 大螢幕尺寸lg
+@media screen and (max-width: 1200px)
+  .job-post
+    .content-wrap
+      .tab-group
+        max-width: 1000px
+      .info-wrap
+        max-width: 1000px
+        .default-avatar
+          width: 150px
+          height: 150px
+          margin-top: 30px
+        .btn-blue-outline
+          padding: 10px 40px
+          width: 145px
+          margin-top: 30px
+          font-size: 0.85em
+          margin-top: 20px
+
+// 中螢幕尺寸md
+@media screen and (max-width: 992px)
+  .job-post
+    .content-wrap
+      .tab-group
+        max-width: 95%
+      .info-wrap
+        max-width: 95%
+        .default-avatar
+          width: 200px
+          height: 200px
+        .btn-blue-outline
+          padding: 10px 40px
+          width: 200px
+          margin-top: 20px
+          font-size: 1em
+    .card-wages
+      max-width: 100%
+      font-size: 0.8em
+      position: absolute
+      bottom: 30px
+      right: 20px
+
+// 平板尺寸sm
+@media screen and (max-width: 768px)
+  .job-post
+    .content-wrap
+      .tab-bar
+        .tab-group
+          max-width: 95%
+          li
+            margin-right: 20px
+            a
+              font-size: 1.1em
+      .info-wrap
+        max-width: 95%
+        .info-mypost-job
+          .mypost-job-card-wrap
+            .job-card
+              position: relative
+              margin-top: 20px
+              .company-logo
+                top: 20px
+                left: 20px
+                width: 100px
+                height: 100px
+              .company-main-info
+                margin-top: 20px
+                left: 150px
+                p
+                  margin-top: 5px
+                  margin-bottom: 0px
+                  padding: 0
+              .card-tags
+                position: absolute
+                left: 20px
+                top: 130px
+                padding: 8px 1px
+              .card-wages
+                position: absolute
+                left: 150px
+                top: 125px
+                text-align: left
+                font-size: 0.7em
+                .year-wages
+                  display: none
+            .job-card-mask
+              display: none
+
+// 手機尺寸xs
+@media screen and (max-width: 480px)
+  .profile-bg
+    background-color: white
+  .job-post
+    .content-wrap
+      border-top: none
+      border-bottom: none
+      padding: 0
+      .tab-bar
+        .tab-group
+          max-width: 95%
+          padding: 0
+          margin: 0 auto
+          text-align: center
+          li
+            margin-right: 10px
+            a
+              font-size: 1em
+      .info-wrap
+        .info-mypost-job
+          .mypost-job-card-wrap
+            .job-card
+              max-width: 100%
+              height: 140px
+              position: relative
+              margin-top: 10px
+              border: none
+              border-bottom: 1px solid rgb(241, 241, 241)
+              border-radius: 0
+              margin-left: 5px
+              margin-right: 5px
+              .company-main-info
+                position: absolute
+                font-size: 0.8em
+                top: 10px
+                left: 150px
+                max-width: 60%
+                line-height: 1.6em
+                margin-top: 0
+                p
+                  margin-top: 2px
+                  margin-bottom: 3px
+              .card-wages
+                position: absolute
+                width: 220px
+                top: 85px
+                left: 150px
+                font-size: 0.65em
+                text-align: left
+                .year-wages
+                  display: none
+              .company-logo
+                position: absolute
+                float: left
+                left: 10px
+                top: 10px
+              .card-tags
+                display: none

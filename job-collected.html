@@ -61,72 +61,93 @@
   <!-- 滿版選單 -->
 
   <div class="profile-bg">
-  <div class="profile">
+  <div class="job-collected">
     <section class="row content-wrap">
       <div class="tab-bar col-md-12">
         <ul class="tab-group">
           <li class="tab-personal">
-            <a href="#">個人資料設定</a></li>
+            <a href="profile.html">個人資料設定</a></li>
           <li class="tab-job-collect">
-            <a href="job-collected.html">已收藏的職缺</a></li>
+            <a href="#">已收藏的職缺</a></li>
           <li class="tab-job-post">
             <a href="job-post.html">已發佈的職缺</a></li>
         </ul>
       </div>
 
+
       <div class="info-wrap">
-        <!-- 上傳照片 -->
-        <div class="upload-avatar col-md-2">
-          <div class="default-avatar"></div>
-        <a class="btn-blue-outline" href="#">
-          <input id="user-photo" type="file" style="display:none;">
-          <label for="user-photo">上傳個人照</label></a>
-        </div>
-        <!-- 上傳照片 -->
+        <div class="info-mycollect-job col-md-12">
+        <!-- 我收藏的職缺 -->
+          <a href="#" class="job-card">
+            <div class="company-logo">
+              <img src="./img/logos/hahow_logo.png" alt="company-logo">
+            </div>
 
-        <!-- 基本資料 -->
-        <div class="info-basic col-md-5">
-          <form action="">
-          <div class="block-form">
-              <label for="user-name"><p>你的名字</p></label>
-              <input type="text" name="location" class="input-style" id="user-name">
-          </div>
+            <div class="company-main-info">
+              <p>Hahow-好學校</p>
+              <p>台北市 信義區</p>
+              <p><span>UI/UX Designer</span></p>
+            </div>
 
-          <div class="block-form">
-              <label for="user-email"><p>E-mail</p></label>
-              <input type="text" name="location" class="input-style" id="user-email">
-          </div>
+            <div class="card-tags">教育科技</div>
+            <div class="card-wages">
+              <span class="year-wages">年薪</span>
+              <span>NT$
+                  <span class="wage-amount">120</span>萬 -
+              <span class="wage-amount">150</span> 萬</span>
+            </div>
+          </a>
+        <!-- 我收藏的職缺 -->
 
-          <div class="block-form">
-              <label for="user-phone"><p>聯絡電話</p></label>
-              <input type="text" name="location" class="input-style" id="user-phone">
-          </div>
-          </form>
-        </div>
-        <!-- 基本資料 -->
-        <!-- 更新密碼區域 -->
-        <div class="info-password col-md-5">
-          <div class="block-form">
-                <label for="reset-password"><p>更改新密碼</p></label>
-              <input type="password" name="location" class="input-style" id="reset-password">
-            </form>
-          </div>
+          <!-- 我收藏的職缺 -->
+            <a href="#" class="job-card">
+              <div class="company-logo">
+                <img src="./img/logos/hahow_logo.png" alt="company-logo">
+              </div>
 
-          <div class="block-form">
-            <form action="">
-              <label for="comfirm-password"><p>再次確認密碼</p>  </label>
-              <input type="password" name="location" class="input-style" id="comfirm-password">
-            </form>
-          </div>
-          <input type="submit" name="commit" value="確認更新個人資料" class="btn-blue" data-disable-with="Waiting..." />
-        </div>
-        <!-- 更新密碼區域 -->
+              <div class="company-main-info">
+                <p>Hahow-好學校</p>
+                <p>台北市 信義區</p>
+                <p><span>UI/UX Designer</span></p>
+              </div>
 
+              <div class="card-tags">教育科技</div>
+              <div class="card-wages">
+                <span class="year-wages">年薪</span>
+                <span>NT$
+                    <span class="wage-amount">98</span>萬 -
+                <span class="wage-amount">110</span> 萬</span>
+              </div>
+            </a>
+          <!-- 我收藏的職缺 -->
+
+
+                <!-- 我收藏的職缺 -->
+              <a href="#" class="job-card">
+                <div class="company-logo">
+                  <img src="./img/logos/hahow_logo.png" alt="company-logo">
+                </div>
+
+                <div class="company-main-info">
+                  <p>Hahow-好學校</p>
+                  <p>台北市 信義區</p>
+                  <p><span>UI/UX Designer</span></p>
+                </div>
+
+                <div class="card-tags">教育科技</div>
+                <div class="card-wages">
+                  <span class="year-wages">年薪</span>
+                  <span>NT$
+                      <span class="wage-amount">60</span>萬 -
+                  <span class="wage-amount">90</span> 萬</span>
+                </div>
+              </a>
+            <!-- 我收藏的職缺 -->
+          </div>
       </div>
     </section>
   </div>
-</div>
-
+  </div>
 
   <!-- 以下是footer-->
   <section class="joinus">
@@ -181,6 +202,9 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
   <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-</body>
 
-</html>
+
+
+
+
+</body>

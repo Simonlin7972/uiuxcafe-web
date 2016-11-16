@@ -46,13 +46,7 @@
         animation: Bybottom 1s 0.3s ease
         opacity: .8
       .btn-y
-        border-radius: 30px
-        display: block
-        background-color: $primary-yellow
-        padding: 15px 40px
-        width: 240px
-        text-align: center
-        font-size: 1em
+        @include btn-cta($primary-yellow)
       .btn-postjob
         margin: auto
         margin-top: 30px
@@ -128,17 +122,9 @@
             opacity: 1
   /*以下是職缺卡片*/
   .job-card
-    display: block
-    background-color: #fff
-    height: 180px
-    border: 1px solid rgba(0, 0, 0, 0.15)
-    border-radius: 5px
+    +job-card(180px,5px)
     margin-left: 24px
     margin-right: 24px
-    transition: all 0.5s
-    margin-top: 15px
-    position: relative
-    font-weight: lighter
     &:hover
       transform: translateY(-5px)
       box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.06)
@@ -167,17 +153,7 @@
           letter-spacing: 0.5px
           font-weight: bold
     .card-tags
-      background-color: #32C7B0
-      width: 100px
-      padding: 8px 1px
-      position: absolute
-      top: 30px
-      right: 30px
-      color: #fff
-      border-radius: 5px
-      font-size: 0.9em
-      text-align: center
-      letter-spacing: 1px
+      +card-tag
     .card-wages
       width: 500px
       font-size: 1em
@@ -290,10 +266,8 @@
           margin-bottom: 0px
           padding: 0
       .card-tags
-        position: absolute
         left: 20px
         top: 130px
-        padding: 8px 1px
       .card-wages
         position: absolute
         left: 150px

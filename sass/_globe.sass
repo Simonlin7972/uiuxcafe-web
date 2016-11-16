@@ -1,6 +1,6 @@
 
 body
-  font-family: PingFangSC-light
+  font-family: Noto Sans CJK-light,PingFangSC-light
   background-color: $bg-color
 h1
   font-weight: 0
@@ -47,12 +47,18 @@ nav
           color: black
           opacity: 0.5
           font-size: 1em
-          transition: all 0.3s
-          letter-spacing: 0.3px
+          transition: all 0.5s
+          letter-spacing: 1px
           text-decoration: none
           &:hover
             opacity: 1
             font-size: 1em
+        .btn-signup-control
+          &:hover
+            background-color: $primary-blue
+            padding: 5px 20px
+            color: white
+            border-radius: 20px
           // &:hover:after
           //   content: ''
           //   display: block
