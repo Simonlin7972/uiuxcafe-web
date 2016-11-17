@@ -1922,23 +1922,23 @@ footer .footer-content .social-footer .caption {
 }
 /* line 17, ../sass/_login.sass */
 .signup-full .back-home {
-  padding: 5px;
-  width: 200px;
+  padding: 6px;
+  width: 180px;
   margin: 0 auto;
   z-index: 999;
   text-align: center;
-  border-radius: 20px;
-  border: 2px solid white;
+  border: 1px solid white;
   transition: all 0.3s;
-  border-radius: 20px;
+  border-radius: 5px;
 }
-/* line 27, ../sass/_login.sass */
+/* line 26, ../sass/_login.sass */
 .signup-full .back-home a {
   text-decoration: none;
   color: white;
   font-weight: lighter;
-  font-size: 1.4em;
+  font-size: 1.2em;
   letter-spacing: 2px;
+  font-weight: lighter;
 }
 /* line 33, ../sass/_login.sass */
 .signup-full .back-home:hover {
@@ -3865,11 +3865,11 @@ footer .footer-content .social-footer .caption {
     display: none;
   }
 }
-/* line 1, ../sass/job-post.sass */
+/* line 1, ../sass/_job-post.sass */
 .job-post {
   margin: auto;
 }
-/* line 3, ../sass/job-post.sass */
+/* line 3, ../sass/_job-post.sass */
 .job-post .content-wrap {
   width: 100%;
   padding: 60px 0;
@@ -3878,21 +3878,21 @@ footer .footer-content .social-footer .caption {
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   background-color: white;
 }
-/* line 11, ../sass/job-post.sass */
+/* line 11, ../sass/_job-post.sass */
 .job-post .content-wrap .tab-bar {
   height: 40px;
 }
-/* line 13, ../sass/job-post.sass */
+/* line 13, ../sass/_job-post.sass */
 .job-post .content-wrap .tab-bar .tab-group {
   padding-left: 15px;
   width: 1170px;
   margin: auto;
 }
-/* line 18, ../sass/job-post.sass */
+/* line 18, ../sass/_job-post.sass */
 .job-post .content-wrap .tab-bar .tab-group .tab-job-post a {
   opacity: 1;
 }
-/* line 20, ../sass/job-post.sass */
+/* line 20, ../sass/_job-post.sass */
 .job-post .content-wrap .tab-bar .tab-group .tab-job-post a:after {
   content: "";
   float: left;
@@ -3903,12 +3903,12 @@ footer .footer-content .social-footer .caption {
   background-color: #32C7B0;
   animation: expand 0.3s ease boths;
 }
-/* line 29, ../sass/job-post.sass */
+/* line 29, ../sass/_job-post.sass */
 .job-post .content-wrap .tab-bar .tab-group li {
   display: inline-block;
   margin-right: 30px;
 }
-/* line 32, ../sass/job-post.sass */
+/* line 32, ../sass/_job-post.sass */
 .job-post .content-wrap .tab-bar .tab-group li a {
   color: black;
   font-size: 1.2em;
@@ -3916,11 +3916,11 @@ footer .footer-content .social-footer .caption {
   text-decoration: none;
   opacity: 0.3;
 }
-/* line 38, ../sass/job-post.sass */
+/* line 38, ../sass/_job-post.sass */
 .job-post .content-wrap .tab-bar .tab-group li a:hover {
   opacity: 1;
 }
-/* line 40, ../sass/job-post.sass */
+/* line 40, ../sass/_job-post.sass */
 .job-post .content-wrap .tab-bar .tab-group li a:hover:after {
   content: "";
   float: left;
@@ -3931,18 +3931,18 @@ footer .footer-content .social-footer .caption {
   background-color: #32C7B0;
   animation: expand 0.3s ease both;
 }
-/* line 50, ../sass/job-post.sass */
+/* line 50, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap {
   width: 1170px;
   margin-top: 20px;
   margin: auto;
   height: 100%;
 }
-/* line 55, ../sass/job-post.sass */
+/* line 55, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job {
   margin-top: 20px;
 }
-/* line 58, ../sass/job-post.sass */
+/* line 58, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card {
   display: block;
   background-color: #fff;
@@ -3956,13 +3956,13 @@ footer .footer-content .social-footer .caption {
   position: relative;
   font-weight: lighter;
 }
-/* line 60, ../sass/job-post.sass */
+/* line 60, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.06);
   cursor: pointer;
 }
-/* line 64, ../sass/job-post.sass */
+/* line 64, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-logo {
   position: absolute;
   left: 40px;
@@ -3970,17 +3970,17 @@ footer .footer-content .social-footer .caption {
   width: 120px;
   height: 120px;
 }
-/* line 70, ../sass/job-post.sass */
+/* line 70, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-logo img {
   width: 100%;
 }
-/* line 72, ../sass/job-post.sass */
+/* line 72, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-main-info {
   position: absolute;
   margin-top: 30px;
   left: 200px;
 }
-/* line 76, ../sass/job-post.sass */
+/* line 76, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-main-info p {
   margin-top: 10px;
   font-size: 1.4em;
@@ -3988,14 +3988,14 @@ footer .footer-content .social-footer .caption {
   color: #797979;
   text-align: left;
 }
-/* line 82, ../sass/job-post.sass */
+/* line 82, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-main-info p span {
   color: #3578DB;
   font-size: 1em;
   letter-spacing: 0.5px;
   font-weight: bold;
 }
-/* line 87, ../sass/job-post.sass */
+/* line 87, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-tags {
   background-color: #32C7B0;
   width: 100px;
@@ -4011,7 +4011,7 @@ footer .footer-content .social-footer .caption {
   text-align: center;
   letter-spacing: 1px;
 }
-/* line 89, ../sass/job-post.sass */
+/* line 89, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-wages {
   font-family: PingFangSC-ultralight;
   width: 500px;
@@ -4021,12 +4021,12 @@ footer .footer-content .social-footer .caption {
   right: 30px;
   text-align: right;
 }
-/* line 97, ../sass/job-post.sass */
+/* line 97, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-wages span {
   color: #F17230;
   font-size: 1.4em;
 }
-/* line 100, ../sass/job-post.sass */
+/* line 100, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-wages .year-wages {
   font-weight: bold;
   margin-right: 5px;
@@ -4034,12 +4034,12 @@ footer .footer-content .social-footer .caption {
   opacity: 0.5;
   color: black;
 }
-/* line 106, ../sass/job-post.sass */
+/* line 106, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-wages .wage-amount {
   font-size: 2.2em;
   color: #F17230;
 }
-/* line 109, ../sass/job-post.sass */
+/* line 109, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask {
   opacity: 0;
   position: absolute;
@@ -4052,34 +4052,34 @@ footer .footer-content .social-footer .caption {
   border-radius: 5px;
   transition: all 0.3s;
 }
-/* line 120, ../sass/job-post.sass */
+/* line 120, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask:hover {
   opacity: 1;
 }
-/* line 122, ../sass/job-post.sass */
+/* line 122, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group {
   width: 250px;
   margin-right: 40px;
   margin-top: 50px;
   float: right;
 }
-/* line 127, ../sass/job-post.sass */
+/* line 127, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group .option-view, .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group .option-edit, .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group .option-delete {
   display: inline-block;
   margin-left: 12px;
   opacity: 0.5;
   transition: all 0.3s;
 }
-/* line 132, ../sass/job-post.sass */
+/* line 132, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group .option-view:hover, .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group .option-edit:hover, .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group .option-delete:hover {
   opacity: 1;
 }
-/* line 134, ../sass/job-post.sass */
+/* line 134, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group .option-view {
   width: 60px;
   transition: all 0.3s;
 }
-/* line 137, ../sass/job-post.sass */
+/* line 137, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group .option-view:hover:after {
   content: "檢視職缺";
   color: white;
@@ -4087,11 +4087,11 @@ footer .footer-content .social-footer .caption {
   letter-spacing: 1px;
   font-weight: bold;
 }
-/* line 143, ../sass/job-post.sass */
+/* line 143, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group .option-edit {
   width: 60px;
 }
-/* line 145, ../sass/job-post.sass */
+/* line 145, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group .option-edit:hover:after {
   content: "編輯職缺";
   color: white;
@@ -4099,12 +4099,12 @@ footer .footer-content .social-footer .caption {
   letter-spacing: 1px;
   font-weight: bold;
 }
-/* line 151, ../sass/job-post.sass */
+/* line 151, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group .option-delete {
   width: 60px;
   transition: all 0.3s;
 }
-/* line 154, ../sass/job-post.sass */
+/* line 154, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask .option-group .option-delete:hover:after {
   content: "刪除職缺";
   color: white;
@@ -4112,17 +4112,17 @@ footer .footer-content .social-footer .caption {
   letter-spacing: 1px;
   font-weight: bold;
 }
-/* line 161, ../sass/job-post.sass */
+/* line 161, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap {
   position: relative;
   transition: all 0.3s;
 }
-/* line 164, ../sass/job-post.sass */
+/* line 164, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap:hover {
   transform: translateY(-5px);
 }
 
-/* line 167, ../sass/job-post.sass */
+/* line 167, ../sass/_job-post.sass */
 .btn-blue {
   border-radius: 5px;
   border: none;
@@ -4138,7 +4138,7 @@ footer .footer-content .social-footer .caption {
   transition: all 0.3s;
 }
 
-/* line 180, ../sass/job-post.sass */
+/* line 180, ../sass/_job-post.sass */
 .btn-blue:hover {
   color: #fff;
   background-color: #2f6bc3;
@@ -4153,21 +4153,21 @@ footer .footer-content .social-footer .caption {
   }
 }
 @media screen and (max-width: 1200px) {
-  /* line 194, ../sass/job-post.sass */
+  /* line 194, ../sass/_job-post.sass */
   .job-post .content-wrap .tab-group {
     max-width: 1000px;
   }
-  /* line 196, ../sass/job-post.sass */
+  /* line 196, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap {
     max-width: 1000px;
   }
-  /* line 198, ../sass/job-post.sass */
+  /* line 198, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .default-avatar {
     width: 150px;
     height: 150px;
     margin-top: 30px;
   }
-  /* line 202, ../sass/job-post.sass */
+  /* line 202, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .btn-blue-outline {
     padding: 10px 40px;
     width: 145px;
@@ -4177,27 +4177,27 @@ footer .footer-content .social-footer .caption {
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 213, ../sass/job-post.sass */
+  /* line 213, ../sass/_job-post.sass */
   .job-post .content-wrap .tab-group {
     max-width: 95%;
   }
-  /* line 215, ../sass/job-post.sass */
+  /* line 215, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap {
     max-width: 95%;
   }
-  /* line 217, ../sass/job-post.sass */
+  /* line 217, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .default-avatar {
     width: 200px;
     height: 200px;
   }
-  /* line 220, ../sass/job-post.sass */
+  /* line 220, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .btn-blue-outline {
     padding: 10px 40px;
     width: 200px;
     margin-top: 20px;
     font-size: 1em;
   }
-  /* line 225, ../sass/job-post.sass */
+  /* line 225, ../sass/_job-post.sass */
   .job-post .card-wages {
     max-width: 100%;
     font-size: 0.8em;
@@ -4207,53 +4207,53 @@ footer .footer-content .social-footer .caption {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 237, ../sass/job-post.sass */
+  /* line 237, ../sass/_job-post.sass */
   .job-post .content-wrap .tab-bar .tab-group {
     max-width: 95%;
   }
-  /* line 239, ../sass/job-post.sass */
+  /* line 239, ../sass/_job-post.sass */
   .job-post .content-wrap .tab-bar .tab-group li {
     margin-right: 20px;
   }
-  /* line 241, ../sass/job-post.sass */
+  /* line 241, ../sass/_job-post.sass */
   .job-post .content-wrap .tab-bar .tab-group li a {
     font-size: 1.1em;
   }
-  /* line 243, ../sass/job-post.sass */
+  /* line 243, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap {
     max-width: 95%;
   }
-  /* line 247, ../sass/job-post.sass */
+  /* line 247, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card {
     position: relative;
     margin-top: 20px;
   }
-  /* line 250, ../sass/job-post.sass */
+  /* line 250, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-logo {
     top: 20px;
     left: 20px;
     width: 100px;
     height: 100px;
   }
-  /* line 255, ../sass/job-post.sass */
+  /* line 255, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-main-info {
     margin-top: 20px;
     left: 150px;
   }
-  /* line 258, ../sass/job-post.sass */
+  /* line 258, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-main-info p {
     margin-top: 5px;
     margin-bottom: 0px;
     padding: 0;
   }
-  /* line 262, ../sass/job-post.sass */
+  /* line 262, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-tags {
     position: absolute;
     left: 20px;
     top: 130px;
     padding: 8px 1px;
   }
-  /* line 267, ../sass/job-post.sass */
+  /* line 267, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-wages {
     position: absolute;
     left: 150px;
@@ -4261,43 +4261,43 @@ footer .footer-content .social-footer .caption {
     text-align: left;
     font-size: 0.7em;
   }
-  /* line 273, ../sass/job-post.sass */
+  /* line 273, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-wages .year-wages {
     display: none;
   }
-  /* line 275, ../sass/job-post.sass */
+  /* line 275, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask {
     display: none;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 280, ../sass/job-post.sass */
+  /* line 280, ../sass/_job-post.sass */
   .profile-bg {
     background-color: white;
   }
 
-  /* line 283, ../sass/job-post.sass */
+  /* line 283, ../sass/_job-post.sass */
   .job-post .content-wrap {
     border-top: none;
     border-bottom: none;
     padding: 0;
   }
-  /* line 288, ../sass/job-post.sass */
+  /* line 288, ../sass/_job-post.sass */
   .job-post .content-wrap .tab-bar .tab-group {
     max-width: 95%;
     padding: 0;
     margin: 0 auto;
     text-align: center;
   }
-  /* line 293, ../sass/job-post.sass */
+  /* line 293, ../sass/_job-post.sass */
   .job-post .content-wrap .tab-bar .tab-group li {
     margin-right: 10px;
   }
-  /* line 295, ../sass/job-post.sass */
+  /* line 295, ../sass/_job-post.sass */
   .job-post .content-wrap .tab-bar .tab-group li a {
     font-size: 1em;
   }
-  /* line 300, ../sass/job-post.sass */
+  /* line 300, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card {
     max-width: 100%;
     height: 140px;
@@ -4309,7 +4309,7 @@ footer .footer-content .social-footer .caption {
     margin-left: 5px;
     margin-right: 5px;
   }
-  /* line 310, ../sass/job-post.sass */
+  /* line 310, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-main-info {
     position: absolute;
     font-size: 0.8em;
@@ -4319,12 +4319,12 @@ footer .footer-content .social-footer .caption {
     line-height: 1.6em;
     margin-top: 0;
   }
-  /* line 318, ../sass/job-post.sass */
+  /* line 318, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-main-info p {
     margin-top: 2px;
     margin-bottom: 3px;
   }
-  /* line 321, ../sass/job-post.sass */
+  /* line 321, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-wages {
     position: absolute;
     width: 220px;
@@ -4333,18 +4333,18 @@ footer .footer-content .social-footer .caption {
     font-size: 0.65em;
     text-align: left;
   }
-  /* line 328, ../sass/job-post.sass */
+  /* line 328, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-wages .year-wages {
     display: none;
   }
-  /* line 330, ../sass/job-post.sass */
+  /* line 330, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-logo {
     position: absolute;
     float: left;
     left: 10px;
     top: 10px;
   }
-  /* line 335, ../sass/job-post.sass */
+  /* line 335, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-tags {
     display: none;
   }
