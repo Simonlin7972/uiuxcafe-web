@@ -27,12 +27,6 @@ $(document).ready(function() {
         $('.menu-full').fadeToggle(300);
     });
 
-    // footer的註冊按鈕
-    $('.btn-signup').click(function(event) {
-        event.preventDefault();
-        $('.signup-full').fadeToggle(300);
-    });
-
     // 刪除職缺提醒視窗
     $('.del-job,.option-delete').click(function(event) {
         swal({
@@ -57,8 +51,4 @@ $(document).ready(function() {
     $('.apply-job').click(function() {
         $('.apply-job-content').fadeToggle(300);
     });
-
-
-
-
 });

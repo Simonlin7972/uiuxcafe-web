@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
   <link rel="stylesheet" href="./stylesheets/application.css">
 
+
   <script src="./js/jquery-3.1.1.js"></script>
   <script src="./js/all.js"></script>
 
@@ -50,6 +51,7 @@
               <h1>編輯/發佈職缺</h1>
 <!-- 職位類別 -->
 
+
 <form action="">
               <div class="block-form">
                   <label class="form-title"><abbr title="required">*</abbr>職位類別</label>
@@ -78,8 +80,8 @@
                   <label class="form-title"><abbr title="required">*</abbr>薪資範圍(年薪)</label>
                       <label for="job_salary_min">最小薪資(萬)</label>
                       <input type="number" name="wage" class="input-style" step="any" id="job_salary_min" placeholder="60" aria-required="true">
-                      <br><br>
-                      <label for="job_salary_max">最大薪資(萬)</label>
+
+                      <label for="job_salary_max" class="mt30">最大薪資(萬)</label>
                       <input type="number" name="wage" class="input-style" step="any" id="job_salary_max" placeholder="120" aria-required="true">
                   </div>
 <!-- 薪資範圍 -->
@@ -139,9 +141,7 @@
                   <label class="form-title" for="job-description"><abbr title="required">*</abbr>職缺說明</label>
                   <textarea name="job-describe" rows="8" cols="60" class="textarea-style" id="job-description"></textarea>
               </div>
-              <br class="hrs">
               <hr>
-              <br>
 <!-- 職缺說明 -->
 
               <!-- 上傳圖片 -->
@@ -251,6 +251,10 @@
       </div>
 
       <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
+
+
 </body>
 
 </html>
