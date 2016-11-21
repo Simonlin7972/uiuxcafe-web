@@ -27,25 +27,6 @@ $(document).ready(function() {
         $('.menu-full').fadeToggle(300);
     });
 
-    // 刪除職缺提醒視窗
-    $('.del-job,.option-delete').click(function(event) {
-        swal({
-                title: "確定要刪除職缺？",
-                text: "刪除後將無法復原",
-                type: "warning",
-                showCancelButton: true,
-                confirmButtonColor: "#EB223B",
-                confirmButtonText: "確認刪除",
-                cancelButtonText: "取消",
-                closeOnConfirm: false,
-                closeOnCancel: true,
-            },
-            function(isConfirm) {
-                if (isConfirm) {
-                    swal("刪除完成", "", "success");
-                }
-            });
-    });
 
   //  我要應徵
     $('.apply-job').click(function() {

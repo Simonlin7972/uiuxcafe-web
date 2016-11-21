@@ -31,18 +31,19 @@
       letter-spacing: 2px
       font-weight: lighter
     &:hover
-      background-color: $primary-blue
+      background-color: rgba(#ffffff, 0.1)
       color: white
   .signup-pop
     position: relative
     max-width: 600px
-    height: 640px
+    // height: 640px
     background-color: white
     border-radius: 5px
     margin: 8% auto
     margin-bottom: 40px
     transition: all 0.5s
     box-shadow: 0 20px 30px 5px rgba(0, 0, 0, 0.05)
+    padding: 30px 0
     .signup-cancel
       position: absolute
       right: 15px
@@ -55,9 +56,9 @@
     h1
       color: black
       margin: 0 auto
-      padding: 60px 0 10px 0
+      padding: 10px 0 10px 0
       opacity: 0.80
-    .signup-input,.login-input
+    .signup-input,.login-input,.reset-password-input
       margin: 0 auto
       max-width: 420px
       margin-top: 20px
@@ -82,23 +83,39 @@
           transition: all 0.3s
         input[type]
           color: black
+          font-size: 1em
           &:focus
             border-bottom: 2px solid $primary-green
             &p
               color: $primary-green
+        input[placeholder]
+          font-size: 0.9em
+
     .to-login,.to-signup
+      display: block
       margin: 0 auto
       padding: 20px
       text-align: center
-      a
-        color: $primary-blue
-        text-decoration: none
-        font-size: 1.1em
-        letter-spacing: 1px
-        font-weight: lighter
-        &:hover
-          opacity: 0.9
-          border-bottom: 1px solid $primary-blue
+      color: $primary-blue
+      font-size: 1.1em
+      letter-spacing: 1px
+      font-weight: lighter
+      transition: all 0.3s
+      &:hover
+        opacity: 0.9
+        text-decoration: underline
+    .find-password
+      display: block
+      margin: 0 auto
+      padding-top: 20px
+      text-align: center
+      color: #a3a3a3
+      font-size: 1.1em
+      letter-spacing: 1px
+      font-weight: lighter
+      &:hover
+        text-decoration: underline
+
     .btn-signup-y,.btn-login-y
       display: block
       border-radius: 5px
@@ -113,6 +130,8 @@
       transition: all 0.3s
       &:hover
         opacity: .8
+    .mt30
+      margin-top: 30px
     .block-style
       display: inherit
       transition: all 0.3s
@@ -142,7 +161,6 @@
     .signup-pop
       box-shadow: none
       margin: 2% auto
-      height: 560px
       h1
         font-size: 1.8em
         padding-top: 30px
@@ -151,4 +169,4 @@
       .btn-signup-y,.btn-login-y
         margin: 0 20px
     .active
-      height: 380px
+      height: 100%
