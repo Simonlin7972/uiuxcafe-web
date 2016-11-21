@@ -1942,7 +1942,8 @@ footer .footer-content .social-footer .caption {
 }
 /* line 75, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input form input, .signup-full .signup-pop .login-input form input, .signup-full .signup-pop .reset-password-input form input {
-  font-size: 1.2em;
+  font-size: 1em;
+  line-height: 1em;
   padding: 10px 10px 10px 0;
   outline: none;
   width: 100%;
@@ -1951,24 +1952,24 @@ footer .footer-content .social-footer .caption {
   border-bottom: 2px solid rgba(0, 0, 0, 0.15);
   transition: all 0.3s;
 }
-/* line 84, ../sass/_login.sass */
+/* line 85, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input form input[type], .signup-full .signup-pop .login-input form input[type], .signup-full .signup-pop .reset-password-input form input[type] {
   color: black;
   font-size: 1em;
 }
-/* line 87, ../sass/_login.sass */
+/* line 88, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input form input[type]:focus, .signup-full .signup-pop .login-input form input[type]:focus, .signup-full .signup-pop .reset-password-input form input[type]:focus {
   border-bottom: 2px solid #32C7B0;
 }
-/* line 89, ../sass/_login.sass */
+/* line 90, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input form input[type]:focusp, .signup-full .signup-pop .login-input form input[type]:focusp, .signup-full .signup-pop .reset-password-input form input[type]:focusp {
   color: #32C7B0;
 }
-/* line 91, ../sass/_login.sass */
+/* line 92, ../sass/_login.sass */
 .signup-full .signup-pop .signup-input form input[placeholder], .signup-full .signup-pop .login-input form input[placeholder], .signup-full .signup-pop .reset-password-input form input[placeholder] {
   font-size: 0.9em;
 }
-/* line 94, ../sass/_login.sass */
+/* line 95, ../sass/_login.sass */
 .signup-full .signup-pop .to-login, .signup-full .signup-pop .to-signup {
   display: block;
   margin: 0 auto;
@@ -1980,12 +1981,12 @@ footer .footer-content .social-footer .caption {
   font-weight: lighter;
   transition: all 0.3s;
 }
-/* line 104, ../sass/_login.sass */
+/* line 105, ../sass/_login.sass */
 .signup-full .signup-pop .to-login:hover, .signup-full .signup-pop .to-signup:hover {
   opacity: 0.9;
   text-decoration: underline;
 }
-/* line 107, ../sass/_login.sass */
+/* line 108, ../sass/_login.sass */
 .signup-full .signup-pop .find-password {
   display: block;
   margin: 0 auto;
@@ -1996,11 +1997,11 @@ footer .footer-content .social-footer .caption {
   letter-spacing: 1px;
   font-weight: lighter;
 }
-/* line 116, ../sass/_login.sass */
+/* line 117, ../sass/_login.sass */
 .signup-full .signup-pop .find-password:hover {
   text-decoration: underline;
 }
-/* line 119, ../sass/_login.sass */
+/* line 120, ../sass/_login.sass */
 .signup-full .signup-pop .btn-signup-y, .signup-full .signup-pop .btn-login-y {
   display: block;
   border-radius: 5px;
@@ -2014,38 +2015,38 @@ footer .footer-content .social-footer .caption {
   color: black;
   transition: all 0.3s;
 }
-/* line 131, ../sass/_login.sass */
+/* line 132, ../sass/_login.sass */
 .signup-full .signup-pop .btn-signup-y:hover, .signup-full .signup-pop .btn-login-y:hover {
   opacity: 0.8;
 }
-/* line 133, ../sass/_login.sass */
+/* line 134, ../sass/_login.sass */
 .signup-full .signup-pop .mt30 {
   margin-top: 30px;
 }
-/* line 135, ../sass/_login.sass */
+/* line 136, ../sass/_login.sass */
 .signup-full .signup-pop .block-style {
   display: inherit;
   transition: all 0.3s;
 }
-/* line 138, ../sass/_login.sass */
+/* line 139, ../sass/_login.sass */
 .signup-full .active {
   height: 460px;
 }
 
 @media screen and (max-width: 460px) {
-  /* line 142, ../sass/_login.sass */
+  /* line 143, ../sass/_login.sass */
   .signup-full {
     background-color: white;
     background-image: none;
   }
-  /* line 145, ../sass/_login.sass */
+  /* line 146, ../sass/_login.sass */
   .signup-full .back-home {
     text-align: center;
     border-radius: 20px;
     border: 2px solid #3578DB;
     border-radius: 20px;
   }
-  /* line 150, ../sass/_login.sass */
+  /* line 151, ../sass/_login.sass */
   .signup-full .back-home a {
     color: white;
     font-weight: lighter;
@@ -2053,34 +2054,34 @@ footer .footer-content .social-footer .caption {
     letter-spacing: 2px;
     color: #3578DB;
   }
-  /* line 156, ../sass/_login.sass */
+  /* line 157, ../sass/_login.sass */
   .signup-full .back-home:hover {
     background-color: #3578DB;
     color: white;
   }
-  /* line 159, ../sass/_login.sass */
+  /* line 160, ../sass/_login.sass */
   .signup-full .back-home:hover a {
     color: white;
   }
-  /* line 161, ../sass/_login.sass */
+  /* line 162, ../sass/_login.sass */
   .signup-full .signup-pop {
     box-shadow: none;
     margin: 2% auto;
   }
-  /* line 164, ../sass/_login.sass */
+  /* line 165, ../sass/_login.sass */
   .signup-full .signup-pop h1 {
     font-size: 1.8em;
     padding-top: 30px;
   }
-  /* line 167, ../sass/_login.sass */
+  /* line 168, ../sass/_login.sass */
   .signup-full .signup-pop .signup-input, .signup-full .signup-pop .login-input {
     margin: 0 20px;
   }
-  /* line 169, ../sass/_login.sass */
+  /* line 170, ../sass/_login.sass */
   .signup-full .signup-pop .btn-signup-y, .signup-full .signup-pop .btn-login-y {
     margin: 0 20px;
   }
-  /* line 171, ../sass/_login.sass */
+  /* line 172, ../sass/_login.sass */
   .signup-full .active {
     height: 100%;
   }
