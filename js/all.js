@@ -21,8 +21,8 @@ $(document).ready(function() {
     // nav-menu滿版選單開關
     $('.menu-cancel').click(function(event) {
         $('.menu-full').fadeToggle(300);
-
     });
+
     $('.menu-btn').click(function(event) {
         $('.menu-full').fadeToggle(300);
     });
@@ -32,4 +32,12 @@ $(document).ready(function() {
     $('.apply-job').click(function() {
         $('.apply-job-content').fadeToggle(300);
     });
+
+
+  //往下
+  $('.scroll-down').click(function(event) {
+      event.preventDefault();
+      $('html, body').animate({scrollTop: $(".intro-wrapper").offset().top}, 1000);
+  });
+
 });

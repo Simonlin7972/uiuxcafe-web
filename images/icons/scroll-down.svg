@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>scroll-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="01_Home-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Homepage-Copy-2" transform="translate(-683.000000, -686.000000)">
+            <g id="Group-3" transform="translate(683.000000, 686.000000)">
+                <rect id="Rectangle-4" fill="#D8D8D8" opacity="0" x="0" y="0" width="74" height="74"></rect>
+                <g id="Page-1" opacity="0.699999988" transform="translate(17.000000, 10.000000)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.208375,53.299125 L20.208375,53.299125 C9.393375,53.299125 0.624625,44.531625 0.624625,33.715375 L0.624625,20.207875 C0.624625,9.392875 9.393375,0.625375 20.208375,0.625375 L20.208375,0.625375 C31.023375,0.625375 39.792125,9.392875 39.792125,20.207875 L39.792125,33.715375 C39.792125,44.531625 31.023375,53.299125 20.208375,53.299125 L20.208375,53.299125 Z" id="Stroke-1"></path>
+                    <polyline id="Stroke-3" points="8.958375 31.103625 20.197125 42.312375 31.458375 31.103625"></polyline>
+                    <path d="M20,21.627875 L20,41.117875" id="Stroke-5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
