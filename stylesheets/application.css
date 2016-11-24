@@ -1864,12 +1864,16 @@ footer .footer-content .social-footer .caption {
     margin-top: -10px;
   }
 }
-/* line 2, ../sass/_homepage.sass */
+/* line 1, ../sass/_homepage.sass */
+.homepage {
+  max-width: 100%;
+}
+/* line 3, ../sass/_homepage.sass */
 .homepage header {
   text-align: center;
   position: relative;
 }
-/* line 5, ../sass/_homepage.sass */
+/* line 6, ../sass/_homepage.sass */
 .homepage header .home-banner {
   background-image: url(/images/office_03.jpg);
   height: 100vh;
@@ -1878,7 +1882,7 @@ footer .footer-content .social-footer .caption {
   background-position: center;
   background-size: cover;
 }
-/* line 12, ../sass/_homepage.sass */
+/* line 13, ../sass/_homepage.sass */
 .homepage header .home-banner-mask {
   height: 100vh;
   max-width: 100vw;
@@ -1889,23 +1893,23 @@ footer .footer-content .social-footer .caption {
   right: 0;
   background-color: rgba(0, 0, 0, 0.6);
 }
-/* line 21, ../sass/_homepage.sass */
+/* line 22, ../sass/_homepage.sass */
 .homepage header .banner-content {
   width: 100%;
   margin: 0 auto;
   text-align: center;
   position: absolute;
-  top: 420px;
+  top: 350px;
   left: 0;
   right: 0;
 }
-/* line 29, ../sass/_homepage.sass */
+/* line 30, ../sass/_homepage.sass */
 .homepage header .banner-content h1 {
   color: white;
   font-size: 3.2em;
   margin-top: 0;
 }
-/* line 33, ../sass/_homepage.sass */
+/* line 34, ../sass/_homepage.sass */
 .homepage header .banner-content h2 {
   color: white;
   font-size: 2em;
@@ -1913,7 +1917,7 @@ footer .footer-content .social-footer .caption {
   font-weight: lighter;
   font-family: PingFangSC-ultralight;
 }
-/* line 39, ../sass/_homepage.sass */
+/* line 40, ../sass/_homepage.sass */
 .homepage header .banner-content .btn-cta {
   border-radius: 30px;
   display: block;
@@ -1927,11 +1931,11 @@ footer .footer-content .social-footer .caption {
   margin: 20px auto;
   transition: all 0.3s;
 }
-/* line 45, ../sass/_homepage.sass */
+/* line 46, ../sass/_homepage.sass */
 .homepage header .banner-content .btn-cta:hover {
   opacity: 0.9;
 }
-/* line 47, ../sass/_homepage.sass */
+/* line 48, ../sass/_homepage.sass */
 .homepage header .banner-content .scroll-down {
   display: block;
   margin: 80px auto;
@@ -1939,27 +1943,27 @@ footer .footer-content .social-footer .caption {
   height: 100px;
   transition: all 0.3s;
 }
-/* line 53, ../sass/_homepage.sass */
+/* line 54, ../sass/_homepage.sass */
 .homepage header .banner-content .scroll-down:hover {
   opacity: 0.7;
 }
-/* line 55, ../sass/_homepage.sass */
+/* line 56, ../sass/_homepage.sass */
 .homepage header .banner-content p {
   color: white;
   opacity: 0.8;
   letter-spacing: 1px;
 }
-/* line 59, ../sass/_homepage.sass */
+/* line 60, ../sass/_homepage.sass */
 .homepage .intro-wrapper, .homepage .feature-wrapper, .homepage .workshop-wrapper, .homepage .team-wrapper, .homepage .join-plan-wrapper {
   padding: 40px 0;
 }
-/* line 62, ../sass/_homepage.sass */
+/* line 63, ../sass/_homepage.sass */
 .homepage .intro-wrapper .container h2, .homepage .feature-wrapper .container h2, .homepage .workshop-wrapper .container h2, .homepage .team-wrapper .container h2, .homepage .join-plan-wrapper .container h2 {
   margin-bottom: 40px;
   line-height: 1.6em;
   letter-spacing: 1px;
 }
-/* line 67, ../sass/_homepage.sass */
+/* line 68, ../sass/_homepage.sass */
 .homepage .intro-wrapper p {
   font-size: 1.2em;
   max-width: 800px;
@@ -1967,22 +1971,22 @@ footer .footer-content .social-footer .caption {
   margin: 10px auto;
   opacity: 0.7;
 }
-/* line 73, ../sass/_homepage.sass */
+/* line 74, ../sass/_homepage.sass */
 .homepage .feature-wrapper {
   background-color: rgba(0, 0, 0, 0.02);
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
 }
-/* line 78, ../sass/_homepage.sass */
+/* line 79, ../sass/_homepage.sass */
 .homepage .feature-wrapper .container .icon-wrapper {
   margin: 0 auto;
   max-width: 160px;
 }
-/* line 81, ../sass/_homepage.sass */
+/* line 82, ../sass/_homepage.sass */
 .homepage .feature-wrapper .container .icon-wrapper img {
   margin: 0 auto;
 }
-/* line 83, ../sass/_homepage.sass */
+/* line 84, ../sass/_homepage.sass */
 .homepage .feature-wrapper .container .icon-wrapper p {
   text-align: center;
   font-size: 1.2em;
@@ -1990,30 +1994,31 @@ footer .footer-content .social-footer .caption {
   margin-bottom: 20px;
   opacity: 0.7;
 }
-/* line 89, ../sass/_homepage.sass */
+/* line 90, ../sass/_homepage.sass */
 .homepage .workshop-wrapper {
   text-align: center;
 }
-/* line 92, ../sass/_homepage.sass */
+/* line 93, ../sass/_homepage.sass */
 .homepage .workshop-wrapper .container h2 {
   margin-bottom: 10px;
 }
-/* line 94, ../sass/_homepage.sass */
+/* line 95, ../sass/_homepage.sass */
 .homepage .workshop-wrapper .container h3 {
   color: #3578DB;
   font-size: 1.2em;
   margin-top: 5px;
 }
-/* line 98, ../sass/_homepage.sass */
+/* line 99, ../sass/_homepage.sass */
 .homepage .workshop-wrapper .container .workshop-icons-wrap {
   max-width: 800px;
   margin: 60px auto;
+  margin-bottom: 20px;
 }
-/* line 102, ../sass/_homepage.sass */
+/* line 104, ../sass/_homepage.sass */
 .homepage .workshop-wrapper .container .workshop-icons-wrap .workshop-icon img {
   width: 120px;
 }
-/* line 104, ../sass/_homepage.sass */
+/* line 106, ../sass/_homepage.sass */
 .homepage .workshop-wrapper .container .workshop-icons-wrap .workshop-icon p {
   text-align: center;
   font-size: 1.2em;
@@ -2021,7 +2026,7 @@ footer .footer-content .social-footer .caption {
   margin: 10px auto;
   opacity: 0.7;
 }
-/* line 110, ../sass/_homepage.sass */
+/* line 112, ../sass/_homepage.sass */
 .homepage .workshop-wrapper .container .btn-event {
   border-radius: 30px;
   display: block;
@@ -2035,69 +2040,70 @@ footer .footer-content .social-footer .caption {
   margin: 20px auto;
   transition: all 0.3s;
 }
-/* line 116, ../sass/_homepage.sass */
+/* line 118, ../sass/_homepage.sass */
 .homepage .workshop-wrapper .container .btn-event:hover {
   opacity: 0.9;
 }
-/* line 118, ../sass/_homepage.sass */
+/* line 120, ../sass/_homepage.sass */
 .homepage .team-wrapper {
   border-top: 1px solid #f2f2f2;
 }
-/* line 120, ../sass/_homepage.sass */
+/* line 122, ../sass/_homepage.sass */
 .homepage .team-wrapper .designer-info {
   margin: 30px auto;
   text-align: center;
 }
-/* line 123, ../sass/_homepage.sass */
+/* line 125, ../sass/_homepage.sass */
 .homepage .team-wrapper .designer-info .designer-avatar {
   width: 125px;
   border-radius: 50%;
   margin: 0 auto;
 }
-/* line 127, ../sass/_homepage.sass */
+/* line 129, ../sass/_homepage.sass */
 .homepage .team-wrapper .designer-info h3 {
   text-align: center;
   font-size: 1.7em;
   margin-bottom: 3px;
   font-weight: bold;
 }
-/* line 132, ../sass/_homepage.sass */
+/* line 134, ../sass/_homepage.sass */
 .homepage .team-wrapper .designer-info p {
   font-size: 1.1em;
   opacity: 0.7;
   text-align: center;
 }
-/* line 136, ../sass/_homepage.sass */
+/* line 138, ../sass/_homepage.sass */
 .homepage .team-wrapper .designer-info .company-logo {
   max-width: 180px;
   height: 25px;
 }
-/* line 139, ../sass/_homepage.sass */
-.homepage .office-img {
-  margin-top: 20px;
-}
 /* line 141, ../sass/_homepage.sass */
-.homepage .office-img .pad-1 {
+.homepage .office-img {
+  margin: 20px 0;
+  margin-bottom: 0;
+}
+/* line 144, ../sass/_homepage.sass */
+.homepage .office-img .nogap {
   padding: 0;
 }
-/* line 143, ../sass/_homepage.sass */
+/* line 147, ../sass/_homepage.sass */
 .homepage .office-img .pad-1 img {
   width: 100%;
 }
-/* line 145, ../sass/_homepage.sass */
+/* line 152, ../sass/_homepage.sass */
 .homepage .join-plan-wrapper {
   background-color: rgba(0, 0, 0, 0.02);
 }
-/* line 148, ../sass/_homepage.sass */
+/* line 155, ../sass/_homepage.sass */
 .homepage .join-plan-wrapper .container h2 {
   margin-bottom: 10px;
 }
-/* line 150, ../sass/_homepage.sass */
+/* line 157, ../sass/_homepage.sass */
 .homepage .join-plan-wrapper .container .plan-wrapper {
   max-width: 900px;
   margin: 0 auto;
 }
-/* line 153, ../sass/_homepage.sass */
+/* line 160, ../sass/_homepage.sass */
 .homepage .join-plan-wrapper .container .plan-wrapper .card-plan {
   margin: 20px auto;
   width: 260px;
@@ -2109,11 +2115,11 @@ footer .footer-content .social-footer .caption {
   position: relative;
   text-align: center;
 }
-/* line 163, ../sass/_homepage.sass */
+/* line 170, ../sass/_homepage.sass */
 .homepage .join-plan-wrapper .container .plan-wrapper .card-plan h3 {
   color: #3578DB;
 }
-/* line 165, ../sass/_homepage.sass */
+/* line 172, ../sass/_homepage.sass */
 .homepage .join-plan-wrapper .container .plan-wrapper .card-plan h4 {
   position: absolute;
   bottom: 80px;
@@ -2123,11 +2129,11 @@ footer .footer-content .social-footer .caption {
   right: 0;
   left: 0;
 }
-/* line 173, ../sass/_homepage.sass */
+/* line 180, ../sass/_homepage.sass */
 .homepage .join-plan-wrapper .container .plan-wrapper .card-plan p {
   opacity: 0.7;
 }
-/* line 175, ../sass/_homepage.sass */
+/* line 182, ../sass/_homepage.sass */
 .homepage .join-plan-wrapper .container .plan-wrapper .card-plan .btn-book {
   position: absolute;
   bottom: 20px;
@@ -2143,47 +2149,47 @@ footer .footer-content .social-footer .caption {
   margin: 0 auto;
   transition: all 0.3s;
 }
-/* line 189, ../sass/_homepage.sass */
+/* line 196, ../sass/_homepage.sass */
 .homepage .join-plan-wrapper .container .plan-wrapper .card-plan .btn-book:hover {
   opacity: 0.9;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 195, ../sass/_homepage.sass */
+  /* line 202, ../sass/_homepage.sass */
   .homepage header .home-banner {
     height: 700px;
   }
-  /* line 197, ../sass/_homepage.sass */
+  /* line 204, ../sass/_homepage.sass */
   .homepage header .home-banner-mask {
     height: 700px;
   }
-  /* line 199, ../sass/_homepage.sass */
+  /* line 206, ../sass/_homepage.sass */
   .homepage header .banner-content {
     top: 240px;
   }
-  /* line 201, ../sass/_homepage.sass */
+  /* line 208, ../sass/_homepage.sass */
   .homepage header .banner-content h1 {
     font-size: 2.4em;
   }
-  /* line 203, ../sass/_homepage.sass */
+  /* line 210, ../sass/_homepage.sass */
   .homepage header .banner-content h2 {
     font-size: 1.6em;
   }
 }
 @media screen and (max-width: 576px) {
-  /* line 208, ../sass/_homepage.sass */
+  /* line 215, ../sass/_homepage.sass */
   .homepage header .banner-content {
     top: 240px;
   }
-  /* line 210, ../sass/_homepage.sass */
+  /* line 217, ../sass/_homepage.sass */
   .homepage header .banner-content h1 {
     font-size: 2em;
   }
-  /* line 212, ../sass/_homepage.sass */
+  /* line 219, ../sass/_homepage.sass */
   .homepage header .banner-content h2 {
     font-size: 1.2em;
   }
-  /* line 215, ../sass/_homepage.sass */
+  /* line 222, ../sass/_homepage.sass */
   .homepage .workshop-wrapper h2 {
     font-size: 1.8em;
   }
@@ -2541,10 +2547,6 @@ footer .footer-content .social-footer .caption {
 .edit-job .block-form .upload-logo:hover .upload-logo-hover {
   top: 0;
 }
-/* line 84, ../sass/_edit-job.sass */
-.edit-job .block-form .upload-logo:hover .upload-logo-hover p {
-  cursor: pointer;
-}
 /* line 86, ../sass/_edit-job.sass */
 .edit-job .block-form .upload-logo:hover .upload-logo-hover label {
   cursor: pointer;
@@ -2598,7 +2600,6 @@ footer .footer-content .social-footer .caption {
 /* line 123, ../sass/_edit-job.sass */
 .edit-job .block-form .upload-company-img .upload-company-img-hover div img {
   margin-top: -6px;
-  cursor: pointer;
 }
 /* line 126, ../sass/_edit-job.sass */
 .edit-job .block-form .upload-company-img .upload-company-img-hover div:hover {
@@ -2894,14 +2895,14 @@ footer .footer-content .social-footer .caption {
   color: #797979;
   text-align: left;
 }
-/* line 158, ../sass/_job.sass */
+/* line 157, ../sass/_job.sass */
 .jobs .job-card .company-main-info p span {
   color: #3578DB;
   font-size: 1em;
   letter-spacing: 0.5px;
   font-weight: bold;
 }
-/* line 163, ../sass/_job.sass */
+/* line 162, ../sass/_job.sass */
 .jobs .job-card .card-tags {
   background-color: #32C7B0;
   width: 100px;
@@ -2915,9 +2916,9 @@ footer .footer-content .social-footer .caption {
   text-align: center;
   letter-spacing: 1px;
 }
-/* line 165, ../sass/_job.sass */
+/* line 164, ../sass/_job.sass */
 .jobs .job-card .card-wages {
-  width: 500px;
+  width: 330px;
   font-size: 1em;
   position: absolute;
   top: 100px;
@@ -2925,12 +2926,12 @@ footer .footer-content .social-footer .caption {
   text-align: right;
   font-family: PingFangSC-Ultralight;
 }
-/* line 173, ../sass/_job.sass */
+/* line 172, ../sass/_job.sass */
 .jobs .job-card .card-wages span {
   color: #F17230;
   font-size: 1.4em;
 }
-/* line 176, ../sass/_job.sass */
+/* line 175, ../sass/_job.sass */
 .jobs .job-card .card-wages .year-wages {
   font-weight: bold;
   margin-right: 5px;
@@ -2938,16 +2939,16 @@ footer .footer-content .social-footer .caption {
   opacity: 0.5;
   color: black;
 }
-/* line 182, ../sass/_job.sass */
+/* line 181, ../sass/_job.sass */
 .jobs .job-card .card-wages .wage-amount {
   font-size: 2.2em;
   color: #F17230;
 }
-/* line 185, ../sass/_job.sass */
+/* line 184, ../sass/_job.sass */
 .jobs .page-wrap {
   text-align: center;
 }
-/* line 187, ../sass/_job.sass */
+/* line 186, ../sass/_job.sass */
 .jobs .view-more {
   opacity: 0.6;
   width: 300px;
@@ -2961,7 +2962,7 @@ footer .footer-content .social-footer .caption {
   margin-bottom: 30px;
   text-align: center;
 }
-/* line 199, ../sass/_job.sass */
+/* line 198, ../sass/_job.sass */
 .jobs .view-more:hover {
   cursor: pointer;
   background-color: #0e0e0e;
@@ -2982,11 +2983,11 @@ footer .footer-content .social-footer .caption {
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 218, ../sass/_job.sass */
+  /* line 217, ../sass/_job.sass */
   .jobs .menu {
     display: none;
   }
-  /* line 220, ../sass/_job.sass */
+  /* line 219, ../sass/_job.sass */
   .jobs .card-wages {
     max-width: 100%;
     font-size: 0.8em;
@@ -2994,89 +2995,90 @@ footer .footer-content .social-footer .caption {
     bottom: 30px;
     right: 20px;
   }
-  /* line 226, ../sass/_job.sass */
+  /* line 225, ../sass/_job.sass */
   .jobs .sort-and-search {
     margin-top: 20px;
     margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 235, ../sass/_job.sass */
+  /* line 234, ../sass/_job.sass */
   .jobs .wrap-slogan h1 {
     font-size: 2em;
   }
-  /* line 237, ../sass/_job.sass */
+  /* line 236, ../sass/_job.sass */
   .jobs .wrap-slogan h2 {
     font-size: 1.4em;
   }
-  /* line 240, ../sass/_job.sass */
+  /* line 239, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search {
     margin: 20px 12px 10px 12px;
     height: 100px;
   }
-  /* line 243, ../sass/_job.sass */
+  /* line 242, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .search-bar {
     width: 100%;
   }
-  /* line 245, ../sass/_job.sass */
+  /* line 244, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group {
     float: right;
     width: 100%;
     margin-top: 10px;
   }
-  /* line 249, ../sass/_job.sass */
+  /* line 248, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group p {
     display: none;
   }
-  /* line 251, ../sass/_job.sass */
+  /* line 250, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group .sort-wages {
     width: 142px;
     float: right;
     margin-left: 10px;
     margin-right: 10px;
   }
-  /* line 256, ../sass/_job.sass */
+  /* line 255, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group .sort-time {
     float: right;
     width: 142px;
   }
-  /* line 259, ../sass/_job.sass */
+  /* line 258, ../sass/_job.sass */
   .jobs .job-card {
     position: relative;
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 10px;
   }
-  /* line 264, ../sass/_job.sass */
+  /* line 263, ../sass/_job.sass */
   .jobs .job-card .company-logo {
     top: 20px;
     left: 20px;
     width: 100px;
     height: 100px;
   }
-  /* line 269, ../sass/_job.sass */
+  /* line 268, ../sass/_job.sass */
   .jobs .job-card .company-main-info {
     margin-top: 20px;
     left: 150px;
   }
-  /* line 272, ../sass/_job.sass */
+  /* line 271, ../sass/_job.sass */
   .jobs .job-card .company-main-info p {
     margin-top: 5px;
     margin-bottom: 0px;
     padding: 0;
   }
-  /* line 276, ../sass/_job.sass */
+  /* line 275, ../sass/_job.sass */
   .jobs .job-card .card-tags {
     left: 20px;
     top: 130px;
   }
-  /* line 279, ../sass/_job.sass */
+  /* line 278, ../sass/_job.sass */
   .jobs .job-card .card-wages {
     position: absolute;
     left: 150px;
     top: 125px;
     text-align: left;
     font-size: 0.7em;
+    width: 230px;
   }
   /* line 285, ../sass/_job.sass */
   .jobs .job-card .card-wages .year-wages {
@@ -3084,69 +3086,73 @@ footer .footer-content .social-footer .caption {
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 290, ../sass/_job.sass */
+  /* line 292, ../sass/_job.sass */
+  .jobs .job-card .company-main-info p {
+    width: 230px;
+  }
+  /* line 294, ../sass/_job.sass */
   .jobs .card-wages {
     bottom: 10px;
   }
 }
 @media screen and (max-width: 414px) {
-  /* line 297, ../sass/_job.sass */
+  /* line 300, ../sass/_job.sass */
   .jobs .banner {
     height: 400px;
   }
-  /* line 299, ../sass/_job.sass */
+  /* line 302, ../sass/_job.sass */
   .jobs .banner #banner-mask {
     height: 400px;
   }
-  /* line 301, ../sass/_job.sass */
+  /* line 304, ../sass/_job.sass */
   .jobs .banner .wrap-slogan {
     top: 155px;
   }
-  /* line 303, ../sass/_job.sass */
+  /* line 306, ../sass/_job.sass */
   .jobs .banner .wrap-slogan h1 {
     font-size: 1.8em;
   }
-  /* line 305, ../sass/_job.sass */
+  /* line 308, ../sass/_job.sass */
   .jobs .banner .wrap-slogan h2 {
     font-size: 1.4em;
   }
-  /* line 307, ../sass/_job.sass */
+  /* line 310, ../sass/_job.sass */
   .jobs .wrap-job-list {
     max-width: 100%;
   }
-  /* line 309, ../sass/_job.sass */
+  /* line 312, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search {
     margin: 20px 10px 10px 10px;
     height: 100px;
   }
-  /* line 312, ../sass/_job.sass */
+  /* line 315, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .search-bar {
     width: 100%;
   }
-  /* line 314, ../sass/_job.sass */
+  /* line 317, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group {
     float: left;
     width: 100%;
     margin-top: 10px;
   }
-  /* line 318, ../sass/_job.sass */
+  /* line 321, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group p {
     display: none;
   }
-  /* line 320, ../sass/_job.sass */
+  /* line 323, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group .sort-time {
     float: left;
     width: 48%;
     text-align: center;
   }
-  /* line 324, ../sass/_job.sass */
+  /* line 327, ../sass/_job.sass */
   .jobs .wrap-job-list .sort-and-search .sort-group .sort-wages {
     width: 48%;
     float: right;
     text-align: center;
     margin: 0;
   }
-  /* line 329, ../sass/_job.sass */
+  /* line 332, ../sass/_job.sass */
   .jobs .job-card {
     max-width: 100%;
     height: 140px;
@@ -3158,7 +3164,7 @@ footer .footer-content .social-footer .caption {
     margin-left: 5px;
     margin-right: 5px;
   }
-  /* line 339, ../sass/_job.sass */
+  /* line 342, ../sass/_job.sass */
   .jobs .job-card .company-main-info {
     position: absolute;
     font-size: 0.8em;
@@ -3168,12 +3174,13 @@ footer .footer-content .social-footer .caption {
     line-height: 1.6em;
     margin-top: 0;
   }
-  /* line 347, ../sass/_job.sass */
+  /* line 350, ../sass/_job.sass */
   .jobs .job-card .company-main-info p {
     margin-top: 2px;
     margin-bottom: 3px;
+    width: 220px;
   }
-  /* line 350, ../sass/_job.sass */
+  /* line 354, ../sass/_job.sass */
   .jobs .job-card .card-wages {
     position: absolute;
     width: 220px;
@@ -3182,11 +3189,11 @@ footer .footer-content .social-footer .caption {
     font-size: 0.65em;
     text-align: left;
   }
-  /* line 357, ../sass/_job.sass */
+  /* line 361, ../sass/_job.sass */
   .jobs .job-card .card-wages .year-wages {
     display: none;
   }
-  /* line 359, ../sass/_job.sass */
+  /* line 363, ../sass/_job.sass */
   .jobs .job-card .company-logo {
     position: absolute;
     width: 120px;
@@ -3195,7 +3202,7 @@ footer .footer-content .social-footer .caption {
     left: 10px;
     top: 10px;
   }
-  /* line 366, ../sass/_job.sass */
+  /* line 370, ../sass/_job.sass */
   .jobs .job-card .card-tags {
     display: none;
   }
@@ -3926,7 +3933,7 @@ footer .footer-content .social-footer .caption {
 /* line 94, ../sass/_job-collected.sass */
 .job-collected .content-wrap .info-wrap .info-mycollect-job .job-card .card-wages {
   font-family: PingFangSC-ultralight;
-  width: 500px;
+  width: 330px;
   font-size: 1em;
   position: absolute;
   top: 100px;
@@ -4073,8 +4080,9 @@ footer .footer-content .social-footer .caption {
     left: 20px;
     top: 130px;
     padding: 8px 1px;
+    width: 230px;
   }
-  /* line 206, ../sass/_job-collected.sass */
+  /* line 207, ../sass/_job-collected.sass */
   .job-collected .content-wrap .info-wrap .info-mycollect-job .job-card .card-wages {
     position: absolute;
     left: 150px;
@@ -4082,39 +4090,49 @@ footer .footer-content .social-footer .caption {
     text-align: left;
     font-size: 0.7em;
   }
-  /* line 212, ../sass/_job-collected.sass */
+  /* line 213, ../sass/_job-collected.sass */
   .job-collected .content-wrap .info-wrap .info-mycollect-job .job-card .card-wages .year-wages {
     display: none;
   }
 }
+@media screen and (max-width: 500px) {
+  /* line 219, ../sass/_job-collected.sass */
+  .jobs .job-card .company-main-info p {
+    width: 230px;
+  }
+  /* line 221, ../sass/_job-collected.sass */
+  .jobs .card-wages {
+    bottom: 10px;
+  }
+}
 @media screen and (max-width: 480px) {
-  /* line 217, ../sass/_job-collected.sass */
+  /* line 226, ../sass/_job-collected.sass */
   .profile-bg {
     background-color: white;
   }
 
-  /* line 220, ../sass/_job-collected.sass */
+  /* line 229, ../sass/_job-collected.sass */
   .job-collected .content-wrap {
     border-top: none;
     border-bottom: none;
     padding: 0;
   }
-  /* line 225, ../sass/_job-collected.sass */
+  /* line 234, ../sass/_job-collected.sass */
   .job-collected .content-wrap .tab-bar .tab-group {
     max-width: 95%;
     padding: 0;
     margin: 0 auto;
     text-align: center;
   }
-  /* line 230, ../sass/_job-collected.sass */
+  /* line 239, ../sass/_job-collected.sass */
   .job-collected .content-wrap .tab-bar .tab-group li {
     margin-right: 10px;
   }
-  /* line 232, ../sass/_job-collected.sass */
+  /* line 241, ../sass/_job-collected.sass */
   .job-collected .content-wrap .tab-bar .tab-group li a {
     font-size: 1em;
   }
-  /* line 236, ../sass/_job-collected.sass */
+  /* line 245, ../sass/_job-collected.sass */
   .job-collected .content-wrap .info-wrap .info-mycollect-job .job-card {
     display: block;
     background-color: #fff;
@@ -4132,7 +4150,7 @@ footer .footer-content .social-footer .caption {
     margin-left: 5px;
     margin-right: 5px;
   }
-  /* line 244, ../sass/_job-collected.sass */
+  /* line 253, ../sass/_job-collected.sass */
   .job-collected .content-wrap .info-wrap .info-mycollect-job .job-card .company-main-info {
     position: absolute;
     font-size: 0.8em;
@@ -4142,25 +4160,26 @@ footer .footer-content .social-footer .caption {
     line-height: 1.6em;
     margin-top: 0;
   }
-  /* line 252, ../sass/_job-collected.sass */
+  /* line 261, ../sass/_job-collected.sass */
   .job-collected .content-wrap .info-wrap .info-mycollect-job .job-card .company-main-info p {
     margin-top: 2px;
     margin-bottom: 3px;
+    width: 170px;
   }
-  /* line 255, ../sass/_job-collected.sass */
+  /* line 265, ../sass/_job-collected.sass */
   .job-collected .content-wrap .info-wrap .info-mycollect-job .job-card .card-wages {
     position: absolute;
     width: 220px;
     top: 85px;
-    left: 150px;
+    left: 170px;
     font-size: 0.65em;
     text-align: left;
   }
-  /* line 262, ../sass/_job-collected.sass */
+  /* line 272, ../sass/_job-collected.sass */
   .job-collected .content-wrap .info-wrap .info-mycollect-job .job-card .card-wages .year-wages {
     display: none;
   }
-  /* line 264, ../sass/_job-collected.sass */
+  /* line 274, ../sass/_job-collected.sass */
   .job-collected .content-wrap .info-wrap .info-mycollect-job .job-card .company-logo {
     position: absolute;
     float: left;
@@ -4169,7 +4188,7 @@ footer .footer-content .social-footer .caption {
     width: 120px;
     height: 120px;
   }
-  /* line 271, ../sass/_job-collected.sass */
+  /* line 281, ../sass/_job-collected.sass */
   .job-collected .content-wrap .info-wrap .info-mycollect-job .job-card .card-tags {
     display: none;
   }
@@ -4323,7 +4342,7 @@ footer .footer-content .social-footer .caption {
 /* line 93, ../sass/_job-post.sass */
 .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-wages {
   font-family: PingFangSC-ultralight;
-  width: 500px;
+  width: 330px;
   font-size: 1em;
   position: absolute;
   top: 100px;
@@ -4547,44 +4566,55 @@ footer .footer-content .social-footer .caption {
     top: 125px;
     text-align: left;
     font-size: 0.7em;
+    width: 230px;
   }
-  /* line 260, ../sass/_job-post.sass */
+  /* line 261, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-wages .year-wages {
     display: none;
   }
-  /* line 262, ../sass/_job-post.sass */
+  /* line 263, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card-mask {
     display: none;
   }
 }
+@media screen and (max-width: 500px) {
+  /* line 269, ../sass/_job-post.sass */
+  .jobs .job-card .company-main-info p {
+    width: 230px;
+  }
+  /* line 271, ../sass/_job-post.sass */
+  .jobs .card-wages {
+    bottom: 10px;
+  }
+}
 @media screen and (max-width: 480px) {
-  /* line 267, ../sass/_job-post.sass */
+  /* line 276, ../sass/_job-post.sass */
   .profile-bg {
     background-color: white;
   }
 
-  /* line 270, ../sass/_job-post.sass */
+  /* line 279, ../sass/_job-post.sass */
   .job-post .content-wrap {
     border-top: none;
     border-bottom: none;
     padding: 0;
   }
-  /* line 275, ../sass/_job-post.sass */
+  /* line 284, ../sass/_job-post.sass */
   .job-post .content-wrap .tab-bar .tab-group {
     max-width: 95%;
     padding: 0;
     margin: 0 auto;
     text-align: center;
   }
-  /* line 280, ../sass/_job-post.sass */
+  /* line 289, ../sass/_job-post.sass */
   .job-post .content-wrap .tab-bar .tab-group li {
     margin-right: 10px;
   }
-  /* line 282, ../sass/_job-post.sass */
+  /* line 291, ../sass/_job-post.sass */
   .job-post .content-wrap .tab-bar .tab-group li a {
     font-size: 1em;
   }
-  /* line 287, ../sass/_job-post.sass */
+  /* line 296, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card {
     max-width: 100%;
     height: 140px;
@@ -4596,7 +4626,7 @@ footer .footer-content .social-footer .caption {
     margin-left: 5px;
     margin-right: 5px;
   }
-  /* line 297, ../sass/_job-post.sass */
+  /* line 306, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-main-info {
     position: absolute;
     font-size: 0.8em;
@@ -4606,25 +4636,26 @@ footer .footer-content .social-footer .caption {
     line-height: 1.6em;
     margin-top: 0;
   }
-  /* line 305, ../sass/_job-post.sass */
+  /* line 314, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-main-info p {
     margin-top: 2px;
     margin-bottom: 3px;
+    width: 170px;
   }
-  /* line 308, ../sass/_job-post.sass */
+  /* line 318, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-wages {
     position: absolute;
-    width: 220px;
+    width: 170px;
     top: 85px;
     left: 150px;
     font-size: 0.65em;
     text-align: left;
   }
-  /* line 315, ../sass/_job-post.sass */
+  /* line 325, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-wages .year-wages {
     display: none;
   }
-  /* line 317, ../sass/_job-post.sass */
+  /* line 327, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .company-logo {
     position: absolute;
     float: left;
@@ -4633,7 +4664,7 @@ footer .footer-content .social-footer .caption {
     width: 120px;
     height: 120px;
   }
-  /* line 324, ../sass/_job-post.sass */
+  /* line 334, ../sass/_job-post.sass */
   .job-post .content-wrap .info-wrap .info-mypost-job .mypost-job-card-wrap .job-card .card-tags {
     display: none;
   }

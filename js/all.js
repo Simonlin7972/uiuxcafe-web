@@ -20,11 +20,11 @@ $(document).ready(function() {
 
     // nav-menu滿版選單開關
     $('.menu-cancel').click(function(event) {
-        $('.menu-full').fadeToggle(300);
+        $('.menu-full').slideToggle(200);
     });
 
     $('.menu-btn').click(function(event) {
-        $('.menu-full').fadeToggle(300);
+        $('.menu-full').slideToggle(200);
     });
 
 
