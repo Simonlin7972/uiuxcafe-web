@@ -14,6 +14,7 @@
   left: 0
   right: 0
   z-index: 100
+  overflow: scroll
   .back-home
     padding: 6px
     width: 180px
@@ -116,15 +117,16 @@
       font-weight: lighter
       &:hover
         text-decoration: underline
-
     .btn-signup-y,.btn-login-y
       display: block
       border-radius: 5px
       background-color: $primary-yellow
       padding: 10px 40px
-      max-width: 420px
+      width: 100%
       text-align: center
       font-size: 1em
+      font-weight: bold
+      letter-spacing: 1px
       margin: 0 auto
       text-decoration: none
       color: black
@@ -165,9 +167,9 @@
       h1
         font-size: 1.8em
         padding-top: 30px
-      .signup-input,.login-input
+      .signup-input,.login-input,.reset-password-input
         margin: 0 20px
-      .btn-signup-y,.btn-login-y
-        margin: 0 20px
+      // .btn-signup-y,.btn-login-y
+      //   margin: 0 20px
     .active
       height: 100%
