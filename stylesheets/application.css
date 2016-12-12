@@ -2644,7 +2644,7 @@ footer .footer-content .social-footer .caption {
   border-radius: 5px;
   border: 1px solid rgba(151, 151, 151, 0.3);
   outline: none;
-  width: 50%;
+  width: 100%;
   height: 40px;
   padding-left: 10px;
 }
@@ -3205,6 +3205,10 @@ footer .footer-content .social-footer .caption {
     width: 220px;
   }
   /* line 350, ../sass/_job.sass */
+  .jobs .job-card .company-main-info p span {
+    line-height: 1.2em;
+  }
+  /* line 352, ../sass/_job.sass */
   .jobs .job-card .card-wages {
     position: absolute;
     width: 220px;
@@ -3214,15 +3218,15 @@ footer .footer-content .social-footer .caption {
     text-align: left;
     font-family: PingFangSC-light;
   }
-  /* line 358, ../sass/_job.sass */
+  /* line 360, ../sass/_job.sass */
   .jobs .job-card .card-wages .year-wages {
     display: none;
   }
-  /* line 360, ../sass/_job.sass */
+  /* line 362, ../sass/_job.sass */
   .jobs .job-card .card-wages .wage-amount {
     font-size: 1.1em;
   }
-  /* line 362, ../sass/_job.sass */
+  /* line 364, ../sass/_job.sass */
   .jobs .job-card .company-logo {
     position: absolute;
     width: 100px;
@@ -3231,14 +3235,14 @@ footer .footer-content .social-footer .caption {
     left: 10px;
     top: 10px;
   }
-  /* line 369, ../sass/_job.sass */
+  /* line 371, ../sass/_job.sass */
   .jobs .job-card .card-tags {
     left: 10px;
     top: 118px;
   }
 }
 @media screen and (min-width: 414px) {
-  /* line 375, ../sass/_job.sass */
+  /* line 377, ../sass/_job.sass */
   .job-card:hover {
     transform: translateY(-5px);
     box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.06);

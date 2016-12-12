@@ -19,238 +19,248 @@
 
 <body>
   <!-- 固定選單 -->
-    <nav>
-      <div class="wrap-nav">
-        <div class="logo">
-          <a href="index.html"><img src="./images/logo.svg" alt="uiuxcafe"></a>
-        </div>
-        <ul class="menu">
-          <!-- <li><a href="#">關於這裡</a></li> -->
-          <li><a href="https://www.accupass.com/org/detail/r/1607180310441125217628/1/0" target="_blank">設計工作坊</a></li>
-          <li><a href="jobs.html">職缺訊息</a></li>
-          <li><a href="login.html">登入</a></li>
-        </ul>
+  <nav>
+    <div class="wrap-nav">
+      <div class="logo">
+        <a href="index.html"><img src="./images/logo.svg" alt="uiuxcafe"></a>
       </div>
-    </nav>
-
-    <div class="menu-full">
-      <div class="cancel">
-        <a href="#"><img src="./images/cancel-btn.svg" alt="cancel-btn"></a></div>
-      <ul>
+      <ul class="menu">
         <!-- <li><a href="#">關於這裡</a></li> -->
         <li><a href="https://www.accupass.com/org/detail/r/1607180310441125217628/1/0" target="_blank">設計工作坊</a></li>
         <li><a href="jobs.html">職缺訊息</a></li>
         <li><a href="login.html">登入</a></li>
       </ul>
+    </div>
+  </nav>
+
+  <div class="menu-full">
+    <div class="cancel">
+      <a href="#"><img src="./images/cancel-btn.svg" alt="cancel-btn"></a>
+    </div>
+    <ul>
+      <!-- <li><a href="#">關於這裡</a></li> -->
+      <li><a href="https://www.accupass.com/org/detail/r/1607180310441125217628/1/0" target="_blank">設計工作坊</a></li>
+      <li><a href="jobs.html">職缺訊息</a></li>
+      <li><a href="login.html">登入</a></li>
+    </ul>
   </div>
 
-      <!-- 以上固定選單 -->
-      <div class="edit-job">
-        <div class="container">
-          <div class="row">
-            <div class="wrap col-lg-12">
-              <h1>編輯/發佈職缺</h1>
-<!-- 職位類別 -->
+  <!-- 以上固定選單 -->
+  <div class="edit-job">
+    <div class="container">
+      <div class="row">
+        <div class="wrap col-lg-12">
+          <h1>編輯/發佈職缺</h1>
+          <!-- 職位類別 -->
 
 
-<form action="">
-              <div class="block-form">
-                  <label class="form-title"><abbr title="required">*</abbr>職位類別</label>
+          <form action="">
+            <div class="block-form">
+              <label class="form-title"><abbr title="required">*</abbr>職位類別</label>
 
-                  <input class="magic-radio" type="radio" name="radio" id="uid" value="option" required="required" aria-required="true">
-                  <label for="uid">UI Designer</label>
+              <input class="magic-radio" type="radio" name="radio" id="uid" value="option" required="required" aria-required="true">
+              <label for="uid">UI Designer</label>
 
-                  <input class="magic-radio" type="radio" name="radio" id="uxd" value="option" required="required" aria-required="true">
-                  <label for="uxd">UX Designer</label>
+              <input class="magic-radio" type="radio" name="radio" id="uxd" value="option" required="required" aria-required="true">
+              <label for="uxd">UX Designer</label>
 
-                  <input class="magic-radio" type="radio" name="radio" id="webd" value="option" required="required" aria-required="true">
-                  <label for="webd">Web Designer</label>
+              <input class="magic-radio" type="radio" name="radio" id="webd" value="option" required="required" aria-required="true">
+              <label for="webd">Web Designer</label>
 
-                  <input class="magic-radio" type="radio" name="radio" id="vd" value="option" required="required" aria-required="true">
-                  <label for="vd">Visual esigner</label>
-                  <input class="magic-radio" type="radio" name="radio" id="ixd" value="option" required="required" aria-required="true">
-                  <label for="ixd">Interaction Designer</label>
+              <input class="magic-radio" type="radio" name="radio" id="vd" value="option" required="required" aria-required="true">
+              <label for="vd">Visual esigner</label>
+              <input class="magic-radio" type="radio" name="radio" id="ixd" value="option" required="required" aria-required="true">
+              <label for="ixd">Interaction Designer</label>
 
-                  <input class="magic-radio" type="radio" name="radio" id="uiuxd" value="option" required="required" aria-required="true">
-                  <label for="uiuxd">UI/UX Designer</label>
-              </div>
-<!-- 職位類別 -->
+              <input class="magic-radio" type="radio" name="radio" id="uiuxd" value="option" required="required" aria-required="true">
+              <label for="uiuxd">UI/UX Designer</label>
+            </div>
+            <!-- 職位類別 -->
 
-<!-- 薪資範圍 -->
-              <div class="block-form">
-                  <label class="form-title"><abbr title="required">*</abbr>薪資範圍(年薪)</label>
-                      <label for="job_salary_min">最小薪資(萬)</label>
-                      <input type="number" name="wage" class="input-style" step="any" id="job_salary_min" placeholder="60" aria-required="true">
+            <!-- 薪資範圍 -->
+            <div class="block-form">
+              <label class="form-title"><abbr title="required">*</abbr>薪資範圍(年薪)</label>
 
-                      <label for="job_salary_max" class="mt30">最大薪資(萬)</label>
-                      <input type="number" name="wage" class="input-style" step="any" id="job_salary_max" placeholder="120" aria-required="true">
+              <div class="row">
+
+<div class="col-md-6">
+                <label for="job_salary_min">最小薪資(萬)</label>
+                <input type="number" name="wage" class="input-style" step="any" id="job_salary_min" placeholder="60" aria-required="true">
                   </div>
-<!-- 薪資範圍 -->
-<!-- 工作經驗需求 -->
-              <div class="block-form">
-                  <label class="form-title" for=""><abbr title="required">*</abbr>年資需求</label>
-                  <input class="magic-radio" type="radio" name="radio" id="no_experience" value="option" checked="checked">
-                  <label for="no_experience">無經驗可</label>
 
-                  <input class="magic-radio" type="radio" name="radio" id="one_to_two_years" value="option">
-                  <label for="one_to_two_years">1年以上</label>
-
-                  <input class="magic-radio" type="radio" name="radio" id="two_to_three_years" value="option">
-                  <label for="two_to_three_years">2-3年</label>
-
-                  <input class="magic-radio" type="radio" name="radio" id="three_to_five_years" value="option">
-                  <label for="three_to_five_years">3-5年</label>
-
-                  <input class="magic-radio" type="radio" name="radio" id="over_five_years" value="option">
-                  <label for="over_five_years">5年以上</label>
+                <div class="col-md-6">
+                  <label for="job_salary_max" class="">最大薪資(萬)</label>
+                  <input type="number" name="wage" class="input-style" step="any" id="job_salary_max" placeholder="120" aria-required="true">
+                </div>
               </div>
-<!-- 工作經驗需求 -->
-<!-- 工作地點 -->
-              <div class="block-form">
-                  <label class="form-title" for="work-location">
+            </div>
+            <!-- 薪資範圍 -->
+            <!-- 工作經驗需求 -->
+            <div class="block-form">
+              <label class="form-title" for=""><abbr title="required">*</abbr>年資需求</label>
+              <input class="magic-radio" type="radio" name="radio" id="no_experience" value="option" checked="checked">
+              <label for="no_experience">無經驗可</label>
+
+              <input class="magic-radio" type="radio" name="radio" id="one_to_two_years" value="option">
+              <label for="one_to_two_years">1年以上</label>
+
+              <input class="magic-radio" type="radio" name="radio" id="two_to_three_years" value="option">
+              <label for="two_to_three_years">2-3年</label>
+
+              <input class="magic-radio" type="radio" name="radio" id="three_to_five_years" value="option">
+              <label for="three_to_five_years">3-5年</label>
+
+              <input class="magic-radio" type="radio" name="radio" id="over_five_years" value="option">
+              <label for="over_five_years">5年以上</label>
+            </div>
+            <!-- 工作經驗需求 -->
+            <!-- 工作地點 -->
+            <div class="block-form">
+              <label class="form-title" for="work-location">
                     <abbr title="required">*</abbr>工作地點</label>
-                  <input class="input-style" type="text" name="location" aria-required="true" id="work-location" placeholder="請填寫地區即可 Ex:台北市 大安區">
-              </div>
-<!-- 工作地點 -->
+              <input class="input-style" type="text" name="location" aria-required="true" id="work-location" placeholder="請填寫地區即可 Ex:台北市 大安區">
+            </div>
+            <!-- 工作地點 -->
 
-              <div class="block-form">
-                  <label class="form-title" for="skill"><abbr title="required">*</abbr>技能需求</label>
-                  <input class="magic-checkbox" type="checkbox" name="checkbox" id="skill-sketch">
-                  <label for="skill-sketch">Sketch</label>
+            <div class="block-form">
+              <label class="form-title" for="skill"><abbr title="required">*</abbr>技能需求</label>
+              <input class="magic-checkbox" type="checkbox" name="checkbox" id="skill-sketch">
+              <label for="skill-sketch">Sketch</label>
 
-                  <input class="magic-checkbox" type="checkbox" name="checkbox" id="skill-illustrator">
-                  <label for="skill-illustrator">illustrator</label>
+              <input class="magic-checkbox" type="checkbox" name="checkbox" id="skill-illustrator">
+              <label for="skill-illustrator">illustrator</label>
 
-                  <input class="magic-checkbox" type="checkbox" name="checkbox" id="skill-photoshop">
-                  <label for="skill-photoshop">Photoshop</label>
+              <input class="magic-checkbox" type="checkbox" name="checkbox" id="skill-photoshop">
+              <label for="skill-photoshop">Photoshop</label>
 
-                  <input class="magic-checkbox" type="checkbox" name="checkbox" id="skill-flinto">
-                  <label for="skill-flinto">Flinto</label>
-                  <input class="magic-checkbox" type="checkbox" name="checkbox" id="skill-swift">
-                  <label for="skill-swift">Swift</label>
-              </div>
-              <!-- 工作地點 -->
-<!-- 加分技能 -->
-              <div class="block-form">
-                  <label class="form-title" for="skill-plus"><abbr title="required">*</abbr>加分技能</label>
-                  <input type="text" name="skill-plus" id="skill-plus" class="input-style" placeholder="請用斜線分隔 Ex:After Effects/Principle">
-              </div>
-<!-- 加分技能 -->
+              <input class="magic-checkbox" type="checkbox" name="checkbox" id="skill-flinto">
+              <label for="skill-flinto">Flinto</label>
+              <input class="magic-checkbox" type="checkbox" name="checkbox" id="skill-swift">
+              <label for="skill-swift">Swift</label>
+            </div>
+            <!-- 工作地點 -->
+            <!-- 加分技能 -->
+            <div class="block-form">
+              <label class="form-title" for="skill-plus"><abbr title="required">*</abbr>加分技能</label>
+              <input type="text" name="skill-plus" id="skill-plus" class="input-style" placeholder="請用斜線分隔 Ex:After Effects/Principle">
+            </div>
+            <!-- 加分技能 -->
 
-<!-- 職缺說明 -->
-              <div class="block-form">
-                  <label class="form-title" for="job-description"><abbr title="required">*</abbr>職缺說明</label>
-                  <textarea name="job-describe" rows="8" cols="60" class="textarea-style" id="job-description"></textarea>
-              </div>
-              <hr>
-<!-- 職缺說明 -->
-              <!-- 上傳圖片 -->
-              <div class="block-form">
-                <label class="form-title" for="job_company_logo"><abbr title="required">*</abbr>上傳公司logo</label >
+            <!-- 職缺說明 -->
+            <div class="block-form">
+              <label class="form-title" for="job-description"><abbr title="required">*</abbr>職缺說明</label>
+              <textarea name="job-describe" rows="8" cols="60" class="textarea-style" id="job-description"></textarea>
+            </div>
+            <hr>
+            <!-- 職缺說明 -->
+            <!-- 上傳圖片 -->
+            <div class="block-form">
+              <label class="form-title" for="job_company_logo"><abbr title="required">*</abbr>上傳公司logo</label >
                 <div class="upload-logo">
                   <p>300x300px</p>
                   <div class="upload-logo-hover">
                     <p>
                       <input id="job_company_logo" type="file" style="display:none;">
                       <a href="#">
-                        <label for="job_company_logo">上傳照片</label></a></p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="block-form">
-                <label class="form-title" for="job_company_photo"><abbr title="required">*</abbr>上傳公司照片</label>
-                <div class="upload-company-img">
-                  <p>1200x768px</p>
-                  <div class="upload-company-img-hover">
-                    <div>
-                      <input id="job_company_photo" type="file" style="display:none;">
-                      <img src="./images/camera.svg" alt="camera" width="30px">
-                      <a href="#"><label for="job_company_photo">上傳照片</label></a>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              <!-- 上傳圖片 -->
-              <div class="block-form">
-                  <label class="form-title" for="company_type"><abbr title="required">*</abbr>公司類型</label>
-                  <input type="text" name="location" class="input-style" id="company_type" placeholder="Ex:運動科技、教育新創">
-              </div>
-
-              <div class="block-form">
-                  <label class="form-title" for="company_intro"><abbr title="required">*</abbr>公司簡介</label>
-                  <textarea name="job-describe" rows="8" cols="60" class="textarea-style" id="company_intro"></textarea>
-              </div>
-
-
-              <div class="block-form">
-                  <label class="form-title" for="company_scope"><abbr title="required">*</abbr>公司規模</label>
-
-                  <input class="magic-radio" type="radio" name="radio" id="ten-people" value="option">
-                  <label for="ten-people">10人</label>
-
-                  <input class="magic-radio" type="radio" name="radio" id="ten-to-thirty" value="option">
-                  <label for="ten-to-thirty">10-30人</label>
-
-                  <input class="magic-radio" type="radio" name="radio" id="thirty-to-fifty" value="option">
-                  <label for="thirty-to-fifty">30-50人</label>
-
-                  <input class="magic-radio" type="radio" name="radio" id="fifty-to-hundred" value="option">
-                  <label for="fifty-to-hundred">50-100人</label>
-
-                  <input class="magic-radio" type="radio" name="radio" id="more-than-hundred" value="option">
-                  <label for="more-than-hundred">100人以上</label>
-              </div>
-
-
-              <div class="block-form">
-                  <label class="form-title" for="company_status"><abbr title="required">*</abbr>公司現況</label>
-
-                  <input class="magic-radio" type="radio" name="radio" id="angel-round" value="option">
-                  <label for="angel-round">天使輪</label>
-
-                  <input class="magic-radio" type="radio" name="radio" id="a-round" value="option">
-                  <label for="a-round">A輪</label>
-
-                  <input class="magic-radio" type="radio" name="radio" id="b-round" value="option">
-                  <label for="b-round">B輪</label>
-
-                  <input class="magic-radio" type="radio" name="radio" id="c-round" value="option">
-                  <label for="c-round">C輪</label>
-              </div>
-
-
-              <div class="block-form">
-                  <label class="form-title" for="company_address"><abbr title="required">*</abbr>公司地址</label>
-                  <input type="text" name="address" class="input-style" id="company_address">
-              </div>
-
-              <div class="block-form">
-                  <label class="form-title" for="company_website"><abbr title="required">*</abbr>公司官網網址</label>
-                  <input type="url" name="company_website" class="input-style" id="company_website">
-              </div>
-
-
-              <div class="block-form">
-                  <label class="form-title" for="company_fb"><abbr title="required">*</abbr>公司Facebook</label>
-                  <input type="url" name="company_fb" class="input-style" id="company_fb">
-              </div>
-
-              <div class="block-form">
-                  <label class="form-title" for="company_email"><abbr title="required">*</abbr>公司E-mail信箱</label>
-                  <input type="text" name="company_email" class="input-style" id="company_email">
-              </div>
-
-<input type="submit" name="commit" value="資料確認無誤送出" class="btn-blue" data-disable-with="Waiting..." />
-  </div>
+                        <label for="job_company_logo">上傳照片</label></a>
+              </p>
             </div>
-          </div>
         </div>
       </div>
 
-      <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+      <div class="block-form">
+        <label class="form-title" for="job_company_photo"><abbr title="required">*</abbr>上傳公司照片</label>
+        <div class="upload-company-img">
+          <p>1200x768px</p>
+          <div class="upload-company-img-hover">
+            <div>
+              <input id="job_company_photo" type="file" style="display:none;">
+              <img src="./images/camera.svg" alt="camera" width="30px">
+              <a href="#"><label for="job_company_photo">上傳照片</label></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 上傳圖片 -->
+      <div class="block-form">
+        <label class="form-title" for="company_type"><abbr title="required">*</abbr>公司類型</label>
+        <input type="text" name="location" class="input-style" id="company_type" placeholder="Ex:運動科技、教育新創">
+      </div>
+
+      <div class="block-form">
+        <label class="form-title" for="company_intro"><abbr title="required">*</abbr>公司簡介</label>
+        <textarea name="job-describe" rows="8" cols="60" class="textarea-style" id="company_intro"></textarea>
+      </div>
+
+
+      <div class="block-form">
+        <label class="form-title" for="company_scope"><abbr title="required">*</abbr>公司規模</label>
+
+        <input class="magic-radio" type="radio" name="radio" id="ten-people" value="option">
+        <label for="ten-people">10人</label>
+
+        <input class="magic-radio" type="radio" name="radio" id="ten-to-thirty" value="option">
+        <label for="ten-to-thirty">10-30人</label>
+
+        <input class="magic-radio" type="radio" name="radio" id="thirty-to-fifty" value="option">
+        <label for="thirty-to-fifty">30-50人</label>
+
+        <input class="magic-radio" type="radio" name="radio" id="fifty-to-hundred" value="option">
+        <label for="fifty-to-hundred">50-100人</label>
+
+        <input class="magic-radio" type="radio" name="radio" id="more-than-hundred" value="option">
+        <label for="more-than-hundred">100人以上</label>
+      </div>
+
+
+      <div class="block-form">
+        <label class="form-title" for="company_status"><abbr title="required">*</abbr>公司現況</label>
+
+        <input class="magic-radio" type="radio" name="radio" id="angel-round" value="option">
+        <label for="angel-round">天使輪</label>
+
+        <input class="magic-radio" type="radio" name="radio" id="a-round" value="option">
+        <label for="a-round">A輪</label>
+
+        <input class="magic-radio" type="radio" name="radio" id="b-round" value="option">
+        <label for="b-round">B輪</label>
+
+        <input class="magic-radio" type="radio" name="radio" id="c-round" value="option">
+        <label for="c-round">C輪</label>
+      </div>
+
+
+      <div class="block-form">
+        <label class="form-title" for="company_address"><abbr title="required">*</abbr>公司地址</label>
+        <input type="text" name="address" class="input-style" id="company_address">
+      </div>
+
+      <div class="block-form">
+        <label class="form-title" for="company_website"><abbr title="required">*</abbr>公司官網網址</label>
+        <input type="url" name="company_website" class="input-style" id="company_website">
+      </div>
+
+
+      <div class="block-form">
+        <label class="form-title" for="company_fb"><abbr title="required">*</abbr>公司Facebook</label>
+        <input type="url" name="company_fb" class="input-style" id="company_fb">
+      </div>
+
+      <div class="block-form">
+        <label class="form-title" for="company_email"><abbr title="required">*</abbr>公司E-mail信箱</label>
+        <input type="text" name="company_email" class="input-style" id="company_email">
+      </div>
+
+      <input type="submit" name="commit" value="資料確認無誤送出" class="btn-blue" data-disable-with="Waiting..." />
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
 
 
