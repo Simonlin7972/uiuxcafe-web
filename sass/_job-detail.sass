@@ -31,7 +31,7 @@ body
     z-index: 5
     .btn-group
       width: 100%
-      margin-top: 590px
+      margin-top: 600px
       padding-left: 30px
       padding-right: 30px
       .btn-group-left
@@ -232,6 +232,7 @@ body
         opacity: .7
   .company-info
     margin-top: 40px
+    margin-bottom: 40px
     .card-tags
       background-color: #32C7B0
       width: 100px
@@ -241,6 +242,29 @@ body
       font-size: 1em
       text-align: center
       letter-spacing: 1px
+    .company-website
+      float: left
+      border-radius: 3px
+      text-align: center
+      padding: 8px 16px
+      font-size: 1.1em
+      letter-spacing: 1px
+      background-color: rgb(36, 36, 36)
+      a
+        color: white
+        text-decoration: none
+    .company-fb
+      margin-left: 10px
+      float: left
+      border-radius: 3px
+      text-align: center
+      padding: 8px 16px
+      font-size: 1.1em
+      letter-spacing: 1px
+      background-color: $primary-blue
+      a
+        color: white
+        text-decoration: none
   .hide
     display: none
     transition: all 0.3s
@@ -355,3 +379,9 @@ body
       .skill-text
         li
           margin-bottom: 10px
+@media screen and (max-width: 340px)
+  .job-detail
+    .company-info
+      .company-fb
+        margin-left: 0
+        margin-top: 10px

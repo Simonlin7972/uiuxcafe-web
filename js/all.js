@@ -20,11 +20,11 @@ $(document).ready(function() {
 
     // nav-menu滿版選單開關
     $('.menu-cancel').click(function(event) {
-        $('.menu-full').slideToggle(200);
+        $('.menu-full').fadeToggle(200);
     });
 
     $('.menu-btn').click(function(event) {
-        $('.menu-full').slideToggle(200);
+        $('.menu-full').fadeToggle(200);
     });
 
 
@@ -34,10 +34,28 @@ $(document).ready(function() {
     });
 
 
-  //往下
+  //箭頭往下
   $('.scroll-down').click(function(event) {
       event.preventDefault();
-      $('html, body').animate({scrollTop: $(".intro-wrapper").offset().top}, 1000);
-  });
+      $('html, body').animate({scrollTop: $(".intro-wrapper").offset().top = $('.home-banner').height() - 80}, 1000 );
+    });
+
+  //nav-scroll
+$(window).scroll(function() {
+  if ($(".index-nav").offset().top > 60) {
+    $("nav").removeClass("nav-no-bg");
+    $('.logo').removeClass('hide');
+    $('.logo-2').addClass('hide');
+  } else {
+    $(".index-nav").addClass("nav-no-bg");
+    $('.logo-2').removeClass('hide');
+    $('.logo').addClass('hide');
+  }
+
+});
+
+
+
+
 
 });

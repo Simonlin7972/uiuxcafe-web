@@ -82,13 +82,12 @@
               <label class="form-title"><abbr title="required">*</abbr>薪資範圍(年薪)</label>
 
               <div class="row">
-
-<div class="col-md-6">
+<div class="col-xs-6">
                 <label for="job_salary_min">最小薪資(萬)</label>
                 <input type="number" name="wage" class="input-style" step="any" id="job_salary_min" placeholder="60" aria-required="true">
                   </div>
 
-                <div class="col-md-6">
+                <div class="col-xs-6">
                   <label for="job_salary_max" class="">最大薪資(萬)</label>
                   <input type="number" name="wage" class="input-style" step="any" id="job_salary_max" placeholder="120" aria-required="true">
                 </div>
@@ -231,28 +230,35 @@
         <label for="c-round">C輪</label>
       </div>
 
+<div class="row">
+  <div class="col-sm-6 col-xs-12">
+    <div class="block-form">
+      <label class="form-title" for="company_address">公司地址</label>
+      <input type="text" name="address" class="input-style" id="company_address">
+    </div>
+  </div>
 
-      <div class="block-form">
-        <label class="form-title" for="company_address"><abbr title="required">*</abbr>公司地址</label>
-        <input type="text" name="address" class="input-style" id="company_address">
+  <div class="col-sm-6 col-xs-12">
+    <div class="block-form">
+      <label class="form-title" for="company_website">公司網址</label>
+      <input type="url" name="company_website" class="input-style" id="company_website">
+    </div>
+  </div>
+
+
+<div class="col-sm-6 col-xs-12">
+  <div class="block-form">
+    <label class="form-title" for="company_fb">公司Facebook</label>
+    <input type="url" name="company_fb" class="input-style" id="company_fb">
+  </div>
+  </div>
+  <div class="col-sm-6 col-xs-12">
+    <div class="block-form">
+      <label class="form-title" for="company_email"><abbr title="required">*</abbr>公司E-mail信箱</label>
+      <input type="text" name="company_email" class="input-style" id="company_email" placeholder="將會顯示在前台「我要應徵」之內容中">
+    </div>
+    </div>
       </div>
-
-      <div class="block-form">
-        <label class="form-title" for="company_website"><abbr title="required">*</abbr>公司官網網址</label>
-        <input type="url" name="company_website" class="input-style" id="company_website">
-      </div>
-
-
-      <div class="block-form">
-        <label class="form-title" for="company_fb"><abbr title="required">*</abbr>公司Facebook</label>
-        <input type="url" name="company_fb" class="input-style" id="company_fb">
-      </div>
-
-      <div class="block-form">
-        <label class="form-title" for="company_email"><abbr title="required">*</abbr>公司E-mail信箱</label>
-        <input type="text" name="company_email" class="input-style" id="company_email">
-      </div>
-
       <input type="submit" name="commit" value="資料確認無誤送出" class="btn-blue" data-disable-with="Waiting..." />
     </div>
   </div>
