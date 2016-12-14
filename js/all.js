@@ -54,8 +54,4 @@ $(window).scroll(function() {
 
 });
 
-
-
-
-
 });

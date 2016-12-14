@@ -53,7 +53,6 @@
           <h1>編輯/發佈職缺</h1>
           <!-- 職位類別 -->
 
-
           <form action="">
             <div class="block-form">
               <label class="form-title"><abbr title="required">*</abbr>職位類別</label>
@@ -76,6 +75,23 @@
               <label for="uiuxd">UI/UX Designer</label>
             </div>
             <!-- 職位類別 -->
+
+<!-- 職缺屬性 -->
+<form action="">
+  <div class="block-form">
+    <label class="form-title"><abbr title="required">*</abbr>職缺屬性</label>
+
+    <input class="magic-radio" type="radio" name="radio" id="full-time" value="option" required="required" aria-required="true">
+    <label for="full-time">全職</label>
+
+    <input class="magic-radio" type="radio" name="radio" id="part-time" value="option" required="required" aria-required="true">
+    <label for="part-time">兼職</label>
+
+    <input class="magic-radio" type="radio" name="radio" id="intern" value="option" required="required" aria-required="true">
+    <label for="intern">實習</label>
+  </div>
+
+<!-- 職缺屬性 -->
 
             <!-- 薪資範圍 -->
             <div class="block-form">
@@ -150,8 +166,16 @@
               <label class="form-title" for="job-description"><abbr title="required">*</abbr>職缺說明</label>
               <textarea name="job-describe" rows="8" cols="60" class="textarea-style" id="job-description"></textarea>
             </div>
-            <hr>
+
             <!-- 職缺說明 -->
+
+            <!-- 公司福利 -->
+            <div class="block-form">
+              <label class="form-title" for="company-welfare">公司福利</label>
+              <textarea name="company-welfare" rows="8" cols="60" class="textarea-style" id="company-welfare"></textarea>
+            </div>
+            <!-- 公司福利 -->
+            <hr>
             <!-- 上傳圖片 -->
             <div class="block-form">
               <label class="form-title" for="job_company_logo"><abbr title="required">*</abbr>上傳公司logo</label >
@@ -187,6 +211,13 @@
         <label class="form-title" for="company_type"><abbr title="required">*</abbr>公司類型</label>
         <input type="text" name="location" class="input-style" id="company_type" placeholder="Ex:運動科技、教育新創">
       </div>
+
+      <!-- 主要產品 -->
+      <div class="block-form">
+        <label class="form-title" for="main-product">主要產品</label>
+        <input type="text" name="location" class="input-style" id="main-product" placeholder="請填寫一種即可">
+      </div>
+      <!-- 主要產品 -->
 
       <div class="block-form">
         <label class="form-title" for="company_intro"><abbr title="required">*</abbr>公司簡介</label>
@@ -248,7 +279,7 @@
 
 <div class="col-sm-6 col-xs-12">
   <div class="block-form">
-    <label class="form-title" for="company_fb">公司Facebook</label>
+    <label class="form-title" for="company_fb">公司Facebook專頁</label>
     <input type="url" name="company_fb" class="input-style" id="company_fb">
   </div>
   </div>
