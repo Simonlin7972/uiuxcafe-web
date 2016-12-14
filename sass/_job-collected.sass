@@ -56,6 +56,7 @@
         margin-top: 20px
         .mypost-job-card-wrap
         .job-card
+          // position: relative
           +job-card(180px,5px)
           &:hover
             cursor: pointer
@@ -196,10 +197,8 @@
                 margin-bottom: 0px
                 padding: 0
             .card-tags
-              position: absolute
-              left: 20px
-              top: 130px
-              padding: 8px 1px
+              +card-tag
+              display: none
             .card-wages
               position: absolute
               left: 150px

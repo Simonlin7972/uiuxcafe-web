@@ -1,3 +1,11 @@
+// // grab an element
+// var myElement = document.querySelector("header");
+// // construct an instance of Headroom, passing the element
+// var headroom  = new Headroom(myElement);
+// // initialise
+// headroom.init();
+
+
 $(document).ready(function() {
 
     // job-detail切換選單
@@ -37,11 +45,12 @@ $(document).ready(function() {
   //箭頭往下
   $('.scroll-down').click(function(event) {
       event.preventDefault();
-      $('html, body').animate({scrollTop: $(".intro-wrapper").offset().top = $('.home-banner').height() - 80}, 1000 );
+      $('html, body').animate({scrollTop: $(".intro-wrapper").offset().top = $('.home-banner').height() }, 1000 );
     });
 
   //nav-scroll
 $(window).scroll(function() {
+
   if ($(".index-nav").offset().top > 60) {
     $("nav").removeClass("nav-no-bg");
     $('.logo').removeClass('hide');
@@ -50,6 +59,19 @@ $(window).scroll(function() {
     $(".index-nav").addClass("nav-no-bg");
     $('.logo-2').removeClass('hide');
     $('.logo').addClass('hide');
+  }
+
+
+});
+
+$(window).scroll(function(){
+  var height = $(this).scrollTop();
+
+  if (height > 400) {
+    $('nav').headroom();
+  }
+  else {
+    $('nav').headroom().destroy();
   }
 
 });
