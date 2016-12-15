@@ -56,10 +56,6 @@ $(document).ready(function() {
       if (height > 400) {
         $('nav').headroom();
       }
-      else {
-        $('nav').headroom().destroy();
-      }
-
     });
 
   //nav-scroll effect
