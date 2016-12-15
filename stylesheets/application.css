@@ -2317,7 +2317,7 @@ footer .footer-content .social-footer .caption {
 .signup-full {
   max-width: 100%;
   height: 100%;
-  background-image: url(/images/office_05.jpg);
+  background-image: url(../images/office_05.jpg);
   background-size: cover;
   background-position: center;
   background-color: #f2f2f2;
@@ -2672,7 +2672,7 @@ footer .footer-content .social-footer .caption {
 /* line 70, ../sass/_edit-job.sass */
 .edit-job .block-form .upload-logo-hover p:before {
   content: "";
-  background-image: url(/images/camera.svg);
+  background-image: url(../images/camera.svg);
   background-size: cover;
   width: 40px;
   height: 40px;
@@ -3471,7 +3471,7 @@ footer .footer-content .social-footer .caption {
   height: 160px;
   margin-top: 20px;
   border-radius: 100px;
-  background-image: url(/images/avatar.svg);
+  background-image: url(../images/avatar.svg);
   background-position: center;
   background-size: 100%;
 }
@@ -4860,7 +4860,7 @@ body {
 .job-detail .banner-company {
   height: 500px;
   width: 100%;
-  background-image: url(/images/job-detail.jpg);
+  background-image: url(../images/job-detail.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5018,7 +5018,7 @@ body {
   content: "";
   width: 20px;
   height: 20px;
-  background-image: url(/images/heart.svg);
+  background-image: url(../images/heart.svg);
   display: block;
   float: left;
   margin-right: 5px;
