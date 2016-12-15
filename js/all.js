@@ -48,7 +48,21 @@ $(document).ready(function() {
       $('html, body').animate({scrollTop: $(".intro-wrapper").offset().top = $('.home-banner').height() }, 1000 );
     });
 
-  //nav-scroll
+
+    //nav scroll down n up
+    $(window).scroll(function(){
+      var height = $(this).scrollTop();
+
+      if (height > 400) {
+        $('nav').headroom();
+      }
+      else {
+        $('nav').headroom().destroy();
+      }
+
+    });
+
+  //nav-scroll effect
 $(window).scroll(function() {
 
   if ($(".index-nav").offset().top > 60) {
@@ -61,19 +75,26 @@ $(window).scroll(function() {
     $('.logo').addClass('hide');
   }
 
+  });
 
 });
 
-$(window).scroll(function(){
-  var height = $(this).scrollTop();
+$(function() {
+    $(window).scroll( function(){
 
-  if (height > 400) {
-    $('nav').headroom();
-  }
-  else {
-    $('nav').headroom().destroy();
-  }
+        $('.fadeInBlock').each( function(i){
 
-});
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
 
+            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+            bottom_of_window = bottom_of_window + 300;
+
+            if( bottom_of_window > bottom_of_object ){
+
+                $(this).addClass('push-up');
+            }
+        });
+
+    });
 });

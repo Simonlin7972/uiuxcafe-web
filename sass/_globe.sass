@@ -17,12 +17,18 @@ a
 
 /*以下是menu選單*/
 
-// .headroom
-//   background-color: yellow
-// .headroom--unpinned
-//   background-color: black
-// .headroom--pinned
-//   background-color: red
+.headroom
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  transition: all 0.3s ease-in-out
+.headroom--unpinned
+  top: -80px
+  transform: translateY(-80px)
+.headroom--pinned
+  top: 0
+  transition: all 0.5s
 nav
   height: 80px
   width: 100%
