@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Janet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="sketch-symbol" transform="translate(5.000000, 10.000000)">
+                <g id="Group">
+                    <polygon id="Shape" fill="#FDB300" points="23.951613 3.27072853 54.889113 0 85.826613 3.27072853 109.778226 35.4236529 54.889113 99.3414492 0 35.4236529"></polygon>
+                    <g transform="translate(0.000000, 35.423653)" id="Shape">
+                        <polygon fill="#EA6C00" points="22.2328426 0 54.8891624 63.9178173 0 0"></polygon>
+                        <polygon fill="#EA6C00" transform="translate(82.333595, 31.958909) scale(-1, 1) translate(-82.333595, -31.958909) " points="77.1218565 0 109.778176 63.9178173 54.8890139 0"></polygon>
+                        <polygon fill="#FDAD00" points="22.2328426 0 87.5454822 0 54.8891624 63.9178173"></polygon>
+                    </g>
+                    <g id="Shape">
+                        <polygon fill="#FDD231" points="54.8891624 0 23.9515228 3.27068528 22.2328426 35.4236294"></polygon>
+                        <polygon fill="#FDD231" transform="translate(71.217154, 17.711815) scale(-1, 1) translate(-71.217154, -17.711815) " points="87.5453136 0 56.607674 3.27068528 54.8889938 35.4236294"></polygon>
+                        <polygon fill="#FDAD00" transform="translate(97.802415, 19.347157) scale(-1, 1) translate(-97.802415, -19.347157) " points="85.8265139 35.4236294 109.778316 3.27068528 108.059357 35.4236294"></polygon>
+                        <polygon fill="#FDAD00" points="0 35.4236294 23.9515228 3.27068528 22.2328426 35.4236294"></polygon>
+                        <polygon fill="#FEEEB7" points="54.8891624 0 22.2328426 35.4236294 87.5454822 35.4236294"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

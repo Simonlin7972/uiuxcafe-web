@@ -7,15 +7,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Welcome to UIUXCafe</title>
 
+  <link rel="shortcut icon" href="./images/favicon.ico">
+  <link rel="bookmark" href="./images/favicon.ico">
+
   <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
   <link rel="stylesheet" href="./stylesheets/application.css">
 
   <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
 
-
   <script src="./js/jquery-3.1.1.js"></script>
-  <script src="./js/all.js"></script>
-  <script src="./js/sweetalert.min.js"></script>
 
 </head>
 
@@ -29,7 +29,7 @@
         <ul class="menu">
           <!-- <li><a href="#">關於這裡</a></li> -->
           <li><a href="https://www.accupass.com/org/detail/r/1607180310441125217628/1/0" target="_blank">設計工作坊</a></li>
-          <li><a href="jobs.html">職缺訊息</a></li>
+          <li><a class="active" href="jobs.html">職缺訊息</a></li>
           <li><a class="btn-signup-control" href="login.html">登入</a></li>
         </ul>
         <div class="menu-btn"><a href="#"><img src="./images/menu-btn.svg" alt="menu"></a></div>
@@ -49,10 +49,10 @@
         <ul>
           <!-- <li><a href="#">關於這裡</a></li> -->
           <li><a href="https://www.accupass.com/org/detail/r/1607180310441125217628/1/0" target="_blank">設計工作坊</a></li>
-          <li><a href="#">職缺訊息</a></li>
-          <li class="menu-after-login"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> 個人設定</a></li>
-          <li class="menu-after-login"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 收藏的職缺</a></li>
-          <li class="menu-after-login"><a href="#"><i class="fa fa-bullhorn" aria-hidden="true"></i> 發佈的職缺</a></li>
+          <li><a class="active" href="jobs.html">職缺訊息</a></li>
+          <li class="menu-after-login"><a href="profile.html"><i class="fa fa-user" aria-hidden="true"></i> 個人設定</a></li>
+          <li class="menu-after-login"><a href="job-collected.html"><i class="fa fa-heart" aria-hidden="true"></i> 收藏的職缺</a></li>
+          <li class="menu-after-login"><a href="job-post.html"><i class="fa fa-bullhorn" aria-hidden="true"></i> 發佈的職缺</a></li>
           <li class="menu-after-login"><a href="#"><i class="fa fa-area-chart" aria-hidden="true"></i> 後台管理</a></li>
           <li><a class="btn-signup-control" href="login.html">登入</a></li>
         </ul>
@@ -107,11 +107,12 @@
                   <address><p class="sub-content">台北市信義區基隆路一段235號22樓</p></address>
                   <h3 class="subtitle">技能需求</h3>
                   <ul class="skill-main">
-                    <li>Sketch 41</li>
-                    <li>photoshop</li>
-                    <li>illustrator</li>
-                    <li>Flinto</li>
-                    <li>Principle</li>
+                    <li><a href="http://www.accupass.com/go/uiuxcafe_sketch_1216">Sketch</a></li>
+                    <li><a href="#">photoshop</a></li>
+                    <li><a href="#">illustrator</a></li>
+                    <li><a href="#">Flinto</a></li>
+                    <li><a href="#">Principle</a></li>
+
                   </ul>
                   <h3 class="subtitle">加分技能</h3>
                   <!-- <ul class="skill-text">
@@ -120,7 +121,7 @@
                     <li>invision</li>
                   </ul> -->
                   <p class="sub-content">After Effect / javascript / invision</p>
-                  <h3 class="subtitle">工作內容</h3>
+                  <h3 class="subtitle">職缺資訊</h3>
                   <h2 class="title">職缺描述</h2>
                   <div class="job-info-content">1.參與軟體特色的範疇的討論與UI/UX Flow規劃<br> 2.UI/UX Wireframe/Mockup制作<br> 3.正式圖素的產出
                     <br> 4.與研發團隊協作產出最後的成品
@@ -143,7 +144,7 @@
                   </div>
                 </div>
 
-                <div class="company-info hide">
+                <div class="company-info hide clearfix">
                   <div><img src="./images/logos/hahow_logo.png" alt="hahow-logo" width="160px;"></div>
                   <h2 class="title">Hahow 好學校</h2>
                   <div class="card-tags">新創教育</div>
@@ -155,18 +156,24 @@
                   </p>
                   <h2 class="title">公司地址</h2>
                   <address><p class="job-info-content">台北市信義區基隆路一段235號</p></address>
-                  <h2 class="title">公司網址</h2>
-                  <p class="job-info-content"><a href="www.uiuxcafe.com.tw">www.uiuxcafe.com.tw</a></p>
-                  <h2 class="title">公司Facebook</h2>
-                  <p class="job-info-content"><a href="https://www.facebook.com/uiuxcafe">https://www.facebook.com/uiuxcafe</a></p>
+
+                  <h2 class="title">其他公司資訊</h2>
+
+                  <div class="company-website"><a href="www.uiuxcafe.com"><i class="fa fa-home" aria-hidden="true"></i> 公司網站</a></div>
+
+                  <div class="company-fb"><a href="www.uiuxcafe.com"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook專頁</a></div>
+
+                  <!-- <h2 class="title">公司FACEBOOK</h2>
+                  <p class="job-info-content"><a href="https://www.facebook.com/uiuxcafe">https://www.facebook.com/uiuxcafe</a></p> -->
                 </div>
 
               </div>
               <!-- 以上為職缺資訊 -->
               <!-- 以下為廣告區塊 -->
-              <div class="ad-banner col-md-4 col-sm-12">
-                <div class="banner-1"><img src="./images/ads/ad_01.png" alt="" width="100%"></div>
-                <div class="banner-1"><img src="./images/ads/ad_02.png" alt="" width="100%"></div>
+              <div class="ad-banner col-md-4">
+                <div class="banner-1"><a href="https://www.accupass.com/org/detail/r/1607180310441125217628/1/0" target="_blank"><img src="./images/ads/ad_01.png" alt="ad01" width="100%"></a></div>
+
+                <div class="banner-1"><a href="https://docs.google.com/forms/d/e/1FAIpQLScDXG0FEcBs-UK8Of-WsjuAdTYah8I6vNgH-bVVCiutN95XQQ/viewform?c=0&w=1" target="_blank"><img src="./images/ads/ad_02.png" alt="swift-course" width="100%"></a></div>
               </div>
               <!-- 以上為廣告區塊 -->
             </div>
@@ -211,6 +218,7 @@
 
       <div class="copyright">
         <p>© Copyright 2015 • PixelTap • Mobile UI/UX Design Professional</p>
+        <p class="duty-free">注意事項：UIUX Cafe僅提供徵才資訊平台，如後續發生任何勞務糾紛，UIUX Cafe不負任何責任，也不對資訊內容有任何擔保。</p>
       </div>
 
       <!-- 以上是footer-->
@@ -228,7 +236,11 @@
 <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.js"></script>
+<script src="js/src/jQuery.headroom.js"></script>
 
+
+<script src="js/all.js"></script>
 
 
 

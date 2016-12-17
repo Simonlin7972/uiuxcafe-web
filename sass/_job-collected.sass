@@ -56,10 +56,9 @@
         margin-top: 20px
         .mypost-job-card-wrap
         .job-card
+          // position: relative
           +job-card(180px,5px)
           &:hover
-            transform: translateY(-5px)
-            box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.06)
             cursor: pointer
           .company-logo
             position: absolute
@@ -88,7 +87,6 @@
                 font-size: 1em
                 letter-spacing: 0.5px
                 font-weight: bold
-
           .card-tags
             +card-tag
           .card-wages
@@ -199,11 +197,8 @@
                 margin-bottom: 0px
                 padding: 0
             .card-tags
-              position: absolute
-              left: 20px
-              top: 130px
-              padding: 8px 1px
-              width: 230px
+              +card-tag
+              display: none
             .card-wages
               position: absolute
               left: 150px
@@ -248,8 +243,8 @@
             margin-top: 10px
             border: none
             border-bottom: 1px solid rgb(241, 241, 241)
-            margin-left: 5px
-            margin-right: 5px
+            margin-left: 0
+            margin-right: 0
             .company-main-info
               position: absolute
               font-size: 0.8em
@@ -266,7 +261,7 @@
               position: absolute
               width: 220px
               top: 85px
-              left: 170px
+              left: 150px
               font-size: 0.65em
               text-align: left
               .year-wages
@@ -280,3 +275,10 @@
               height: 120px
             .card-tags
               display: none
+
+@media screen and (min-width)
+  .job-card
+    &:hover
+      // transform: translateY(-5px)
+      box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.06)
+      cursor: pointer

@@ -3,9 +3,9 @@ body
 .job-detail
   position: relative
   .banner-company
-    height: 836px
+    height: 500px
     width: 100%
-    background-image: url(/images/job-detail.jpg)
+    background-image: url(../images/job-detail.jpg)
     background-position: center
     background-repeat: no-repeat
     background-size: cover
@@ -15,7 +15,7 @@ body
     .banner-mask
       background-color: black
       width: 100%
-      height: 836px
+      height: 500px
       opacity: 0.3
       z-index: 1
       position: absolute
@@ -31,7 +31,7 @@ body
     z-index: 5
     .btn-group
       width: 100%
-      margin-top: 766px
+      margin-top: 440px
       padding-left: 30px
       padding-right: 30px
       .btn-group-left
@@ -41,7 +41,7 @@ body
           a
             padding: 10px 24px
             float: left
-            border-radius: 5px
+            border-radius: 3px
             color: black
             letter-spacing: 1px
             text-decoration: none
@@ -68,7 +68,7 @@ body
           a
             padding: 10px 24px
             float: right
-            border-radius: 5px
+            border-radius: 3px
             color: black
             font-size: bold
             letter-spacing: 1px
@@ -82,12 +82,11 @@ body
             transition: all 0.3s
             &:hover
               background-color: darken($primary-green,3%)
-
           .apply-job-content
             display: none
             max-width: 100%
             background-color: white
-            border-radius: 5px
+            border-radius: 3px
             position: absolute
             top: -230px
             right: 0
@@ -127,7 +126,7 @@ body
             content: ''
             width: 20px
             height: 20px
-            background-image: url(/images/heart.svg)
+            background-image: url(../images/heart.svg)
             display: block
             float: left
             margin-right: 5px
@@ -182,7 +181,7 @@ body
       margin-top: 40px
     .title
       text-align: left
-      font-size: 2em
+      font-size: 1.6em
     .subtitle
       opacity: 0.5
       font-weight: bold
@@ -203,13 +202,14 @@ body
       li
         display: inline-block
         padding: 6px 18px
-        // background: rgb(47, 47, 47)
         border: 2px solid $primary-blue
         border-radius: 5px
         margin-right: 5px
-        // color: white
-        color: $primary-blue
+        margin-bottom: 8px
         font-weight: bold
+        a
+          color: $primary-blue
+
     .skill-text
       width: 100%
       padding-left: 0
@@ -233,6 +233,7 @@ body
         opacity: .7
   .company-info
     margin-top: 40px
+    margin-bottom: 40px
     .card-tags
       background-color: #32C7B0
       width: 100px
@@ -242,23 +243,42 @@ body
       font-size: 1em
       text-align: center
       letter-spacing: 1px
-
+    .company-website
+      float: left
+      border-radius: 3px
+      text-align: center
+      padding: 8px 16px
+      font-size: 1.1em
+      letter-spacing: 1px
+      background-color: rgb(36, 36, 36)
+      a
+        color: white
+        text-decoration: none
+    .company-fb
+      margin-left: 10px
+      float: left
+      border-radius: 3px
+      text-align: center
+      padding: 8px 16px
+      font-size: 1.1em
+      letter-spacing: 1px
+      background-color: $primary-blue
+      a
+        color: white
+        text-decoration: none
   .hide
     display: none
     transition: all 0.3s
   .show
     display: block
     transition: all 0.3s
-
   .ad-banner
-    margin-bottom: 100px
+    margin-bottom: 60px
     width: 380px
     height: auto
     .banner-1
       width: 100%
-      height: 300px
-      background-color: #bbbbbb
-      margin-bottom: 50px
+      margin: 20px 0
 
 @media screen and (max-width: 768px)
   .job-detail
@@ -360,3 +380,9 @@ body
       .skill-text
         li
           margin-bottom: 10px
+@media screen and (max-width: 340px)
+  .job-detail
+    .company-info
+      .company-fb
+        margin-left: 0
+        margin-top: 10px

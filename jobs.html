@@ -5,17 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:image" content=""/>
+
+
+  <link rel="shortcut icon" href="./images/favicon.ico">
+  <link rel="bookmark" href="./images/favicon.ico">
   <title>Welcome to UIUXCafe</title>
 
   <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
   <link rel="stylesheet" href="./stylesheets/application.css">
 
   <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="./stylesheets/sweetalert.css">
-
   <script src="./js/jquery-3.1.1.js"></script>
-  <script src="./js/all.js"></script>
-  <script src="./js/sweetalert.min.js"></script>
 </head>
 
 
@@ -29,7 +30,7 @@
       <ul class="menu">
         <!-- <li><a href="#">關於這裡</a></li> -->
         <li><a href="https://www.accupass.com/org/detail/r/1607180310441125217628/1/0" target="_blank">設計工作坊</a></li>
-        <li><a href="#">職缺訊息</a></li>
+        <li><a class="active" href="#">職缺訊息</a></li>
         <li><a class="btn-signup-control" href="login.html">登入</a></li>
       </ul>
       <div class="menu-btn">
@@ -51,12 +52,12 @@
     <ul>
       <!-- <li><a href="#">關於這裡</a></li> -->
       <li><a href="https://www.accupass.com/org/detail/r/1607180310441125217628/1/0" target="_blank">設計工作坊</a></li>
-      <li><a href="#">職缺訊息</a></li>
+      <li><a class="active" href="jobs.html">職缺訊息</a></li>
       <li class="menu-after-login"><a href="profile.html"><i class="fa fa-user" aria-hidden="true"></i> 個人設定</a></li>
-      <li class="menu-after-login"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 收藏的職缺</a></li>
-      <li class="menu-after-login"><a href="profile.html"><i class="fa fa-bullhorn" aria-hidden="true"></i> 發佈的職缺</a></li>
+      <li class="menu-after-login"><a href="job-collected.html"><i class="fa fa-heart" aria-hidden="true"></i> 收藏的職缺</a></li>
+      <li class="menu-after-login"><a href="job-post.html"><i class="fa fa-bullhorn" aria-hidden="true"></i> 發佈的職缺</a></li>
       <li class="menu-after-login"><a href="#"><i class="fa fa-area-chart" aria-hidden="true"></i> 後台管理</a></li>
-      <li><a class="btn-signup-control" href="#">登入</a></li>
+      <li><a class="btn-signup-control" href="login.html">登入</a></li>
     </ul>
   </div>
   <!-- 滿版選單 -->
@@ -115,7 +116,7 @@
           <p><span>UI/UX Designer</span></p>
         </div>
 
-        <div class="card-tags">教育科技</div>
+        <div class="card-tags">全職</div>
         <div class="card-wages">
           <span class="year-wages">年薪</span>
           <span>NT$
@@ -139,7 +140,7 @@
           <p><span>UX Designer</span></p>
         </div>
 
-        <div class="card-tags">電子商務</div>
+        <div class="card-tags">實習</div>
         <div class="card-wages">
           <span class="year-wages">年薪</span>
           <span>NT$
@@ -159,7 +160,7 @@
           <p><span>Web Designer</span></p>
         </div>
 
-        <div class="card-tags">網路科技</div>
+        <div class="card-tags">實習</div>
         <div class="card-wages">
           <span class="year-wages">年薪</span>
           <span>NT$
@@ -179,7 +180,7 @@
           <p><span>UI/UX Designer</span></p>
         </div>
 
-        <div class="card-tags">寵物相關</div>
+        <div class="card-tags">全職</div>
         <div class="card-wages">
           <span class="year-wages">年薪</span>
           <span>NT$
@@ -200,7 +201,7 @@
           <p><span>UI Designer</span></p>
         </div>
 
-        <div class="card-tags">遊戲開發</div>
+        <div class="card-tags">兼職</div>
         <div class="card-wages">
           <span class="year-wages">年薪</span>
           <span>NT$
@@ -220,7 +221,7 @@
           <p><span>UI/UX Designer</span></p>
         </div>
 
-        <div class="card-tags">教育科技</div>
+        <div class="card-tags">實習</div>
         <div class="card-wages">
           <span class="year-wages">年薪</span>
           <span>NT$
@@ -244,7 +245,7 @@
           <p><span>UX Designer</span></p>
         </div>
 
-        <div class="card-tags">電子商務</div>
+        <div class="card-tags">全職</div>
         <div class="card-wages">
           <span class="year-wages">年薪</span>
           <span>NT$
@@ -264,7 +265,7 @@
           <p><span>Web Designer</span></p>
         </div>
 
-        <div class="card-tags">網路科技</div>
+        <div class="card-tags">全職</div>
         <div class="card-wages">
           <span class="year-wages">年薪</span>
           <span>NT$
@@ -284,7 +285,7 @@
           <p><span>UI/UX Designer</span></p>
         </div>
 
-        <div class="card-tags">寵物相關</div>
+        <div class="card-tags">實習</div>
         <div class="card-wages">
           <span class="year-wages">年薪</span>
           <span>NT$
@@ -305,7 +306,7 @@
           <p><span>UI Designer</span></p>
         </div>
 
-        <div class="card-tags">遊戲開發</div>
+        <div class="card-tags">全職</div>
         <div class="card-wages">
           <span class="year-wages">年薪</span>
           <span>NT$
@@ -380,6 +381,7 @@
 
   <div class="copyright">
     <p>©Copyright 2015 • PixelTap • Mobile UI/UX Design Professional</p>
+    <p class="duty-free">注意事項：UIUX Cafe僅提供徵才資訊平台，如後續發生任何勞務糾紛，UIUX Cafe不負任何責任，也不對資訊內容有任何擔保。</p>
   </div>
   <!-- 以上是footer-->
 
@@ -397,7 +399,15 @@
     }(document, 'script', 'facebook-jssdk'));
   </script>
 
-  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.js"></script>
+  <script src="js/src/jQuery.headroom.js"></script>
+
+
+<script src="js/all.js"></script>
+
+
 </body>
 
 </html>

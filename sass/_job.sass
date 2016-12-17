@@ -4,7 +4,7 @@
   .banner
     max-width: 100%
     height: 500px
-    background-image: url(/images/office_01.jpg)
+    background-image: url(../images/sketching.jpg)
     background-repeat: no-repeat
     background-position: center
     background-size: cover
@@ -17,7 +17,7 @@
       top: 0
       bottom: 0
       background-color: black
-      opacity: 0.7
+      opacity: 0.6
       z-index: 2
     .wrap-slogan
       left: 0
@@ -126,17 +126,13 @@
     +job-card(180px,5px)
     margin-left: 24px
     margin-right: 24px
-    &:hover
-      transform: translateY(-5px)
-      box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.06)
-      cursor: pointer
     .company-logo
       position: absolute
       left: 40px
       top: 30px
       width: 120px
       height: 120px
-      background-color: $bg-color
+      background-color: rgba(#000000, 0.02)
       img
         max-height: 100%
         max-width: 100%
@@ -161,6 +157,9 @@
           font-weight: bold
     .card-tags
       +card-tag
+      position: absolute
+      top: 20px
+      right: 20px
     .card-wages
       width: 330px
       font-size: 1em
@@ -226,7 +225,6 @@
       margin-top: 20px
       margin-bottom: 0px
 
-
 // 平板尺寸
 @media screen and (max-width: 768px)
   .jobs
@@ -273,8 +271,6 @@
           margin-bottom: 0px
           padding: 0
       .card-tags
-        left: 20px
-        top: 130px
       .card-wages
         position: absolute
         left: 150px
@@ -331,41 +327,54 @@
             margin: 0
     .job-card
       max-width: 100%
-      height: 140px
+      height: 160px
       position: relative
-      margin-top: 10px
-      border: none
-      border-bottom: 1px solid rgb(241, 241, 241)
+      margin-top: 0
+      border: 0
+      border-top: 1px solid rgba(0, 0, 0, 0.15)
       border-radius: 0
-      margin-left: 5px
-      margin-right: 5px
+      margin-left: 0
+      margin-right: 0
       .company-main-info
         position: absolute
         font-size: 0.8em
         top: 10px
-        left: 150px
+        left: 140px
         max-width: 60%
         line-height: 1.6em
         margin-top: 0
         p
-          margin-top: 2px
-          margin-bottom: 3px
+          font-size: 1.6em
+          margin-top: 10px
+          margin-bottom: 10px
           width: 220px
+          span
+            line-height: 1.2em
       .card-wages
         position: absolute
         width: 220px
-        top: 85px
-        left: 150px
-        font-size: 0.65em
+        top: 115px
+        left: 140px
+        font-size: 1.1em
         text-align: left
+        font-family: PingFangSC-light
         .year-wages
           display: none
+        .wage-amount
+          font-size: 1.1em
       .company-logo
         position: absolute
-        width: 120px
-        height: 120px
+        width: 100px
+        height: 100px
         float: left
         left: 10px
         top: 10px
       .card-tags
         display: none
+
+@media screen and (min-width: 414px)
+  .job-card
+    &:hover
+      // transform: translateY(-2px)
+      box-shadow: 0px 4px 15px 4px rgba(0, 0, 0, 0.1)
+      cursor: pointer
